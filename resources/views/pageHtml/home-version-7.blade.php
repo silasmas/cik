@@ -26,7 +26,7 @@
     <!-- End Preloader -->
 
     <!-- Start Site Header Wrap -->
-    <header class="tm-header3">
+    <header>
         <div class="tm-site-header">
             <div class="tm-header-info-wrap">
                 <div class="container tm-header-info">
@@ -50,7 +50,7 @@
                         <ul class="tm-primary-nav-list">
                             <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent">
                                 <a href="#home" class="nav-link tm-smooth-move">HOME</a>
-                               @include("pageHtml.deroulant")
+                                @include("pageHtml.deroulant")
                             </li>
                             <li class="menu-item"><a href="#about" class="nav-link tm-smooth-move">ABOUT</a></li>
                             <li class="menu-item"><a href="#department" class="nav-link tm-smooth-move">DEPARTMENT</a></li>
@@ -78,7 +78,8 @@
     <!-- End Site Header Wrap -->
 
     <!-- Start Hero Section -->
-    <section class="hero" id="home">
+    <section class="hero youtube-bg" id="home" style="background-image: url(assets/img/youtube-bg.jpg);">
+        <div id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=5fQNLy5bMM4', containment:'.youtube-bg',autoPlay:true, mute:true, startAt:1, opacity:1, showControls:false, loop:true}"></div>
         <div class="container">
             <div class="slider-text">
                 <h1 class="tm-headline letters tm-rotate-text">Take The world’s <br>
@@ -100,11 +101,6 @@
                 <div class="tm-hero-btn"><a href="#appointment" class="tm-btn1">APPOINTMENT</a></div>
             </div>
         </div><!-- .container -->
-        <div class="tm-hero-slider owl-carousel tm-dots1" id="tm-hero-slider">
-            <img src="assets/img/slide-01.jpg" alt="slide-01">
-            <img src="assets/img/slide-02.jpg" alt="slide-02">
-            <img src="assets/img/slide-03.jpg" alt="slide-03">
-        </div>
         <div class="hero-overlay"></div>
         <img src="assets/img/sweet-shap.png" alt="Sweet Shap" class="sweet-shap">
     </section>
@@ -903,7 +899,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
-                    <div class="owl-carousel tm-testimonial tm-testimonial-1 tm-dots1">
+                    <div class="owl-carousel tm-testimonial tm-testimonial-2 tm-dots1">
                         <div class="tm-single-testimonial">
                             <div class="tm-testimonial-thumb"><img src="assets/img/test-01.jpg" alt=""></div>
                             <div class="tm-testimonial-text">
@@ -945,6 +941,7 @@
     </section>
     <!-- End Testimonial Section -->
 
+
     <!-- Start Fun Fact Section -->
     <section class="tm-fun-fact-wrap tm-bg">
         <div class="empty-space col-md-b100 col-xs-b70"></div>
@@ -952,7 +949,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-briefcase-alt-2 wow fadeInDown" data-wow-delay="0.2s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-briefcase-alt-2"></i>
                         <h2 class="tm-counter">25</h2>
                         <h3>Years of experience</h3>
                     </div>
@@ -960,7 +957,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-emo-simple-smile wow fadeInDown" data-wow-delay="0.4s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-emo-simple-smile"></i>
                         <h2 class="tm-counter">2500</h2>
                         <h3>Happy Patients</h3>
                     </div>
@@ -968,7 +965,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-doctor wow fadeInDown" data-wow-delay="0.6s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-doctor"></i>
                         <h2 class="tm-counter">150</h2>
                         <h3>Number of Doctors</h3>
                     </div>
@@ -976,7 +973,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-users-social wow fadeInDown" data-wow-delay="0.8s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-users-social"></i>
                         <h2 class="tm-counter">250</h2>
                         <h3>Number of Staffs</h3>
                     </div>
@@ -1426,12 +1423,12 @@
     <!-- End Footer -->
 
 	<!-- Scroll Up -->
-  <div id='scrollup'></div>
+    <div id='scrollup'></div>
 
 	<!-- Scripts -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 	<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-	<script src="assets/js/plugins.js"></script>
+    <script src="assets/js/plugins.js"></script>
 	<script src="assets/js/main.js"></script>
 </body>
 </html>

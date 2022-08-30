@@ -26,7 +26,7 @@
     <!-- End Preloader -->
 
     <!-- Start Site Header Wrap -->
-    <header class="tm-header3">
+    <header>
         <div class="tm-site-header">
             <div class="tm-header-info-wrap">
                 <div class="container tm-header-info">
@@ -50,7 +50,7 @@
                         <ul class="tm-primary-nav-list">
                             <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent">
                                 <a href="#home" class="nav-link tm-smooth-move">HOME</a>
-                               @include("pageHtml.deroulant")
+                                @include("pageHtml.deroulant")
                             </li>
                             <li class="menu-item"><a href="#about" class="nav-link tm-smooth-move">ABOUT</a></li>
                             <li class="menu-item"><a href="#department" class="nav-link tm-smooth-move">DEPARTMENT</a></li>
@@ -78,7 +78,7 @@
     <!-- End Site Header Wrap -->
 
     <!-- Start Hero Section -->
-    <section class="hero" id="home">
+    <section class="hero tm-bg parallax" id="home" style="background-image: url(assets/img/slide-02.jpg);">
         <div class="container">
             <div class="slider-text">
                 <h1 class="tm-headline letters tm-rotate-text">Take The world’s <br>
@@ -100,13 +100,16 @@
                 <div class="tm-hero-btn"><a href="#appointment" class="tm-btn1">APPOINTMENT</a></div>
             </div>
         </div><!-- .container -->
-        <div class="tm-hero-slider owl-carousel tm-dots1" id="tm-hero-slider">
-            <img src="assets/img/slide-01.jpg" alt="slide-01">
-            <img src="assets/img/slide-02.jpg" alt="slide-02">
-            <img src="assets/img/slide-03.jpg" alt="slide-03">
-        </div>
         <div class="hero-overlay"></div>
-        <img src="assets/img/sweet-shap.png" alt="Sweet Shap" class="sweet-shap">
+        <div class="shap-wrap">
+            <div class="shape"><i class="icofont icofont-stethoscope-alt"></i></div>
+            <div class="shape"><i class="fa fa-heartbeat"></i></div>
+            <div class="shape"><i class="fa fa-hospital-o"></i></div>
+            <div class="shape"><i class="fa fa-medkit"></i></div>
+            <div class="shape"><i class="icofont icofont-doctor-alt"></i></div>
+            <div class="shape"><i class="fa fa-ambulance"></i></div>
+            <div class="shape"><i class="fa fa-wheelchair-alt"></i></div>
+        </div>
     </section>
     <!-- End Hero Section -->
 
@@ -117,7 +120,7 @@
             <div class="row">
                 <div class="col-lg-4" >
                     <div class="empty-space col-md-b0 col-xs-b30"></div>
-                    <div class="tm-icon-box">
+                    <div class="tm-icon-box style1">
                         <div class="tm-icon"><i class="fa fa-user-md"></i></div>
                         <h2 class="tm-icon-box-title">Qualified Doctors</h2>
                         <p class="tm-icon-box-text">Our doctors have a wide range of clinical experience ranging from newly qualified junior doctors to senior consultants.</p>
@@ -125,7 +128,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-4">
                     <div class="empty-space col-md-b0 col-xs-b30"></div>
-                    <div class="tm-icon-box">
+                    <div class="tm-icon-box style1">
                         <div class="tm-icon"><i class="fa fa-ambulance"></i></div>
                         <h2 class="tm-icon-box-title">Emergency Care</h2>
                         <p class="tm-icon-box-text">Our centers provide convenient and high-quality care for a variety of common illnesses and injuries.</p>
@@ -133,7 +136,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-4">
                     <div class="empty-space col-md-b0 col-xs-b30"></div>
-                    <div class="tm-icon-box">
+                    <div class="tm-icon-box style1">
                         <div class="tm-icon"><i class="fa fa-hospital-o"></i></div>
                         <h2 class="tm-icon-box-title">24 Hours Service</h2>
                         <p class="tm-icon-box-text">Our technical team is available for 24/7, We always prepared any emergency situation with 10 ambulances.</p>
@@ -903,7 +906,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
-                    <div class="owl-carousel tm-testimonial tm-testimonial-1 tm-dots1">
+                    <div class="owl-carousel tm-testimonial tm-dots1">
                         <div class="tm-single-testimonial">
                             <div class="tm-testimonial-thumb"><img src="assets/img/test-01.jpg" alt=""></div>
                             <div class="tm-testimonial-text">
@@ -952,7 +955,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-briefcase-alt-2 wow fadeInDown" data-wow-delay="0.2s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-briefcase-alt-2"></i>
                         <h2 class="tm-counter">25</h2>
                         <h3>Years of experience</h3>
                     </div>
@@ -960,7 +963,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-emo-simple-smile wow fadeInDown" data-wow-delay="0.4s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-emo-simple-smile"></i>
                         <h2 class="tm-counter">2500</h2>
                         <h3>Happy Patients</h3>
                     </div>
@@ -968,7 +971,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-doctor wow fadeInDown" data-wow-delay="0.6s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-doctor"></i>
                         <h2 class="tm-counter">150</h2>
                         <h3>Number of Doctors</h3>
                     </div>
@@ -976,7 +979,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-users-social wow fadeInDown" data-wow-delay="0.8s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-users-social"></i>
                         <h2 class="tm-counter">250</h2>
                         <h3>Number of Staffs</h3>
                     </div>
@@ -1426,12 +1429,12 @@
     <!-- End Footer -->
 
 	<!-- Scroll Up -->
-  <div id='scrollup'></div>
+    <div id='scrollup'></div>
 
 	<!-- Scripts -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 	<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-	<script src="assets/js/plugins.js"></script>
+    <script src="assets/js/plugins.js"></script>
 	<script src="assets/js/main.js"></script>
 </body>
 </html>

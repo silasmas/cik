@@ -26,7 +26,7 @@
     <!-- End Preloader -->
 
     <!-- Start Site Header Wrap -->
-    <header class="tm-header3">
+    <header class="tm-header2">
         <div class="tm-site-header">
             <div class="tm-header-info-wrap">
                 <div class="container tm-header-info">
@@ -50,7 +50,7 @@
                         <ul class="tm-primary-nav-list">
                             <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent">
                                 <a href="#home" class="nav-link tm-smooth-move">HOME</a>
-                               @include("pageHtml.deroulant")
+                                @include("pageHtml.deroulant")
                             </li>
                             <li class="menu-item"><a href="#about" class="nav-link tm-smooth-move">ABOUT</a></li>
                             <li class="menu-item"><a href="#department" class="nav-link tm-smooth-move">DEPARTMENT</a></li>
@@ -68,7 +68,7 @@
                                 </ul>
                             </li>
                             <li class="menu-item"><a href="#contact" class="nav-link tm-smooth-move">CONTACT</a></li>
-                            <li class="menu-item"><a href="#appointment" class="nav-link tm-smooth-move">APPOINTMENT</a></li>
+                            <li class="menu-item"><a href="#appointment" class="nav-link tm-header-ap">APPOINTMENT</a></li>
                         </ul>
                     </nav>
                 </div><!-- .tm-header-menu-container -->
@@ -78,46 +78,65 @@
     <!-- End Site Header Wrap -->
 
     <!-- Start Hero Section -->
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="slider-text">
-                <h1 class="tm-headline letters tm-rotate-text">Take The world’s <br>
-                    Best Quality Medical <br>
-                    Treatmen for
-                    <span class="tm-words-wrapper">
-                        <b class="is-visible">DENTAL</b>
-                        <b>NEUROLOGY</b>
-                        <b>CRUTCHES</b>
-                        <b>CARDIOLOGY</b>
-                        <b>PULMONARY</b>
-                        <b>X-RAY</b>
-                    </span>
-                </h1>
-                <div class="empty-space col-sm-b20 col-xs-b10"></div>
-                <p>The quality of our service and the professionalism of our staff are <br>
-                the reason for Trustlife Center’s success.</p>
-                <div class="empty-space col-md-b55 col-sm-b35 col-xs-b25"></div>
-                <div class="tm-hero-btn"><a href="#appointment" class="tm-btn1">APPOINTMENT</a></div>
+    <section class="hero tm-style2" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="slider-text">
+                        <h1 class="tm-headline letters tm-rotate-text">Take The world’s <br>
+                            Best Quality Medical <br>
+                            Treatmen for
+                            <span class="tm-words-wrapper">
+                                <b class="is-visible">DENTAL</b>
+                                <b>NEUROLOGY</b>
+                                <b>CRUTCHES</b>
+                                <b>CARDIOLOGY</b>
+                                <b>PULMONARY</b>
+                                <b>X-RAY</b>
+                            </span>
+                        </h1>
+                        <div class="empty-space col-sm-b20 col-xs-b10"></div>
+                        <p>The quality of our service and the professionalism of our staff are <br>
+                        the reason for Trustlife Center’s success.</p>
+                        <div class="empty-space col-md-b55 col-sm-b35 col-xs-b25"></div>
+                        <div class="tm-hero-btn tm-hero-video-btn">
+                            <div class="tm-video-button" data-video-id="63636954" data-channel="vimeo">
+                                <i class="icofont icofont-play-alt-3"></i>
+                                <span class="tm-video-animaiton"><span></span></span>
+                            </div>
+                            <span class="tm-video-text">Watch The Video</span>
+                        </div>
+                    </div>
+                </div><!-- .col -->
+                <div class="col-xl-4">
+                    <div class="tm-hero-doctor owl-carousel" id="tm-hero-doctor">
+                        <img src="assets/img/hero-doc-01.png" alt="">
+                        <img src="assets/img/hero-doc-02.png" alt="">
+                        <img src="assets/img/hero-doc-03.png" alt="">
+                    </div>
+                </div><!-- .col -->
             </div>
         </div><!-- .container -->
-        <div class="tm-hero-slider owl-carousel tm-dots1" id="tm-hero-slider">
-            <img src="assets/img/slide-01.jpg" alt="slide-01">
-            <img src="assets/img/slide-02.jpg" alt="slide-02">
-            <img src="assets/img/slide-03.jpg" alt="slide-03">
+        <div class="shap-wrap">
+            <div class="shape"><i class="icofont icofont-stethoscope-alt"></i></div>
+            <div class="shape"><i class="fa fa-heartbeat"></i></div>
+            <div class="shape"><i class="fa fa-hospital-o"></i></div>
+            <div class="shape"><i class="fa fa-medkit"></i></div>
+            <div class="shape"><i class="icofont icofont-doctor-alt"></i></div>
+            <div class="shape"><i class="fa fa-ambulance"></i></div>
+            <div class="shape"><i class="fa fa-wheelchair-alt"></i></div>
         </div>
-        <div class="hero-overlay"></div>
-        <img src="assets/img/sweet-shap.png" alt="Sweet Shap" class="sweet-shap">
     </section>
     <!-- End Hero Section -->
 
-    <!-- Start  -->
+    <!-- Start Icon Box -->
     <section>
         <div class="empty-space col-md-b100 col-xs-b40"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4" >
                     <div class="empty-space col-md-b0 col-xs-b30"></div>
-                    <div class="tm-icon-box">
+                    <div class="tm-icon-box style1">
                         <div class="tm-icon"><i class="fa fa-user-md"></i></div>
                         <h2 class="tm-icon-box-title">Qualified Doctors</h2>
                         <p class="tm-icon-box-text">Our doctors have a wide range of clinical experience ranging from newly qualified junior doctors to senior consultants.</p>
@@ -125,7 +144,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-4">
                     <div class="empty-space col-md-b0 col-xs-b30"></div>
-                    <div class="tm-icon-box">
+                    <div class="tm-icon-box style1">
                         <div class="tm-icon"><i class="fa fa-ambulance"></i></div>
                         <h2 class="tm-icon-box-title">Emergency Care</h2>
                         <p class="tm-icon-box-text">Our centers provide convenient and high-quality care for a variety of common illnesses and injuries.</p>
@@ -133,7 +152,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-4">
                     <div class="empty-space col-md-b0 col-xs-b30"></div>
-                    <div class="tm-icon-box">
+                    <div class="tm-icon-box style1">
                         <div class="tm-icon"><i class="fa fa-hospital-o"></i></div>
                         <h2 class="tm-icon-box-title">24 Hours Service</h2>
                         <p class="tm-icon-box-text">Our technical team is available for 24/7, We always prepared any emergency situation with 10 ambulances.</p>
@@ -142,7 +161,7 @@
             </div><!-- .row -->
         </div>
     </section>
-    <!-- Start  -->
+    <!-- End Icon Box -->
 
     <!-- Start About Secton -->
     <section id="about">
@@ -903,7 +922,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
-                    <div class="owl-carousel tm-testimonial tm-testimonial-1 tm-dots1">
+                    <div class="owl-carousel tm-testimonial tm-testimonial-2 tm-dots1">
                         <div class="tm-single-testimonial">
                             <div class="tm-testimonial-thumb"><img src="assets/img/test-01.jpg" alt=""></div>
                             <div class="tm-testimonial-text">
@@ -952,7 +971,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-briefcase-alt-2 wow fadeInDown" data-wow-delay="0.2s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-briefcase-alt-2"></i>
                         <h2 class="tm-counter">25</h2>
                         <h3>Years of experience</h3>
                     </div>
@@ -960,7 +979,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-emo-simple-smile wow fadeInDown" data-wow-delay="0.4s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-emo-simple-smile"></i>
                         <h2 class="tm-counter">2500</h2>
                         <h3>Happy Patients</h3>
                     </div>
@@ -968,7 +987,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-doctor wow fadeInDown" data-wow-delay="0.6s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-doctor"></i>
                         <h2 class="tm-counter">150</h2>
                         <h3>Number of Doctors</h3>
                     </div>
@@ -976,7 +995,7 @@
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
-                        <i class="icofont icofont-users-social wow fadeInDown" data-wow-delay="0.8s" data-wow-duration="2s"></i>
+                        <i class="icofont icofont-users-social"></i>
                         <h2 class="tm-counter">250</h2>
                         <h3>Number of Staffs</h3>
                     </div>
@@ -1067,44 +1086,55 @@
 
     <!-- Start FAQ Section -->
     <section class="tm-gray-bg tm-overflow-hide">
-        <div class="row">
-            <div class="col-lg-6">
-                <!-- For Vimeo Video -->
-                <div class="tm-about-video">
-                    <img src="assets/img/video-bg.jpg" alt="">
-                    <div class="tm-video-button" data-video-id='63636954' data-channel="vimeo">
-                        <i class="icofont icofont-play-alt-3"></i>
-                        <span class="tm-video-animaiton"><span></span></span>
+        <div class="empty-space col-md-b100 col-xs-b70"></div>
+        <div class="container">
+            <div class="tm-section-heading text-center">
+                <h2>Frequently Asked Questions</h2>
+                <div class="tm-section-seperator"><span></span></div>
+                <div class="empty-space col-md-b60 col-xs-b40"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="accordian-wrapper tm-style1">
+                        <div class="accordian">
+                            <div class="single-accordian">
+                                <h3 class="accordian-head">What is dental care?</h3>
+                                <div class="accordian-body">Tooth valuable resources, dental care should take us regularly to stay healthy. Oral Health Overview. Good dental or oral care is important to maintaining healthy teeth, gums, and tongue. Oral problems, including bad breath, dry mouth, canker or cold sores, TMD, tooth decay, or thrush are all treatable with proper diagnosis and care.</div>
+                            </div><!-- .single-accordian -->
+                            <div class="single-accordian">
+                                <h3 class="accordian-head">Does offer emergency care?</h3>
+                                <div class="accordian-body">Urgent care centers are a relatively new addition to the healthcare industry that have helped to benefit both community medical services and patients. As a fast, affordable alternative to emergency room care for patients with non-life-threatening conditions, urgent care medical clinics offer people a convenient treatment option.</div>
+                            </div><!-- .single-accordian -->
+                            <div class="single-accordian">
+                                <h3 class="accordian-head">Online live support</h3>
+                                <div class="accordian-body">Neurology is a branch of medical science that is concerned with disorders and diseases of the nervous system. The term neurology comes from a combination of two words - "neuron" meaning nerve and "logia" meaning "the study of".There are around a hundred billion neurons in the brain, capable of generating their own impulses and of receiving and transmitting impulses from neighboring cells.</div>
+                            </div><!-- .single-accordian -->
+                        </div>
                     </div>
-                </div>
-                <!-- For Youtube Video -->
-                <!-- <div class="tm-about-video tm-video-button" data-video-id='nImFZRtGeAQ'>
-                    <img src="assets/img/tm-about-video-bg.jpg" alt="">
-                    <i class="video-icon"></i>
-                </div> -->
-            </div><!-- .col -->
-            <div class="col-lg-6">
-                <div class="empty-space col-md-b60 col-xs-b65"></div>
-                <div class="accordian-wrapper">
-                    <h2 class="accordian-heading">Frequently Asked Questions</h2>
-                    <div class="accordian">
-                        <div class="single-accordian">
-                            <h3 class="accordian-head">What is dental care?</h3>
-                            <div class="accordian-body">Tooth valuable resources, dental care should take us regularly to stay healthy. Oral Health Overview. Good dental or oral care is important to maintaining healthy teeth, gums, and tongue. Oral problems, including bad breath, dry mouth, canker or cold sores, TMD, tooth decay, or thrush are all treatable with proper diagnosis and care.</div>
-                        </div><!-- .single-accordian -->
-                        <div class="single-accordian">
-                            <h3 class="accordian-head">Does offer emergency care?</h3>
-                            <div class="accordian-body">Urgent care centers are a relatively new addition to the healthcare industry that have helped to benefit both community medical services and patients. As a fast, affordable alternative to emergency room care for patients with non-life-threatening conditions, urgent care medical clinics offer people a convenient treatment option.</div>
-                        </div><!-- .single-accordian -->
-                        <div class="single-accordian">
-                            <h3 class="accordian-head">Online live support</h3>
-                            <div class="accordian-body">Neurology is a branch of medical science that is concerned with disorders and diseases of the nervous system. The term neurology comes from a combination of two words - "neuron" meaning nerve and "logia" meaning "the study of".There are around a hundred billion neurons in the brain, capable of generating their own impulses and of receiving and transmitting impulses from neighboring cells.</div>
-                        </div><!-- .single-accordian -->
+                    <div class="empty-space col-xs-b30"></div>
+                </div><!-- .col -->
+                <div class="col-lg-6">
+                    <div class="accordian-wrapper tm-style1">
+                        <div class="accordian">
+                            <div class="single-accordian">
+                                <h3 class="accordian-head">What is dental care?</h3>
+                                <div class="accordian-body">Tooth valuable resources, dental care should take us regularly to stay healthy. Oral Health Overview. Good dental or oral care is important to maintaining healthy teeth, gums, and tongue. Oral problems, including bad breath, dry mouth, canker or cold sores, TMD, tooth decay, or thrush are all treatable with proper diagnosis and care.</div>
+                            </div><!-- .single-accordian -->
+                            <div class="single-accordian">
+                                <h3 class="accordian-head">Does offer emergency care?</h3>
+                                <div class="accordian-body">Urgent care centers are a relatively new addition to the healthcare industry that have helped to benefit both community medical services and patients. As a fast, affordable alternative to emergency room care for patients with non-life-threatening conditions, urgent care medical clinics offer people a convenient treatment option.</div>
+                            </div><!-- .single-accordian -->
+                            <div class="single-accordian">
+                                <h3 class="accordian-head">Online live support</h3>
+                                <div class="accordian-body">Neurology is a branch of medical science that is concerned with disorders and diseases of the nervous system. The term neurology comes from a combination of two words - "neuron" meaning nerve and "logia" meaning "the study of".There are around a hundred billion neurons in the brain, capable of generating their own impulses and of receiving and transmitting impulses from neighboring cells.</div>
+                            </div><!-- .single-accordian -->
+                        </div>
                     </div>
-                </div>
-                <div class="empty-space col-md-b60 col-xs-b70"></div>
-            </div><!-- .col -->
+                    <div class="empty-space col-xs-b30"></div>
+                </div><!-- .col -->
+            </div>
         </div>
+        <div class="empty-space col-md-b70 col-xs-b40"></div>
     </section>
     <!-- End FAQ Section -->
 
@@ -1118,124 +1148,100 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-xl-6">
-                    <div class="tm-left-post">
-                        <div class="tm-post tm-style1">
-                            <div class="tm-post-thumb">
-                                <a href="#" class="tm-link-block">
-                                    <img src="assets/img/blog-01.jpg" alt="blog-01">
-                                    <div class="tm-blog-hover">
-                                        <span class="tm-blog-shap"></span>
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="empty-space col-xs-b25"></div>
-                            <div class="tm-blog-body">
-                                <h2 class="tm-blog-heading">
-                                    <a href="#" class="tm-link-block">Scary Thing That You Don’t Get Enough Sleep</a>
-                                </h2>
-                                <div class="empty-space col-xs-b15"></div>
-                                <div class="tm-blog-meta">
-                                    <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
-                                    <span><i class="fa fa-calendar"></i>Jan 10, 2018</span>
+                <div class="col-md-4">
+                    <div class="tm-post tm-style1 tm-type1">
+                        <div class="tm-post-thumb">
+                            <a href="#" class="tm-link-block">
+                                <img src="assets/img/blog-10.jpg" alt="blog-01">
+                                <div class="tm-blog-hover">
+                                    <span class="tm-blog-shap"></span>
+                                    <i class="fa fa-link"></i>
                                 </div>
+                            </a>
+                        </div>
+                        <div class="empty-space col-xs-b25"></div>
+                        <div class="tm-blog-body">
+                            <h2 class="tm-blog-heading">
+                                <a href="#" class="tm-link-block">Scary Thing That You Don’t Get</a>
+                            </h2>
+                            <div class="empty-space col-xs-b15"></div>
+                            <div class="tm-blog-meta">
+                                <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
+                                <span><i class="fa fa-calendar"></i>Jan 10, 2018</span>
+                            </div>
+                            <div class="empty-space col-xs-b20"></div>
+                            <div class="tm-blog-separator"></div>
+                            <div class="tm-entry-content">
+                                <p>If you're tossing and turning every night, there's some bad news. Your brain could be in big trouble! Turns out...</p>
                                 <div class="empty-space col-xs-b20"></div>
-                                <div class="tm-blog-separator"></div>
-                                <div class="tm-entry-content">
-                                    <p>If you're tossing and turning every night, there's some bad news. Your brain could be in big trouble! Turns out, there are some pretty scary side effects to sleep loss, all around. (By the way, getting too much sleep...</p>
-                                    <div class="empty-space col-xs-b30"></div>
-                                    <a href="#" class="tm-btn1">READ MORE</a>
-                                </div>
+                                <a href="#" class="tm-btn1">READ MORE</a>
                             </div>
-                        </div><!-- .tm-post -->
-                    </div><!-- .tm-left-post -->
+                        </div>
+                    </div><!-- .tm-post -->
                     <div class="empty-space col-xs-b30"></div>
                 </div><!-- .col -->
-                <div class="col-xl-6">
-                    <div class="tm-right-post">
-                        <div class="tm-post tm-style2">
-                            <div class="tm-post-thumb">
-                                <a href="#" class="tm-link-block">
-                                    <img src="assets/img/blog-02.jpg" alt="blog-02">
-                                    <div class="tm-blog-hover small">
-                                        <span class="tm-blog-shap"></span>
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="empty-space col-xs-b25"></div>
-                            <div class="tm-blog-body">
-                                <h2 class="tm-blog-heading">
-                                    <a href="#" class="tm-link-block">Doctors and Nurses Reveal...</a>
-                                </h2>
-                                <div class="empty-space col-xs-b10"></div>
-                                <div class="tm-blog-meta">
-                                    <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
-                                    <span><i class="fa fa-calendar"></i>Feb 13, 2018</span>
+                <div class="col-md-4">
+                    <div class="tm-post tm-style1 tm-type1">
+                        <div class="tm-post-thumb">
+                            <a href="#" class="tm-link-block">
+                                <img src="assets/img/blog-11.jpg" alt="blog-01">
+                                <div class="tm-blog-hover">
+                                    <span class="tm-blog-shap"></span>
+                                    <i class="fa fa-link"></i>
                                 </div>
+                            </a>
+                        </div>
+                        <div class="empty-space col-xs-b25"></div>
+                        <div class="tm-blog-body">
+                            <h2 class="tm-blog-heading">
+                                <a href="#" class="tm-link-block">Scary Thing That You Don’t Get</a>
+                            </h2>
+                            <div class="empty-space col-xs-b15"></div>
+                            <div class="tm-blog-meta">
+                                <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
+                                <span><i class="fa fa-calendar"></i>Jan 10, 2018</span>
+                            </div>
+                            <div class="empty-space col-xs-b20"></div>
+                            <div class="tm-blog-separator"></div>
+                            <div class="tm-entry-content">
+                                <p>If you're tossing and turning every night, there's some bad news. Your brain could be in big trouble! Turns out...</p>
                                 <div class="empty-space col-xs-b20"></div>
-                                <div class="tm-blog-separator"></div>
-                                <div class="tm-entry-content">
-                                    <p>These tips might just save your life (or at least make it a little healthier). When it comes to your...</p>
-                                </div>
+                                <a href="#" class="tm-btn1">READ MORE</a>
                             </div>
-                        </div><!-- .tm-post -->
-                        <div class="tm-post tm-style2">
-                            <div class="tm-post-thumb">
-                                <a href="#" class="tm-link-block">
-                                    <img src="assets/img/blog-03.jpg" alt="blog-03">
-                                    <div class="tm-blog-hover small">
-                                        <span class="tm-blog-shap"></span>
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="empty-space col-xs-b25"></div>
-                            <div class="tm-blog-body">
-                                <h2 class="tm-blog-heading">
-                                    <a href="#" class="tm-link-block">7 Ways to market helth...</a>
-                                </h2>
-                                <div class="empty-space col-xs-b10"></div>
-                                <div class="tm-blog-meta">
-                                    <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
-                                    <span><i class="fa fa-calendar"></i>Mar 09, 2018</span>
+                        </div>
+                    </div><!-- .tm-post -->
+                    <div class="empty-space col-xs-b30"></div>
+                </div><!-- .col -->
+                <div class="col-md-4">
+                    <div class="tm-post tm-style1 tm-type1">
+                        <div class="tm-post-thumb">
+                            <a href="#" class="tm-link-block">
+                                <img src="assets/img/blog-12.jpg" alt="blog-01">
+                                <div class="tm-blog-hover">
+                                    <span class="tm-blog-shap"></span>
+                                    <i class="fa fa-link"></i>
                                 </div>
+                            </a>
+                        </div>
+                        <div class="empty-space col-xs-b25"></div>
+                        <div class="tm-blog-body">
+                            <h2 class="tm-blog-heading">
+                                <a href="#" class="tm-link-block">Scary Thing That You Don’t Get</a>
+                            </h2>
+                            <div class="empty-space col-xs-b15"></div>
+                            <div class="tm-blog-meta">
+                                <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
+                                <span><i class="fa fa-calendar"></i>Jan 10, 2018</span>
+                            </div>
+                            <div class="empty-space col-xs-b20"></div>
+                            <div class="tm-blog-separator"></div>
+                            <div class="tm-entry-content">
+                                <p>If you're tossing and turning every night, there's some bad news. Your brain could be in big trouble! Turns out...</p>
                                 <div class="empty-space col-xs-b20"></div>
-                                <div class="tm-blog-separator"></div>
-                                <div class="tm-entry-content">
-                                    <p>Health care in the United States is provided by many distinct organizations...</p>
-                                </div>
+                                <a href="#" class="tm-btn1">READ MORE</a>
                             </div>
-                        </div><!-- .tm-post -->
-                        <div class="tm-post tm-style2">
-                            <div class="tm-post-thumb">
-                                <a href="#" class="tm-link-block">
-                                    <img src="assets/img/blog-04.jpg" alt="blog-04">
-                                    <div class="tm-blog-hover small">
-                                        <span class="tm-blog-shap"></span>
-                                        <i class="fa fa-link"></i>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="empty-space col-xs-b25"></div>
-                            <div class="tm-blog-body">
-                                <h2 class="tm-blog-heading">
-                                    <a href="#" class="tm-link-block">How to Market to Medicare...</a>
-                                </h2>
-                                <div class="empty-space col-xs-b10"></div>
-                                <div class="tm-blog-meta">
-                                    <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
-                                    <span><i class="fa fa-calendar"></i>Mar 19, 2018</span>
-                                </div>
-                                <div class="empty-space col-xs-b20"></div>
-                                <div class="tm-blog-separator"></div>
-                                <div class="tm-entry-content">
-                                    <p>Medicare influences most of the healthcare decisions of patients 65 and up. Unfortunately, original...</p>
-                                </div>
-                            </div>
-                        </div><!-- .tm-post -->
-                    </div><!-- .tm-right-post -->
+                        </div>
+                    </div><!-- .tm-post -->
                     <div class="empty-space col-xs-b30"></div>
                 </div><!-- .col -->
             </div>
@@ -1275,7 +1281,36 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-4">
+                    <div class="empty-space col-md-b0 col-xs-b40"></div>
+                    <div class="tm-contact-info">
+                        <div class="tm-single-contact tm-style1">
+                            <i class="fa fa-map-marker"></i>
+                            <h3>Address</h3>
+                            <p>2855 Speer Blvd, Denver, CO 80211, USA</p>
+                        </div>
+                        <div class="empty-space col-md-b60 col-xs-b30"></div>
+                    </div>
+                </div><!-- .col -->
+                <div class="col-lg-4">
+                    <div class="tm-single-contact tm-style1">
+                        <i class="fa fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>1-800-915-6270 <br>
+                           1-800-915-6272</p>
+                    </div>
+                    <div class="empty-space col-md-b60 col-xs-b30"></div>
+                </div><!-- .col -->
+                <div class="col-lg-4">
+                    <div class="tm-single-contact tm-style1">
+                        <i class="fa fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@trustlife.com <br>
+                        Skype: example</p>
+                    </div>
+                    <div class="empty-space col-md-b60 col-xs-b30"></div>
+                </div><!-- .col -->
+                <div class="col-lg-12">
                     <div id="tm-alert"></div>
                     <form action="assets/php/mail.php" class="row tm-contact-form" method="post"  id="contact-form">
                         <div class="col-lg-6">
@@ -1313,31 +1348,6 @@
                             <div class="empty-space col-lg-b30"></div>
                         </div><!-- .col -->
                     </form>
-                </div><!-- .col -->
-                <div class="col-lg-4">
-                    <div class="empty-space col-md-b0 col-xs-b40"></div>
-                    <div class="tm-contact-info">
-                        <div class="tm-single-contact">
-                            <i class="fa fa-map-marker"></i>
-                            <h3>Address</h3>
-                            <p>2855 Speer Blvd, Denver, CO 80211, USA</p>
-                        </div>
-                        <div class="empty-space col-xs-b25"></div>
-                        <div class="tm-single-contact">
-                            <i class="fa fa-phone"></i>
-                            <h3>Phone</h3>
-                            <p>1-800-915-6270 <br>
-                               1-800-915-6272</p>
-                        </div>
-                        <div class="empty-space col-xs-b25"></div>
-                        <div class="tm-single-contact">
-                            <i class="fa fa-envelope"></i>
-                            <h3>Email</h3>
-                            <p>info@trustlife.com <br>
-                            Skype: example</p>
-                        </div>
-                        <div class="empty-space col-xs-b25"></div>
-                    </div>
                 </div><!-- .col -->
             </div>
         </div>
@@ -1426,12 +1436,12 @@
     <!-- End Footer -->
 
 	<!-- Scroll Up -->
-  <div id='scrollup'></div>
+    <div id='scrollup'></div>
 
 	<!-- Scripts -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 	<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-	<script src="assets/js/plugins.js"></script>
+    <script src="assets/js/plugins.js"></script>
 	<script src="assets/js/main.js"></script>
 </body>
 </html>

@@ -26,14 +26,8 @@
     <!-- End Preloader -->
 
     <!-- Start Site Header Wrap -->
-    <header class="tm-header3">
+    <header class="tm-header3 cs-type1">
         <div class="tm-site-header">
-            <div class="tm-header-info-wrap">
-                <div class="container tm-header-info">
-                    <a href="#"><i class="fa fa-phone"></i>1-800-915-6270</a>
-                    <a href="#"><i class="fa fa-envelope"></i>info@trustlife.com</a>
-                </div>
-            </div>
             <div class="tm-header-menu">
                 <div class="container tm-header-menu-container">
                     <div class="tm-site-branding">
@@ -50,7 +44,7 @@
                         <ul class="tm-primary-nav-list">
                             <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent">
                                 <a href="#home" class="nav-link tm-smooth-move">HOME</a>
-                               @include("pageHtml.deroulant")
+                                @include("pageHtml.deroulant")
                             </li>
                             <li class="menu-item"><a href="#about" class="nav-link tm-smooth-move">ABOUT</a></li>
                             <li class="menu-item"><a href="#department" class="nav-link tm-smooth-move">DEPARTMENT</a></li>
@@ -78,7 +72,7 @@
     <!-- End Site Header Wrap -->
 
     <!-- Start Hero Section -->
-    <section class="hero" id="home">
+    <section class="hero tm-bg" id="home" style="background-image: url(assets/img/slide-04.jpeg);">
         <div class="container">
             <div class="slider-text">
                 <h1 class="tm-headline letters tm-rotate-text">Take The world’s <br>
@@ -88,8 +82,6 @@
                         <b class="is-visible">DENTAL</b>
                         <b>NEUROLOGY</b>
                         <b>CRUTCHES</b>
-                        <b>CARDIOLOGY</b>
-                        <b>PULMONARY</b>
                         <b>X-RAY</b>
                     </span>
                 </h1>
@@ -100,13 +92,7 @@
                 <div class="tm-hero-btn"><a href="#appointment" class="tm-btn1">APPOINTMENT</a></div>
             </div>
         </div><!-- .container -->
-        <div class="tm-hero-slider owl-carousel tm-dots1" id="tm-hero-slider">
-            <img src="assets/img/slide-01.jpg" alt="slide-01">
-            <img src="assets/img/slide-02.jpg" alt="slide-02">
-            <img src="assets/img/slide-03.jpg" alt="slide-03">
-        </div>
-        <div class="hero-overlay"></div>
-        <img src="assets/img/sweet-shap.png" alt="Sweet Shap" class="sweet-shap">
+        <div class="hero-overlay2"></div>
     </section>
     <!-- End Hero Section -->
 
