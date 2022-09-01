@@ -1129,7 +1129,7 @@ html {
 #tm-preloader-in div {
     width: 20px;
     height: 20px;
-    background-color: #2caee2;
+    background-color: #e9010a;
     border-radius: 50% 50% 50% 50%;
     margin-right: 20px;
     position: absolute;
@@ -2282,7 +2282,7 @@ html {
     margin-right: 7px;
 }
 .tabs li.current {
-    background-color: #002856;
+    background-color: #e9010a;
     color: #fff;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -2519,7 +2519,7 @@ html {
     position: absolute;
     height: 200px;
     width: 256px;
-    background-color: #002856;
+    background-color: #e9010a;
     opacity: 0.8;
     border-radius: 0 50px 0 0;
     -webkit-transform: rotate(-29deg) skewX(12deg);
@@ -2954,7 +2954,7 @@ html {
     position: absolute;
     height: 150px;
     width: 206px;
-    background-color: #002856;
+    background-color: #e9010a;
     opacity: 0.8;
     border-radius: 0 35px 0 0;
     -webkit-transform: rotate(-26deg) skewX(12deg);
@@ -3067,6 +3067,7 @@ html {
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 0;
+    color: #e9010a;
 }
 .tm-fun-fact h3 {
     font-size: 24px;
