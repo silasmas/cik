@@ -215,7 +215,7 @@ html {
     -webkit-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    background: #002856;
+    background: #e9010a;
     color: #fff;
     padding: 10px 26px;
     border: 0;
@@ -238,7 +238,7 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #e9010a;
+    background: #002856;
     -webkit-transform: scaleX(0);
     -ms-transform: scaleX(0);
     transform: scaleX(0);
@@ -1278,7 +1278,7 @@ html {
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 .tm-header-info-wrap {
-    background-color: #002856;
+    background-color: #e9010a;
     width: 100%;
 }
 .tm-header-info {
@@ -1365,9 +1365,9 @@ html {
 .tm-site-branding:before {
     content: '';
     position: absolute;
-    height: 120px;
+    height: 140px;
     width: 1500px;
-    background-color: #002856;
+    background-color: #e9010a;
     -webkit-transform: skew(20deg,0deg);
     -ms-transform: skew(20deg,0deg);
     transform: skew(20deg,0deg);
@@ -1595,10 +1595,10 @@ html {
     color: #e9010a;
 }
 .tm-header3 .tm-header-info-wrap {
-    background-color: #002856;
+    background-color: rgb(255 255 255 / 60%);
 }
 .tm-header3 .tm-header-info a {
-    color: #fff;
+    color: #002856;
     font-weight: 600;
 }
 .tm-header3 .tm-header-info a:hover {
@@ -1612,7 +1612,6 @@ html {
 --------------------------------------------------------------*/
 /*Hero*/
 .hero {
-    margin-top: 50px;
     height: 820px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3146,7 +3145,7 @@ html {
     font-family: inherit;
 }
 .accordian-head.active {
-    background-color: #002856;
+    background-color: #e9010a;
     color: #fff;
 }
 .accordian-head i {
@@ -3266,7 +3265,7 @@ html {
     position: absolute;
     height: 150px;
     width: 206px;
-    background-color: #002856;
+    background-color: #e9010a;
     opacity: 0.8;
     border-radius: 0 35px 0 0;
     -webkit-transform: rotate(-26deg) skewX(12deg);
@@ -4208,7 +4207,7 @@ blockquote small span {
 }
 .tm-site-footer {
     padding: 20px 0;
-    background-color: #002856;
+    background-color: #e9010a;
     color: rgba(255, 255, 255, 0.7);
 }
 .tm-phone-icon {
@@ -4226,7 +4225,7 @@ blockquote small span {
     font-size: 18px;
     font-weight: 600;
     margin: 0;
-    color: #fff;
+    color: #fff ;
     margin-bottom: 3px;
 }
 .tm-footer-hotline-in p {
@@ -4234,8 +4233,8 @@ blockquote small span {
     margin-bottom: 0;
     font-weight: 600;
     color: #fff;
-    -webkit-animation: tm-shadow-animation 1s ease-in-out infinite alternate;
-    animation: tm-shadow-animation 1s ease-in-out infinite alternate;
+    /* -webkit-animation: tm-shadow-animation 1s ease-in-out infinite alternate;
+    animation: tm-shadow-animation 1s ease-in-out infinite alternate; */
 }
 .tm-footer-hotline {
     position: relative;
@@ -4261,7 +4260,7 @@ blockquote small span {
 .tm-footer-hotline:before {
     content: '';
     width: 1500px;
-    background-color: #002856;
+    background-color: #e9010a;
     -webkit-transform: skew(20deg,0deg);
     -ms-transform: skew(20deg,0deg);
     transform: skew(20deg,0deg);
