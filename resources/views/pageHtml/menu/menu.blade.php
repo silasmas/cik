@@ -23,7 +23,7 @@
                         <ul class="tm-primary-nav-list">
                             <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent">
                                 <a href="#home" class="nav-link tm-smooth-move">@lang('info.menu.home')</a>
-                                @include("pageHtml.deroulant")
+                                {{-- @include("pageHtml.deroulant") --}}
                             </li>
                             <li class="menu-item"><a href="#about" class="nav-link tm-smooth-move">@lang('info.menu.about')</a></li>
                             <li class="menu-item"><a href="#department" class="nav-link tm-smooth-move">@lang('info.menu.service')</a></li>
