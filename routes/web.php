@@ -24,9 +24,10 @@ Route::group([
     'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]
 ], function()
 {
-    Route::get('/', function () {
-        return view('welcome');
-    })->name('h1');
+    // Route::get('/', function () {
+    //     return view('welcome');
+    // })->name('h1');
+    Route::get('/', [page::class,'index'])->name('h1');
     Route::get('h8', function () {
         return view('pageHtml.home-version-8');
     })->name('h8');

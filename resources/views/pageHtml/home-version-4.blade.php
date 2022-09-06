@@ -780,36 +780,36 @@
                 </a>
             </div><!-- .tm-portfolio-item -->
             <div class="tm-portfolio-item neurology traumatology">
-                <a href="assets/img/portfolio-04-lg.jpg"  class="item-inner">
-                    <img src="assets/img/portfolio-04.jpg" alt="portfolio-04">
+                <a href="{{ asset('assets/img/portfolio-04-lg.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/portfolio-04.jpg') }}" alt="portfolio-04">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
             </div><!-- .tm-portfolio-item -->
             <div class="tm-portfolio-item urology">
-                <a href="assets/img/portfolio-05-lg.jpg"  class="item-inner">
-                    <img src="assets/img/portfolio-05.jpg" alt="portfolio-05">
+                <a href="{{ asset('assets/img/portfolio-05-lg.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/portfolio-05.jpg') }}" alt="portfolio-05">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
             </div><!-- .tm-portfolio-item -->
             <div class="tm-portfolio-item cardiology neurology pulmonary">
-                <a href="assets/img/portfolio-06-lg.jpg"  class="item-inner">
-                    <img src="assets/img/portfolio-06.jpg" alt="portfolio-06">
+                <a href="{{ asset('assets/img/portfolio-06-lg.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/portfolio-06.jpg') }}" alt="portfolio-06">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
             </div><!-- .tm-portfolio-item -->
             <div class="tm-portfolio-item urology pulmonary">
-                <a href="assets/img/portfolio-07-lg.jpg"  class="item-inner">
-                    <img src="assets/img/portfolio-07.jpg" alt="portfolio-07">
+                <a href="{{ asset('assets/img/portfolio-07-lg.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/portfolio-07.jpg') }}" alt="portfolio-07">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
             </div><!-- .tm-portfolio-item -->
             <div class="tm-portfolio-item cardiology traumatology">
-                <a href="assets/img/portfolio-08-lg.jpg"  class="item-inner">
-                    <img src="assets/img/portfolio-08.jpg" alt="portfolio-08">
+                <a href="{{ asset('assets/img/portfolio-08-lg.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/portfolio-08.jpg') }}" alt="portfolio-08">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
@@ -831,7 +831,7 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="owl-carousel tm-testimonial tm-testimonial-2 tm-dots1">
                         <div class="tm-single-testimonial">
-                            <div class="tm-testimonial-thumb"><img src="assets/img/test-01.jpg" alt=""></div>
+                            <div class="tm-testimonial-thumb"><img src="{{ asset('assets/img/test-01.jpg') }}" alt=""></div>
                             <div class="tm-testimonial-text">
                                 <i class="fa fa-quote-right"></i>
                                 <blockquote>They saved my life. They didn't give up, and they pushed for a treatment that would put me in remission. They continue to have some of the best staffing I've ever had. </blockquote>
@@ -842,7 +842,7 @@
                             </div>
                         </div><!-- testimonail slide -->
                         <div class="tm-single-testimonial">
-                            <div class="tm-testimonial-thumb"><img src="assets/img/test-02.jpg" alt=""></div>
+                            <div class="tm-testimonial-thumb"><img src="{{ asset('assets/img/test-02.jpg') }}" alt=""></div>
                             <div class="tm-testimonial-text">
                                 <i class="fa fa-quote-right"></i>
                                 <blockquote>Nothing but the best. Team medicine with top notched specialists. Worth the drive to come here especially if it involves your health or the health of a loved one.</blockquote>
@@ -853,7 +853,7 @@
                             </div>
                         </div><!-- testimonail slide -->
                         <div class="tm-single-testimonial">
-                            <div class="tm-testimonial-thumb"><img src="assets/img/test-03.jpg" alt=""></div>
+                            <div class="tm-testimonial-thumb"><img src="{{ asset('assets/img/test-03.jpg') }}" alt=""></div>
                             <div class="tm-testimonial-text">
                                 <i class="fa fa-quote-right"></i>
                                 <blockquote>I love this hospital, I definetly think its the best in Kanada, I had both of my children there, their staff is really nice, and they definelty took care of me.</blockquote>
@@ -1059,7 +1059,7 @@
                     <div class="tm-post tm-style1 tm-type1">
                         <div class="tm-post-thumb">
                             <a href="#" class="tm-link-block">
-                                <img src="assets/img/blog-10.jpg" alt="blog-01">
+                                <img src="{{ asset('assets/img/blog-10.jpg') }}" alt="blog-01">
                                 <div class="tm-blog-hover">
                                     <span class="tm-blog-shap"></span>
                                     <i class="fa fa-link"></i>
@@ -1091,7 +1091,7 @@
                     <div class="tm-post tm-style1 tm-type1">
                         <div class="tm-post-thumb">
                             <a href="#" class="tm-link-block">
-                                <img src="assets/img/blog-11.jpg" alt="blog-01">
+                                <img src="{{ asset('assets/img/blog-11.jpg') }}" alt="blog-01">
                                 <div class="tm-blog-hover">
                                     <span class="tm-blog-shap"></span>
                                     <i class="fa fa-link"></i>
@@ -1123,7 +1123,7 @@
                     <div class="tm-post tm-style1 tm-type1">
                         <div class="tm-post-thumb">
                             <a href="#" class="tm-link-block">
-                                <img src="assets/img/blog-12.jpg" alt="blog-01">
+                                <img src="{{ asset('assets/img/blog-12.jpg') }}" alt="blog-01">
                                 <div class="tm-blog-hover">
                                     <span class="tm-blog-shap"></span>
                                     <i class="fa fa-link"></i>
@@ -1274,12 +1274,12 @@
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="container">
             <div class="tm-clients-curosor owl-carousel">
-                <div class="tm-client"><img src="assets/img/client-logo-01.png" alt=""></div>
-                <div class="tm-client"><img src="assets/img/client-logo-02.png" alt=""></div>
-                <div class="tm-client"><img src="assets/img/client-logo-03.png" alt=""></div>
-                <div class="tm-client"><img src="assets/img/client-logo-04.png" alt=""></div>
-                <div class="tm-client"><img src="assets/img/client-logo-05.png" alt=""></div>
-                <div class="tm-client"><img src="assets/img/client-logo-06.png" alt=""></div>
+                <div class="tm-client"><img src="{{ asset('assets/img/client-logo-01.png') }}" alt=""></div>
+                <div class="tm-client"><img src="{{ asset('assets/img/client-logo-02.png') }}" alt=""></div>
+                <div class="tm-client"><img src="{{ asset('assets/img/client-logo-03.png') }}" alt=""></div>
+                <div class="tm-client"><img src="{{ asset('assets/img/client-logo-04.png') }}" alt=""></div>
+                <div class="tm-client"><img src="{{ asset('assets/img/client-logo-05.png') }}" alt=""></div>
+                <div class="tm-client"><img src="{{ asset('assets/img/client-logo-06.png') }}" alt=""></div>
             </div>
         </div>
         <div class="empty-space col-md-b100 col-xs-b70"></div>
@@ -1293,7 +1293,7 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="tm-footer-social">
-                            <h2>Follow Us</h2>
+                            <h2>Suivez-nous :</h2>
                             <div class="tm-footer-social-list">
                                 <a href="#" class="tm-social-btn blue">
                                     <i class="fa fa-facebook-square"></i>
@@ -1325,14 +1325,14 @@
             <div class="container"><!-- row-md-reverce -->
                 <div class="row row-sm-reverce">
                     <div class="col-md-7 col-lg-8">
-                        <p class="tm-copyright">Copyright © 2018 TRUSTLIFE. Designed by thememarch </p>
+                        <p class="tm-copyright">Copyright © 2022 CIK. Designed by SILASDEV </p>
                     </div><!-- .col -->
                     <div class="col-md-5 col-lg-4">
                         <div class="tm-footer-hotline">
                             <div class="tm-footer-hotline-in">
                                 <div class="tm-phone-icon"><i class="fa fa-mobile"></i></div>
-                                <h3>Toll Free</h3>
-                                <p>1-800-915-6270</p>
+                                <h3>Nous contacter</h3>
+                                <p>+243 827839232</p>
                             </div>
                         </div>
                     </div><!-- .col -->

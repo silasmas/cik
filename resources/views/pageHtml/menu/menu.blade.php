@@ -22,18 +22,18 @@
                     <nav class="tm-primary-nav tm-onepage-nav">
                         <ul class="tm-primary-nav-list">
                             <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent">
-                                <a href="#home" class="nav-link tm-smooth-move">Accueil</a>
+                                <a href="#home" class="nav-link tm-smooth-move">@lang('info.menu.home')</a>
                                 @include("pageHtml.deroulant")
                             </li>
-                            <li class="menu-item"><a href="#about" class="nav-link tm-smooth-move">A PROPOS</a></li>
-                            <li class="menu-item"><a href="#department" class="nav-link tm-smooth-move">DEPARTEMENTS</a></li>
-                            <li class="menu-item"><a href="#doctor" class="nav-link tm-smooth-move">MEDECIN</a></li>
+                            <li class="menu-item"><a href="#about" class="nav-link tm-smooth-move">@lang('info.menu.about')</a></li>
+                            <li class="menu-item"><a href="#department" class="nav-link tm-smooth-move">@lang('info.menu.service')</a></li>
+                            <li class="menu-item"><a href="#doctor" class="nav-link tm-smooth-move">@lang('info.menu.docteur')</a></li>
                             {{-- <li class="menu-item"><a href="#gallery" class="nav-link tm-smooth-move">GALERIES</a></li> --}}
-                            <li class="menu-item"><a href="#price" class="nav-link tm-smooth-move">CONVENTIONS</a></li>
+                            <li class="menu-item"><a href="#price" class="nav-link tm-smooth-move">@lang('info.menu.convention')</a></li>
 
-                            <li class="menu-item"><a href="#contact" class="nav-link tm-smooth-move">CONTACT</a></li>
-                            <li class="menu-item"><a href="#appointment" class="nav-link tm-smooth-move">RENDEZ-VOUS</a></li>
-                            <li class="menu-item menu-item-has-children"><a class="nav-link tm-smooth-move">LANGUE</a>
+                            <li class="menu-item"><a href="#contact" class="nav-link tm-smooth-move">@lang('info.menu.contact')</a></li>
+                            <li class="menu-item"><a href="#appointment" class="nav-link tm-smooth-move">@lang('info.menu.rdv')</a></li>
+                            <li class="menu-item menu-item-has-children"><a class="nav-link tm-smooth-move">@lang('info.menu.langue')</a>
                                 <ul>
                                     @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                                     <li class="nav-item">
