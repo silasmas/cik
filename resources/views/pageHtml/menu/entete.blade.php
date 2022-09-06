@@ -11,8 +11,8 @@
     <!-- Favicon Icon -->
   	<link rel="icon" href="assets/img/logocik.png">
 	<!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/plugins.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
 </head>
 
 <body>

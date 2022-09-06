@@ -1,59 +1,10 @@
+
 @include("pageHtml.menu.entete")
 
-    <!-- Start Site Header Wrap -->
-    <header>
-        <div class="tm-site-header">
-            <div class="tm-header-info-wrap">
-                <div class="container tm-header-info">
-                    <a href="#"><i class="fa fa-phone"></i>1-800-915-6270</a>
-                    <a href="#"><i class="fa fa-envelope"></i>info@trustlife.com</a>
-                </div>
-            </div>
-            <div class="tm-header-menu">
-                <div class="container tm-header-menu-container">
-                    <div class="tm-site-branding">
-                        <!-- For Image Logo -->
-                        <a href="index.html" class="tm-logo-link">
-                            <img src="assets/img/logo.png" alt="" class="tm-logo">
-                        </a>
-                        <!-- For Site Title -->
-                        <!-- <span class="tm-site-title">
-                        <a href="index.html">Trustlife</a>
-                        </span> -->
-                    </div>
-                    <nav class="tm-primary-nav tm-onepage-nav">
-                        <ul class="tm-primary-nav-list">
-                            <li class="menu-item menu-item-has-children current-menu-ancestor current-menu-parent">
-                                <a href="#home" class="nav-link tm-smooth-move">HOME</a>
-                                @include("pageHtml.deroulant")
-                            </li>
-                            <li class="menu-item"><a href="#about" class="nav-link tm-smooth-move">ABOUT</a></li>
-                            <li class="menu-item"><a href="#department" class="nav-link tm-smooth-move">DEPARTMENT</a></li>
-                            <li class="menu-item"><a href="#doctor" class="nav-link tm-smooth-move">DOCTOR</a></li>
-                            <li class="menu-item"><a href="#gallery" class="nav-link tm-smooth-move">GALLERY</a></li>
-                            <li class="menu-item"><a href="#price" class="nav-link tm-smooth-move">PRICE</a></li>
-                            <li class="menu-item menu-item-has-children"><a href="#blog" class="nav-link tm-smooth-move">BLOG</a>
-                                <ul>
-                                    <li class="menu-item"><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                    <li class="menu-item"><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                    <li class="menu-item"><a href="blog-full-width.html">Blog Full Width</a></li>
-                                    <li class="menu-item"><a href="blog-details-right-sidebar.html">Single Blog Image Post</a></li>
-                                    <li class="menu-item"><a href="blog-details-left-sidebar.html">Single Blog Slider Post</a></li>
-                                    <li class="menu-item"><a href="blog-details-full-width.html">Single Blog Video Post</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="#contact" class="nav-link tm-smooth-move">CONTACT</a></li>
-                            <li class="menu-item"><a href="#appointment" class="nav-link tm-smooth-move">APPOINTMENT</a></li>
-                        </ul>
-                    </nav>
-                </div><!-- .tm-header-menu-container -->
-            </div><!-- .tm-header-menu -->
-        </div><!-- .tm-site-header -->
-    </header>
-    <!-- End Site Header Wrap -->
+@include('pageHtml.menu.menu')
 
     <!-- Start Hero Section -->
-    <section class="hero ripple-version" id="home" style="background: url(assets/img/slide-01.jpg);">
+    <section class="hero ripple-version" id="home" style="background: url({{ asset('assets/img/slide-01.jpg') }});">
         <div class="container">
             <div class="slider-text">
                 <h1 class="tm-headline letters tm-rotate-text">Take The world’s <br>
@@ -129,7 +80,7 @@
         </div>
         <div class="tm-relative">
             <div class="tm-half-section-bg left">
-                <img src="assets/img/about-hafl-bg.jpg" alt="about hafl bg">
+                <img src="{{ asset('assets/img/about-hafl-bg.jpg') }}" alt="about hafl bg">
             </div>
             <div class="empty-space col-xs-b60"></div>
             <div class="container">
@@ -222,7 +173,7 @@
                     <div class="tm-tabs-item">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="tm-dept-img"><img src="assets/img/1.dental.jpg" alt=""></div>
+                                <div class="tm-dept-img"><img src="{{ asset('assets/img/1.dental.jpg') }}" alt=""></div>
                             </div><!-- .col -->
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
@@ -244,7 +195,7 @@
                     <div class="tm-tabs-item">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="tm-dept-img"><img src="assets/img/2.neurology.jpg" alt=""></div>
+                                <div class="tm-dept-img"><img src="{{ asset('assets/img/2.neurology.jpg') }}" alt=""></div>
                             </div><!-- .col -->
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
@@ -266,7 +217,7 @@
                     <div class="tm-tabs-item">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="tm-dept-img"><img src="assets/img/3.crutches.jpg" alt=""></div>
+                                <div class="tm-dept-img"><img src="{{ asset('assets/img/3.crutches.jpg') }}" alt=""></div>
                             </div><!-- .col -->
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
@@ -288,7 +239,7 @@
                     <div class="tm-tabs-item">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="tm-dept-img"><img src="assets/img/4.cardiology.jpg" alt=""></div>
+                                <div class="tm-dept-img"><img src="{{ asset('assets/img/4.cardiology.jpg') }}" alt=""></div>
                             </div><!-- .col -->
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
@@ -310,7 +261,7 @@
                     <div class="tm-tabs-item">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="tm-dept-img"><img src="assets/img/5.pulmones.jpg" alt=""></div>
+                                <div class="tm-dept-img"><img src="{{ asset('assets/img/5.pulmones.jpg') }}" alt=""></div>
                             </div><!-- .col -->
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
@@ -332,7 +283,7 @@
                     <div class="tm-tabs-item">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="tm-dept-img"><img src="assets/img/6.xray.jpg" alt=""></div>
+                                <div class="tm-dept-img"><img src="{{ asset('assets/img/6.xray.jpg') }}" alt=""></div>
                             </div><!-- .col -->
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
@@ -362,7 +313,7 @@
     <!-- Start Appointment Section -->
     <section class="tm-relative" id="appointment">
         <div class="tm-half-section-bg right">
-            <img src="assets/img/appointment-bg.jpg" alt="about hafl bg">
+            <img src="{{ asset('assets/img/appointment-bg.jpg') }}" alt="about hafl bg">
         </div>
         <div class="container">
             <div class="row">
@@ -454,7 +405,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="assets/img/doctor-01.jpg" alt="">
+                                    <img src="{{ asset('assets/img/doctor-01.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -491,7 +442,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="assets/img/doctor-02.jpg" alt="">
+                                    <img src="{{ asset('assets/img/doctor-02.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -528,7 +479,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="assets/img/doctor-03.jpg" alt="">
+                                    <img src="{{ asset('assets/img/doctor-03.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -565,7 +516,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="assets/img/doctor-04.jpg" alt="">
+                                    <img src="{{ asset('assets/img/doctor-04.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -602,7 +553,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="assets/img/doctor-01.jpg" alt="">
+                                    <img src="{{ asset('assets/img/doctor-01.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -639,7 +590,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="assets/img/doctor-02.jpg" alt="">
+                                    <img src="{{ asset('assets/img/doctor-02.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -676,7 +627,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="assets/img/doctor-03.jpg" alt="">
+                                    <img src="{{ asset('assets/img/doctor-03.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -713,7 +664,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="assets/img/doctor-04.jpg" alt="">
+                                    <img src="{{ asset('assets/img/doctor-04.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -766,20 +717,20 @@
         <div class="container">
             <div class="before-after-gallery-slider owl-carousel tm-nam-tm-style1">
                 <div class="teeth-beforeafter">
-                    <img src="assets/img/teeth-before-image.jpg" alt="teeth before">
-                    <img src="assets/img/teeth-after-image.jpg" alt="teeth after">
+                    <img src="{{ asset('assets/img/teeth-before-image.jpg') }}" alt="teeth before">
+                    <img src="{{ asset('assets/img/teeth-after-image.jpg') }}" alt="teeth after">
                 </div>
                 <div class="teeth-beforeafter">
-                    <img src="assets/img/face-before-image.jpg" alt="teeth before">
-                    <img src="assets/img/face-after-image.jpg" alt="teeth after">
+                    <img src="{{ asset('assets/img/face-before-image.jpg') }}" alt="teeth before">
+                    <img src="{{ asset('assets/img/face-after-image.jpg') }}" alt="teeth after">
                 </div>
                 <div class="teeth-beforeafter">
-                    <img src="assets/img/teeth-before-image.jpg" alt="teeth before">
-                    <img src="assets/img/teeth-after-image.jpg" alt="teeth after">
+                    <img src="{{ asset('assets/img/teeth-before-image.jpg') }}" alt="teeth before">
+                    <img src="{{ asset('assets/img/teeth-after-image.jpg') }}" alt="teeth after">
                 </div>
                 <div class="teeth-beforeafter">
-                    <img src="assets/img/face-before-image.jpg" alt="teeth before">
-                    <img src="assets/img/face-after-image.jpg" alt="teeth after">
+                    <img src="{{ asset('assets/img/face-before-image.jpg') }}" alt="teeth before">
+                    <img src="{{ asset('assets/img/face-after-image.jpg') }}" alt="teeth after">
                 </div>
             </div>
         </div>
@@ -808,22 +759,22 @@
         <div class="tm-portfolio zoom-gallery tm-gutter-less">
             <div class="tm-grid-sizer"></div>
             <div class="tm-portfolio-item neurology">
-                <a href="assets/img/portfolio-01-lg.jpg"  class="item-inner">
-                    <img src="assets/img/portfolio-01.jpg" alt="portfolio-01">
+                <a href="{{ asset('assets/img/portfolio-01-lg.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/portfolio-01.jpg') }}" alt="portfolio-01">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
             </div><!-- .tm-portfolio-item -->
             <div class="tm-portfolio-item urology traumatology">
-                <a href="assets/img/portfolio-02-lg.jpg"  class="item-inner">
-                    <img src="assets/img/portfolio-02.jpg" alt="portfolio-02">
+                <a href="{{ asset('assets/img/portfolio-02-lg.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/portfolio-02.jpg') }}" alt="portfolio-02">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
             </div><!-- .tm-portfolio-item -->
             <div class="tm-portfolio-item cardiology pulmonary">
-                <a href="assets/img/portfolio-03-lg.jpg"  class="item-inner">
-                    <img src="assets/img/portfolio-03.jpg" alt="portfolio-03">
+                <a href="{{ asset('assets/img/portfolio-03-lg.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/portfolio-03.jpg') }}" alt="portfolio-03">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
@@ -1394,10 +1345,6 @@
 	<!-- Scroll Up -->
     <div id='scrollup'></div>
 
-	<!-- Scripts -->
-	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-	<script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-	<script src="assets/js/main.js"></script>
+	@include('pageHtml.menu.pied')
 </body>
 </html>

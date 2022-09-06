@@ -13,8 +13,8 @@
                 <div class="container tm-header-menu-container">
                     <div class="tm-site-branding">
                         <!-- For Image Logo -->
-                        <a href="index.html" class="tm-logo-link">
-                            <img src="assets/img/logo.png" alt="" class="tm-logo">
+                        <a href="#" class="tm-logo-link">
+                            <img src="assets/img/logocik.png" alt="" class="tm-logo">
                         </a>
                         <!-- For Site Title -->
                         <!-- <span class="tm-site-title">
