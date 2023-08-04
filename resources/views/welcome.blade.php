@@ -6,7 +6,7 @@
             <div class="tm-header-info-wrap">
                 <div class="container tm-header-info">
                     <a href="#"><i class="fa fa-phone"></i>1-800-915-6270</a>
-                    <a href="#"><i class="fa fa-envelope"></i>info@trustlife.com</a>
+                    <a href="#"><i class="fa fa-envelope"></i>info@cik-rdc.com</a>
                 </div>
             </div>
             <div class="tm-header-menu">
@@ -46,12 +46,6 @@
                                         </a>
                                     </li>
                                 @endforeach
-                                    {{-- <li class="menu-item"><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                    <li class="menu-item"><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                    <li class="menu-item"><a href="blog-full-width.html">Blog Full Width</a></li>
-                                    <li class="menu-item"><a href="blog-details-right-sidebar.html">Single Blog Image Post</a></li>
-                                    <li class="menu-item"><a href="blog-details-left-sidebar.html">Single Blog Slider Post</a></li>
-                                    <li class="menu-item"><a href="blog-details-full-width.html">Single Blog Video Post</a></li> --}}
                                 </ul>
                             </li>
                         </ul>

@@ -9,6 +9,6 @@ class page extends Controller
 
 
     public function index(){
-        return view('pageHtml.home-version-4');
+        return view('pageHtml.index');
     }
 }

@@ -7,28 +7,32 @@
     <section class="hero ripple-version" id="home" style="background: url({{ asset('assets/img/slide-01.jpg') }});">
         <div class="container">
             <div class="slider-text">
-                <h1 class="tm-headline letters tm-rotate-text">Take The world’s <br>
-                    Best Quality Medical <br>
-                    Treatmen for
+                <h2 class="tm-headline letters tm-rotate-text">
+
+                    @lang('info.home.slide')
                     <span class="tm-words-wrapper">
-                        <b class="is-visible">DENTAL</b>
-                        <b>NEUROLOGY</b>
-                        <b>CRUTCHES</b>
-                        <b>CARDIOLOGY</b>
-                        <b>PULMONARY</b>
-                        <b>X-RAY</b>
+                        <b class="is-visible">médecine générale</b>
+                        <b>médecine interne</b>
+                        <b>chirurgie</b>
+                        <b>pédiatrie</b>
+                        <b>dentisterie</b>
+                        <b>ophtalmologie</b>
+                        <b>dermatologie</b>
+                        <b>oto-rhino-laryngologie</b>
+                        <b>kinésithérapie</b>
+                        <b>laboratoire complet</b>
+                        <b>radiologie</b>
                     </span>
-                </h1>
+                </h2>
                 <div class="empty-space col-sm-b20 col-xs-b10"></div>
-                <p>The quality of our service and the professionalism of our staff are <br>
-                the reason for Trustlife Center’s success.</p>
+                <p>@lang('info.home.slideDesciprion')</p>
                 <div class="empty-space col-md-b55 col-sm-b35 col-xs-b25"></div>
                 <div class="tm-hero-btn tm-hero-video-btn">
                     <div class="tm-video-button tm-color1" data-video-id="63636954" data-channel="vimeo">
                         <i class="icofont icofont-play-alt-3"></i>
                         <span class="tm-video-animaiton"><span></span></span>
                     </div>
-                    <span class="tm-video-text">Watch The Video</span>
+                    {{-- <span class="tm-video-text">@lang('info.home.slideBtVideo')</span> --}}
                 </div>
             </div>
         </div><!-- .container -->
@@ -41,28 +45,29 @@
         <div class="empty-space col-md-b100 col-xs-b40"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4" >
+                {{-- <div class="col-lg-4" >
                     <div class="empty-space col-md-b0 col-xs-b30"></div>
                     <div class="tm-icon-box">
                         <div class="tm-icon"><i class="fa fa-user-md"></i></div>
-                        <h2 class="tm-icon-box-title">Qualified Doctors</h2>
-                        <p class="tm-icon-box-text">Our doctors have a wide range of clinical experience ranging from newly qualified junior doctors to senior consultants.</p>
+                        <h2 class="tm-icon-box-title">@lang('info.home.t1')</h2>
+                        <p class="tm-icon-box-text">@lang('info.home.desc1')</p>
                     </div>
-                </div><!-- .col -->
-                <div class="col-lg-4">
+                </div> --}}
+                <!-- .col -->
+                <div class="col-lg-6">
                     <div class="empty-space col-md-b0 col-xs-b30"></div>
                     <div class="tm-icon-box">
                         <div class="tm-icon"><i class="fa fa-ambulance"></i></div>
-                        <h2 class="tm-icon-box-title">Emergency Care</h2>
-                        <p class="tm-icon-box-text">Our centers provide convenient and high-quality care for a variety of common illnesses and injuries.</p>
+                        <h2 class="tm-icon-box-title">@lang('info.home.t2')</h2>
+                        <p class="tm-icon-box-text">@lang('info.home.desc2')</p>
                     </div>
                 </div><!-- .col -->
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="empty-space col-md-b0 col-xs-b30"></div>
                     <div class="tm-icon-box">
                         <div class="tm-icon"><i class="fa fa-hospital-o"></i></div>
-                        <h2 class="tm-icon-box-title">24 Hours Service</h2>
-                        <p class="tm-icon-box-text">Our technical team is available for 24/7, We always prepared any emergency situation with 10 ambulances.</p>
+                        <h2 class="tm-icon-box-title">@lang('info.home.t3')</h2>
+                        <p class="tm-icon-box-text">@lang('info.home.desc3')</p>
                     </div>
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -74,7 +79,7 @@
     <section id="about">
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="tm-section-heading text-center">
-            <h2>Who We Are</h2>
+            <h2>Qui sommes-nous</h2>
             <div class="tm-section-seperator"><span></span></div>
             <div class="empty-space col-md-b60 col-xs-b40"></div>
         </div>
@@ -88,37 +93,28 @@
                     <div class="col-lg-5">
                         <div class="tm-shedule-wrap">
                             <div class="tm-shedule">
-                                <h3 class="tm-shedule-title">Opening Hours</h3>
+                                <h3 class="tm-shedule-title">Horaires d'ouvertures à l’unité du jour </h3>
                                 <ul class="tm-shedule-list">
                                     <li>
-                                        <span>Monday - Friday</span>
-                                        <span>8:00 - 18:00</span>
+                                        <span>Lundi - Vendredi</span>
+                                        <span>7:30' - 16:30'</span>
                                     </li>
                                     <li>
-                                        <span>Saturday</span>
-                                        <span>9.00 - 18.00</span>
+                                        <span>Samedi et dimanche</span>
+                                        <span>7:30' - 14.30'</span>
                                     </li>
-                                    <li>
-                                        <span>Sunday</span>
-                                        <span>Closed</span>
-                                    </li>
+
                                 </ul>
                             </div><!-- .tm-shedule -->
                             <div class="empty-space col-md-b40 col-xs-b30"></div>
                             <div class="tm-shedule">
-                                <h3 class="tm-shedule-title">Visitors Hours</h3>
+                                <h3 class="tm-shedule-title">Heures des visites en hospitalisation</h3>
                                 <ul class="tm-shedule-list">
                                     <li>
-                                        <span>Monday - Friday</span>
-                                        <span>8:00 - 18:00</span>
-                                    </li>
-                                    <li>
-                                        <span>Saturday</span>
-                                        <span>9.00 - 18.00</span>
-                                    </li>
-                                    <li>
-                                        <span>Sunday</span>
-                                        <span>Closed</span>
+                                        <span>Lundi - Dimanche</span>
+                                        <span>06:00 - 07:30'</span>
+                                        <span>14:00 - 15:30'</span>
+                                        <span>17:00 - 19:30'</span>
                                     </li>
                                 </ul>
                             </div><!-- .tm-shedule -->
@@ -128,15 +124,20 @@
                         <div class="empty-space col-md-b30 col-xs-b0"></div>
                         <div class="tm-about-wrap tm-hf-hide">
                             <div class="tm-about tm-gray-bg wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
-                                <h3 class="tm-about-title">Why People Choose Our <span>Hospital</span>?</h3>
+                                <h3 class="tm-about-title">Pourquoi les gens choisissent <span>CIK</span>?</h3>
                                 <div class="tm-about-text">
-                                    <p>We provide the best service all over the country. People chose our hospital because of the following advantages. </p>
-                                    <p>We have a list of associated doctors, Every Department Specialists are availability, Available ambulance facilities, OT/ICU, trauma care is best as always, Our pharmacy is opend 24/7, Our cost is affordable.  </p>
+                                    <p>Nous fournissons une couverture médicale large généraliste, au meilleurs rapport qualité/ prix ; <br>
+                                        Fourniture des intrants de soins de qualités (pharmacie…) ;<br>
+                                        Fiabilité des résultats et diagnostiques ;<br>
+                                        Sécurité et confidentialité des actes médicaux, des honoraires … ;<br>
+                                        Accessibilité aisé 24h/ 24 sur les 3 sites.
+                                        </p>
+
                                 </div>
                                 <div class="empty-space col-xs-b25"></div>
-                                <div class="tm-about-btn">
+                                {{-- <div class="tm-about-btn">
                                     <a href="#" class="tm-btn1">READ MORE</a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <div class="empty-space col-xs-b30"></div>
@@ -152,7 +153,7 @@
     <section class="tm-gray-bg" id="department">
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="tm-section-heading text-center">
-            <h2>Our Department</h2>
+            <h2>Nos services</h2>
             <div class="tm-section-seperator"><span></span></div>
             <div class="empty-space col-md-b60 col-xs-b40"></div>
         </div>
@@ -160,12 +161,12 @@
             <div class="tm-tab-wrap">
                 <div class="tm-tabs-wrap">
                     <ul class="tabs">
-                        <li><i class="icofont icofont-tooth"></i>DENTAL CARE</li>
-                        <li><i class="icofont icofont-brain"></i>NEUROLOGY</li>
-                        <li><i class="icofont icofont-crutches"></i>CRUTCHES</li>
-                        <li><i class="icofont icofont-pulse"></i>CARDIOLOGY</li>
-                        <li><i class="icofont icofont-lungs"></i>PULMONARY</li>
-                        <li><i class="icofont icofont-xray"></i>X-RAY</li>
+                        <li><i class="icofont icofont-tooth"></i>Médecine générale</li>
+                        <li><i class="icofont icofont-brain"></i>Médecine interne </li>
+                        <li><i class="icofont icofont-crutches"></i>Chirurgie</li>
+                        <li><i class="icofont icofont-pulse"></i>Pédiatrie</li>
+                        <li><i class="icofont icofont-lungs"></i>Radiologie</li>
+                        <li><i class="icofont icofont-xray"></i>Laboratoire</li>
                     </ul> <!-- .tabs -->
                 </div>
                 <div class="empty-space col-md-b60 col-xs-b40"></div>
@@ -178,15 +179,14 @@
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
                                     <div class="tm-about tm-gray-bg">
-                                        <h3 class="tm-about-title">Welcome to our <span>DENTAL CARE</span></h3>
+                                        <h3 class="tm-about-title">Médecine <span>générale</span></h3>
                                         <div class="tm-about-text">
-                                            <p>More than 15 years, The Dental Health Care Center has practiced with one goal: to ensure our patients achieve a high level of oral health with as much comfort as possible.</p>
-                                            <p>We don’t just provide great dentistry, we make sure you understand all facets of your oral health.</p>
+                                            <p>
+                                                Assuré par des généralistes disponible et efficient dans la prise en charge des infections courantes rencontrée dans notre milieu. <br>
+                                                Les spécialistes chacun dans son domaine sont joignable 24h/24 pour venir à la rescousse de nos patients en souffrance en cas de besoin exprimé par les généralistes.
+                                            </p>
                                         </div>
-                                        <div class="empty-space col-xs-b25"></div>
-                                        <div class="tm-about-btn">
-                                            <a href="#" class="tm-btn1">READ MORE</a>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div><!-- .col -->
@@ -200,15 +200,11 @@
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
                                     <div class="tm-about tm-gray-bg">
-                                        <h3 class="tm-about-title">Welcome to our <span>NEUROLOGY</span></h3>
+                                        <h3 class="tm-about-title">Meédécine <span>interne</span></h3>
                                         <div class="tm-about-text">
-                                            <p>Our Neurology deparment of Trustlife Hospital serves as the receiving point for the most seriously injured people from across the country and treats patients with brain and spine.</p>
-                                            <p>In addition to being a centre of excellence, the Neurology deparment aims to be an asset to national and international communities.</p>
+                                            <p>Supervisé par un médecin spécialise en médecine interne avec plus de 30ans d’expériences dans la prise en charge des infections divers accompagné par d’autres spécialistes en cas de besoin.</p>
                                         </div>
-                                        <div class="empty-space col-xs-b25"></div>
-                                        <div class="tm-about-btn">
-                                            <a href="#" class="tm-btn1">READ MORE</a>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div><!-- .col -->
@@ -222,15 +218,11 @@
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
                                     <div class="tm-about tm-gray-bg">
-                                        <h3 class="tm-about-title">Welcome to our <span>CRUTCHES</span></h3>
+                                        <h3 class="tm-about-title"><span>Chirurgie </span></h3>
                                         <div class="tm-about-text">
-                                            <p>It is important to start walking as soon as you can after your surgery. But you will need support for walking while your leg heals. Trustlife may be a good choice after a leg injury or surgery if you only need a little help with balance and stability. </p>
-                                            <p>Crutches are also useful when your leg is only a little weak or painful.</p>
+                                            <p>Prise en charge par un chirurgien général des affections chirurgicale divers, prise en charge avec ou sans chirurgie en salle d’opération. </p>
                                         </div>
-                                        <div class="empty-space col-xs-b25"></div>
-                                        <div class="tm-about-btn">
-                                            <a href="#" class="tm-btn1">READ MORE</a>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div><!-- .col -->
@@ -244,14 +236,9 @@
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
                                     <div class="tm-about tm-gray-bg">
-                                        <h3 class="tm-about-title">Welcome to our <span>CARDIOLOGY</span></h3>
+                                        <h3 class="tm-about-title"><span>Pédiatrie</span></h3>
                                         <div class="tm-about-text">
-                                            <p>Cardiology department is served dedicately 24/7 and it is the only hospital of Kanada where emergency angioplasty can be carried out round the clock.</p>
-                                            <p>Cardiology department is operated by a strong and dedicated team of 3 cardiologists, And they has more then 20 years of expericnce.</p>
-                                        </div>
-                                        <div class="empty-space col-xs-b25"></div>
-                                        <div class="tm-about-btn">
-                                            <a href="#" class="tm-btn1">READ MORE</a>
+                                            <p>Prise en charge de nos jeunes malades par une équipe pédiatrique de qualité en tachant de rendre le séjour hospitalier de ces derniers le moins traumatisant possible.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -266,15 +253,11 @@
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
                                     <div class="tm-about tm-gray-bg">
-                                        <h3 class="tm-about-title">Welcome to our <span>PULMONARY</span></h3>
+                                        <h3 class="tm-about-title"><span>Radiologie</span></h3>
                                         <div class="tm-about-text">
-                                            <p>More than 15 years ago, we pioneered the first hospitals in the nation to specialize in pulmonary treatment, so you can feel confident when your loved one is under our care.</p>
-                                            <p>Today, our expertise continues to be pulmonary disease management and providing quality treatment based on the latest protocols. </p>
+                                            <p>La radio standard et l’échographie sont disponible dans notre centre mère qu’aux heures de service et sur appel en dehors.</p>
                                         </div>
-                                        <div class="empty-space col-xs-b25"></div>
-                                        <div class="tm-about-btn">
-                                            <a href="#" class="tm-btn1">READ MORE</a>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div><!-- .col -->
@@ -288,15 +271,11 @@
                             <div class="col-lg-6">
                                 <div class="tm-dept-details-wrap">
                                     <div class="tm-about tm-gray-bg">
-                                        <h3 class="tm-about-title">Welcome to our <span>X-RAY</span></h3>
+                                        <h3 class="tm-about-title"><span>LABORATOIRE </span></h3>
                                         <div class="tm-about-text">
-                                            <p>We have the high-quality x-ray machine and our technique is so much experienced. We delivered x-ray report within one hour.</p>
-                                            <p>After handover x-ray report we give initial advice of an experienced doctor and suggest related experienced doctor.</p>
+                                            <p>Hématologie, biochimie, infectio-parasitologie disponible 24h/ 24 dans nos sites. </p>
                                         </div>
-                                        <div class="empty-space col-xs-b25"></div>
-                                        <div class="tm-about-btn">
-                                            <a href="#" class="tm-btn1">READ MORE</a>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div><!-- .col -->
@@ -321,9 +300,9 @@
                     <div class="empty-space col-md-b0 col-xs-b70"></div>
                     <div class="tm-appointment-heading tm-gray-bg wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.1s">
                         <div class="tm-section-heading text-center">
-                            <h2>MAKE AN APPOINTMENT</h2>
+                            <h2>PRENDRE RENDEZ-VOUS</h2>
                             <div class="tm-section-seperator"><span></span></div>
-                            <p>If you wont to make an appointment with any specialist just fill up the form with valid data and we will contact you via phone for confirmation.</p>
+                            <p>Si vous souhaitez prendre rendez-vous avec un spécialiste, remplissez simplement le formulaire avec des données valides et nous vous contacterons pour confirmation.</p>
                         </div>
                     </div>
                 </div><!-- .col -->
@@ -380,7 +359,7 @@
                         </div>
                         <div class="empty-space col-xs-b10"></div>
                         <div class="tm-form-field">
-                            <button class="tm-btn1 tm-reverse" type="submit" id="appointment-submit" name="submit">BOOK APPOINTMENT</button>
+                            <button class="tm-btn1 tm-reverse" type="submit" id="appointment-submit" name="submit">PRENDRE RENDEZ-VOUS</button>
                         </div>
                     </form>
                     <div class="empty-space col-md-b60 col-xs-b70"></div>
@@ -394,7 +373,7 @@
     <section id="doctor">
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="tm-section-heading text-center">
-            <h2>Our Experienced doctors</h2>
+            <h2>Nos medecin</h2>
             <div class="tm-section-seperator"><span></span></div>
             <div class="empty-space col-md-b60 col-xs-b40"></div>
         </div>
@@ -405,7 +384,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="{{ asset('assets/img/doctor-01.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/img/doctors/ik1.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -435,14 +414,14 @@
                                 </div><!-- .tm-member-social-btn-wrap -->
                             </div>
                             <div class="tm-member-meta tm-gray-bg text-center">
-                                <h3 class="tm-member-name"><a href="#">Dr. Willie Crowley</a></h3>
+                                <h3 class="tm-member-name"><a href="#">Dr. Illunga Kabuyi</a></h3>
                                 <span class="tm-member-speciality">Cardiologist</span>
                             </div>
                         </div><!-- .tm-team-member -->
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="{{ asset('assets/img/doctor-02.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/img/doctors/1.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -479,7 +458,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="{{ asset('assets/img/doctor-03.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/img/doctors/2.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -516,7 +495,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="{{ asset('assets/img/doctor-04.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/img/doctors/3.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -553,7 +532,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="{{ asset('assets/img/doctor-01.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/img/doctors/4.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -590,7 +569,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="{{ asset('assets/img/doctor-02.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/img/doctors/5.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -627,7 +606,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="{{ asset('assets/img/doctor-03.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/img/doctors/6.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -664,7 +643,7 @@
                         <div class="tm-team-member">
                             <div class="tm-member-hover">
                                 <a href="#" class="tm-member-thumb">
-                                    <img src="{{ asset('assets/img/doctor-04.jpg') }}" alt="">
+                                    <img src="{{ asset('assets/img/doctors/7.jpg') }}" alt="">
                                 </a>
                                 <div class="tm-member-social-btn-wrap">
                                     <div class="tm-member-socila-btn">
@@ -697,7 +676,46 @@
                                 <h3 class="tm-member-name"><a href="#">Dr. Kay Conley</a></h3>
                                 <span class="tm-member-speciality">Diagnosis</span>
                             </div>
-                        </div><!-- .tm-team-member -->
+                        </div>
+                        <div class="tm-team-member">
+                            <div class="tm-member-hover">
+                                <a href="#" class="tm-member-thumb">
+                                    <img src="{{ asset('assets/img/doctors/8.jpg') }}" alt="">
+                                </a>
+                                <div class="tm-member-social-btn-wrap">
+                                    <div class="tm-member-socila-btn">
+                                        <a href="#" class="tm-social-btn white">
+                                            <i class="fa fa-facebook-square"></i>
+                                            <i class="fa fa-facebook-square"></i>
+                                        </a>
+                                    </div>
+                                    <div class="tm-member-socila-btn">
+                                        <a href="#" class="tm-social-btn white">
+                                            <i class="fa fa-twitter-square"></i>
+                                            <i class="fa fa-twitter-square"></i>
+                                        </a>
+                                    </div>
+                                    <div class="tm-member-socila-btn">
+                                        <a href="#" class="tm-social-btn white">
+                                            <i class="fa fa-linkedin-square"></i>
+                                            <i class="fa fa-linkedin-square"></i>
+                                        </a>
+                                    </div>
+                                    <div class="tm-member-socila-btn">
+                                        <a href="#" class="tm-social-btn white">
+                                            <i class="fa fa-skype"></i>
+                                            <i class="fa fa-skype"></i>
+                                        </a>
+                                    </div>
+                                </div><!-- .tm-member-social-btn-wrap -->
+                            </div>
+                            <div class="tm-member-meta tm-gray-bg text-center">
+                                <h3 class="tm-member-name"><a href="#">Dr. Kay Conley</a></h3>
+                                <span class="tm-member-speciality">Diagnosis</span>
+                            </div>
+                        </div>
+
+                        <!-- .tm-team-member -->
                     </div><!-- .member-carousel -->
                 </div><!-- .col -->
             </div>
@@ -707,7 +725,7 @@
     <!-- End Team Member -->
 
     <!-- Start Before & After Section -->
-    <section class="tm-gray-bg">
+    {{-- <section class="tm-gray-bg">
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="tm-section-heading text-center">
             <h2>Before After Gallery</h2>
@@ -735,7 +753,7 @@
             </div>
         </div>
         <div class="empty-space col-md-b100 col-xs-b70"></div>
-    </section>
+    </section> --}}
     <!-- End Before & After Section -->
 
     <!-- Start Gallery Section -->
@@ -879,32 +897,32 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
                         <i class="icofont icofont-briefcase-alt-2"></i>
-                        <h2 class="tm-counter">25</h2>
-                        <h3>Years of experience</h3>
+                        <h2 class="tm-counter">24</h2>
+                        <h3>Années d'expérience</h3>
                     </div>
                     <div class="empty-space col-xs-b30"></div>
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
                         <i class="icofont icofont-emo-simple-smile"></i>
-                        <h2 class="tm-counter">2500</h2>
-                        <h3>Happy Patients</h3>
+                        <h2 class="tm-counter">+3000</h2>
+                        <h3>Patient satisfait </h3>
                     </div>
                     <div class="empty-space col-xs-b30"></div>
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
                         <i class="icofont icofont-doctor"></i>
-                        <h2 class="tm-counter">150</h2>
-                        <h3>Number of Doctors</h3>
+                        <h2 class="tm-counter">+15</h2>
+                        <h3>Nombre des docteurs</h3>
                     </div>
                     <div class="empty-space col-xs-b30"></div>
                 </div><!-- .col -->
                 <div class="col-lg-3 col-md-6">
                     <div class="tm-fun-fact text-center">
                         <i class="icofont icofont-users-social"></i>
-                        <h2 class="tm-counter">250</h2>
-                        <h3>Number of Staffs</h3>
+                        <h2 class="tm-counter">80</h2>
+                        <h3>Nombre de staff</h3>
                     </div>
                     <div class="empty-space col-xs-b30"></div>
                 </div><!-- .col -->

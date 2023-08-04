@@ -4,7 +4,7 @@
             <div class="tm-header-info-wrap">
                 <div class="container tm-header-info">
                     <a href="#"><i class="fa fa-phone"></i>1-800-915-6270</a>
-                    <a href="#"><i class="fa fa-envelope"></i>info@trustlife.com</a>
+                    <a href="#"><i class="fa fa-envelope"></i>info@cik-rdc.com</a>
                 </div>
             </div>
             <div class="tm-header-menu">
@@ -14,10 +14,6 @@
                         <a href="#" class="tm-logo-link">
                             <img src="{{ asset('assets/img/logocik.png') }}" alt="" class="tm-logo">
                         </a>
-                        <!-- For Site Title -->
-                        <!-- <span class="tm-site-title">
-                        <a href="index.html">Trustlife</a>
-                        </span> -->
                     </div>
                     <nav class="tm-primary-nav tm-onepage-nav">
                         <ul class="tm-primary-nav-list">
@@ -30,10 +26,9 @@
                             <li class="menu-item"><a href="#doctor" class="nav-link tm-smooth-move">@lang('info.menu.docteur')</a></li>
                             {{-- <li class="menu-item"><a href="#gallery" class="nav-link tm-smooth-move">GALERIES</a></li> --}}
                             <li class="menu-item"><a href="#price" class="nav-link tm-smooth-move">@lang('info.menu.convention')</a></li>
-
                             <li class="menu-item"><a href="#contact" class="nav-link tm-smooth-move">@lang('info.menu.contact')</a></li>
                             <li class="menu-item"><a href="#appointment" class="nav-link tm-smooth-move">@lang('info.menu.rdv')</a></li>
-                            <li class="menu-item menu-item-has-children"><a class="nav-link tm-smooth-move">@lang('info.menu.langue')</a>
+                            {{-- <li class="menu-item menu-item-has-children"><a class="nav-link tm-smooth-move">@lang('info.menu.langue')</a>
                                 <ul>
                                     @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                                     <li class="nav-item">
@@ -47,7 +42,7 @@
                                 @endforeach
 
                                 </ul>
-                            </li>
+                            </li> --}}
                         </ul>
                     </nav>
                 </div><!-- .tm-header-menu-container -->

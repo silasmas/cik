@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="ThemeMarch">
 	<!-- Page Title -->
-	<title>{{ config('app.name') }}</title>
+	<title>{{config('app.name')}}</title>
     <!-- Favicon Icon -->
   	<link rel="icon" href="assets/img/logocik.png">
 	<!-- Stylesheets -->
