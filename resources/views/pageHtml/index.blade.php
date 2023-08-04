@@ -161,12 +161,12 @@
             <div class="tm-tab-wrap">
                 <div class="tm-tabs-wrap">
                     <ul class="tabs">
-                        <li><i class="icofont icofont-tooth"></i>Médecine générale</li>
-                        <li><i class="icofont icofont-brain"></i>Médecine interne </li>
-                        <li><i class="icofont icofont-crutches"></i>Chirurgie</li>
-                        <li><i class="icofont icofont-pulse"></i>Pédiatrie</li>
-                        <li><i class="icofont icofont-lungs"></i>Radiologie</li>
-                        <li><i class="icofont icofont-xray"></i>Laboratoire</li>
+                        <li><i class="icofont icofont-prescription"></i>Médecine générale</li>
+                        <li><i class="icofont icofont-heartbeat"></i>Médecine interne </li>
+                        <li><i class="icofont icofont-surgeon"></i>Chirurgie</li>
+                        <li><i class="icofont icofont-icu"></i>Pédiatrie</li>
+                        <li><i class="icofont icofont-xray"></i>Radiologie</li>
+                        <li><i class="icofont icofont-laboratory"></i>Laboratoire</li>
                     </ul> <!-- .tabs -->
                 </div>
                 <div class="empty-space col-md-b60 col-xs-b40"></div>
@@ -933,7 +933,7 @@
     <!-- End Fun Fact Section -->
 
     <!-- Start Pricing Seciton -->
-    <section id="price">
+    {{-- <section id="price">
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="tm-section-heading text-center">
             <h2>PRICING PLANS</h2>
@@ -1006,7 +1006,7 @@
             </div><!-- .row -->
         </div>
         <div class="empty-space col-md-b100 col-xs-b70"></div>
-    </section>
+    </section> --}}
     <!-- End Pricing Seciton -->
 
     <!-- Start FAQ Section -->
