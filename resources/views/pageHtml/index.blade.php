@@ -89,7 +89,7 @@
         </div>
         <div class="tm-relative">
             <div class="tm-half-section-bg left">
-                <img src="{{ asset('assets/img/doctors/about.jpg') }}" alt="about hafl bg">
+                <img src="{{ asset('assets/img/about-hafl-bg.jpg') }}" alt="about hafl bg">
             </div>
             <div class="empty-space col-xs-b60"></div>
             <div class="container">
@@ -302,7 +302,7 @@
     <!-- Start Appointment Section -->
     <section class="tm-relative" id="appointment">
         <div class="tm-half-section-bg right">
-            <img src="{{ asset('assets/img/doctors/cl.jpg') }}" alt="about hafl bg">
+            <img src="{{ asset('assets/img/appointment-bg.jpg') }}" alt="about hafl bg">
         </div>
         <div class="container">
             <div class="row">
@@ -321,32 +321,32 @@
                     <form method="POST" action="assets/php/appointment.php" class="tm-appointment-form" id="appointment-form">
                         <div id="tm-alert1"></div>
                         <div class="tm-form-field">
-                            <input type="text" id="uname" name="uname" placeholder="Full Name" required>
+                            <input type="text" id="uname" name="uname" placeholder="Nom complet" required>
                             <span class="bar"></span>
                         </div>
                         <div class="tm-form-field">
-                            <input type="text" id="uemail" name="uemail" placeholder="Email Address" required>
+                            <input type="text" id="uemail" name="uemail" placeholder="Adresse e-mail" required>
                             <span class="bar"></span>
                         </div>
                         <div class="tm-form-field">
-                            <input type="text" id="unumber" name="unumber" placeholder="Phone Number" required>
+                            <input type="text" id="unumber" name="unumber" placeholder="N° de téléphone" required>
                             <span class="bar"></span>
                         </div>
                         <div class="tm-form-field">
-                            <input name="udate" type="text" id="udate" placeholder="Booking Date">
+                            <input name="udate" type="text" id="udate" placeholder="Date réservée">
                             <span class="bar"></span>
                             <div class="date-icon"><i class="fa fa-calendar"></i></div>
                         </div>
                         <div class="tm-form-field">
                             <div class="tm-custom-select-wrap">
                                 <select name="udepartment" class="tm-custom-select" id="udepartment">
-                                    <option value="department">Department</option>
-                                    <option value="dental-care">Dental Care</option>
-                                    <option value="neurology">Neurology</option>
-                                    <option value="crutches">Crutches</option>
-                                    <option value="cardiology">Cardiology</option>
-                                    <option value="pulmonary">Pulmonary</option>
-                                    <option value="x-ray">X-Ray</option>
+                                    <option value="department">Département</option>
+                                    <option value="dental-care">Soins dentaires</option>
+                                    <option value="neurology">Neurologie</option>
+                                    <option value="crutches">Béquilles</option>
+                                    <option value="cardiology">Cardiologie</option>
+                                    <option value="pulmonary">Pulmonaire</option>
+                                    <option value="x-ray">Radiographie</option>
                                 </select>
                             </div>
                         </div>
