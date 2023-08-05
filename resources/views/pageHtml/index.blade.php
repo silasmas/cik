@@ -373,7 +373,7 @@
     <section id="doctor">
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="tm-section-heading text-center">
-            <h2>Nos medecin</h2>
+            <h2>Nos médecins</h2>
             <div class="tm-section-seperator"><span></span></div>
             <div class="empty-space col-md-b60 col-xs-b40"></div>
         </div>
@@ -415,7 +415,7 @@
                             </div>
                             <div class="tm-member-meta tm-gray-bg text-center">
                                 <h3 class="tm-member-name"><a href="#">Dr. Illunga Kabuyi</a></h3>
-                                <span class="tm-member-speciality">Cardiologist</span>
+                                <span class="tm-member-speciality">Cardiologue</span>
                             </div>
                         </div><!-- .tm-team-member -->
                         <div class="tm-team-member">
@@ -452,7 +452,7 @@
                             </div>
                             <div class="tm-member-meta tm-gray-bg text-center">
                                 <h3 class="tm-member-name"><a href="#">Dr. Jay Swanson</a></h3>
-                                <span class="tm-member-speciality">Gynecologist</span>
+                                <span class="tm-member-speciality">Gynécologue</span>
                             </div>
                         </div><!-- .tm-team-member -->
                         <div class="tm-team-member">
@@ -489,7 +489,7 @@
                             </div>
                             <div class="tm-member-meta tm-gray-bg text-center">
                                 <h3 class="tm-member-name"><a href="#">Dr. Alex Abbott</a></h3>
-                                <span class="tm-member-speciality">Neurology</span>
+                                <span class="tm-member-speciality">Neurologue</span>
                             </div>
                         </div><!-- .tm-team-member -->
                         <div class="tm-team-member">
@@ -526,7 +526,7 @@
                             </div>
                             <div class="tm-member-meta tm-gray-bg text-center">
                                 <h3 class="tm-member-name"><a href="#">Dr. Kay Conley</a></h3>
-                                <span class="tm-member-speciality">Diagnosis</span>
+                                <span class="tm-member-speciality">Diagnostic</span>
                             </div>
                         </div><!-- .tm-team-member -->
                         <div class="tm-team-member">
@@ -563,7 +563,7 @@
                             </div>
                             <div class="tm-member-meta tm-gray-bg text-center">
                                 <h3 class="tm-member-name"><a href="#">Dr. Willie Crowley</a></h3>
-                                <span class="tm-member-speciality">Cardiologist</span>
+                                <span class="tm-member-speciality">Cardiologue</span>
                             </div>
                         </div><!-- .tm-team-member -->
                         <div class="tm-team-member">
@@ -600,7 +600,7 @@
                             </div>
                             <div class="tm-member-meta tm-gray-bg text-center">
                                 <h3 class="tm-member-name"><a href="#">Dr. Jay Swanson</a></h3>
-                                <span class="tm-member-speciality">Gynecologist</span>
+                                <span class="tm-member-speciality">Gynécologue</span>
                             </div>
                         </div><!-- .tm-team-member -->
                         <div class="tm-team-member">
@@ -637,7 +637,7 @@
                             </div>
                             <div class="tm-member-meta tm-gray-bg text-center">
                                 <h3 class="tm-member-name"><a href="#">Dr. Alex Abbott</a></h3>
-                                <span class="tm-member-speciality">Neurology</span>
+                                <span class="tm-member-speciality">Neurologue</span>
                             </div>
                         </div><!-- .tm-team-member -->
                         <div class="tm-team-member">
@@ -674,7 +674,7 @@
                             </div>
                             <div class="tm-member-meta tm-gray-bg text-center">
                                 <h3 class="tm-member-name"><a href="#">Dr. Kay Conley</a></h3>
-                                <span class="tm-member-speciality">Diagnosis</span>
+                                <span class="tm-member-speciality">Diagnostic</span>
                             </div>
                         </div>
                         <div class="tm-team-member">
@@ -711,7 +711,7 @@
                             </div>
                             <div class="tm-member-meta tm-gray-bg text-center">
                                 <h3 class="tm-member-name"><a href="#">Dr. Kay Conley</a></h3>
-                                <span class="tm-member-speciality">Diagnosis</span>
+                                <span class="tm-member-speciality">Diagnostic</span>
                             </div>
                         </div>
 
@@ -766,12 +766,12 @@
         </div>
         <div class="tm-portfolio-filter text-center">
             <ul>
-                <li class="active"><a href="#" data-filter="*">ALL</a></li>
-                <li><a href="#" data-filter=".cardiology">CARDIOLOGY</a></li>
-                <li><a href="#" data-filter=".neurology">NEUROLOGY</a></li>
-                <li><a href="#" data-filter=".urology">UROLOGY</a></li>
-                <li><a href="#" data-filter=".pulmonary">PULMONARY</a></li>
-                <li><a href="#" data-filter=".traumatology">TRAUMATOLOGY</a></li>
+                <li class="active"><a href="#" data-filter="*">TOUT</a></li>
+                <li><a href="#" data-filter=".cardiology">CARDIOLOGIE</a></li>
+                <li><a href="#" data-filter=".neurology">NEUROLOGIE</a></li>
+                <li><a href="#" data-filter=".urology">UROLOGIE</a></li>
+                <li><a href="#" data-filter=".pulmonary">PULMONAIRE</a></li>
+                <li><a href="#" data-filter=".traumatology">TRAUMATOLOGIE</a></li>
             </ul>
         </div><!-- .tm-portfolio-filter-area -->
         <div class="tm-portfolio zoom-gallery tm-gutter-less">
@@ -840,7 +840,7 @@
     <section>
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="tm-section-heading text-center">
-            <h2>Patients say about us</h2>
+            <h2>Les patients disent de nous</h2>
             <div class="tm-section-seperator"><span></span></div>
             <div class="empty-space col-md-b60 col-xs-b40"></div>
         </div>
@@ -852,10 +852,10 @@
                             <div class="tm-testimonial-thumb"><img src="{{ asset('assets/img/test-01.jpg') }}" alt=""></div>
                             <div class="tm-testimonial-text">
                                 <i class="fa fa-quote-right"></i>
-                                <blockquote>They saved my life. They didn't give up, and they pushed for a treatment that would put me in remission. They continue to have some of the best staffing I've ever had. </blockquote>
+                                <blockquote>Ils m'ont sauvé la vie. Ils n'ont pas abandonné, et ils ont poussé pour un traitement qui me mettrait en rémission. Ils continuent d'avoir certains des meilleurs effectifs que j'aie jamais eus.</blockquote>
                                 <div class="tm-testimonial-meta">
                                     <h3>Alex Bieniek</h3>
-                                    <span>Student</span>
+                                    <span>Etudiant</span>
                                 </div>
                             </div>
                         </div><!-- testimonail slide -->
@@ -863,10 +863,10 @@
                             <div class="tm-testimonial-thumb"><img src="{{ asset('assets/img/test-02.jpg') }}" alt=""></div>
                             <div class="tm-testimonial-text">
                                 <i class="fa fa-quote-right"></i>
-                                <blockquote>Nothing but the best. Team medicine with top notched specialists. Worth the drive to come here especially if it involves your health or the health of a loved one.</blockquote>
+                                <blockquote>Rien que le meilleur. Médecine d'équipe avec les meilleurs spécialistes. Ça vaut le coup de venir ici, surtout si cela implique votre santé ou celle d'un être cher.</blockquote>
                                 <div class="tm-testimonial-meta">
                                     <h3>Sheri Coburn</h3>
-                                    <span>Teacher</span>
+                                    <span>Enseignant</span>
                                 </div>
                             </div>
                         </div><!-- testimonail slide -->
@@ -874,10 +874,10 @@
                             <div class="tm-testimonial-thumb"><img src="{{ asset('assets/img/test-03.jpg') }}" alt=""></div>
                             <div class="tm-testimonial-text">
                                 <i class="fa fa-quote-right"></i>
-                                <blockquote>I love this hospital, I definetly think its the best in Kanada, I had both of my children there, their staff is really nice, and they definelty took care of me.</blockquote>
+                                <blockquote>J'adore cet hôpital, je pense vraiment que c'est le meilleur au Congo, j'y ai eu mes deux enfants, leur personnel est vraiment sympa et ils ont vraiment pris soin de moi.</blockquote>
                                 <div class="tm-testimonial-meta">
                                     <h3>Martha m.</h3>
-                                    <span>Professor</span>
+                                    <span>Professeur</span>
                                 </div>
                             </div>
                         </div><!-- testimonail slide -->
@@ -906,7 +906,7 @@
                     <div class="tm-fun-fact text-center">
                         <i class="icofont icofont-emo-simple-smile"></i>
                         <h2 class="tm-counter">+3000</h2>
-                        <h3>Patient satisfait </h3>
+                        <h3>Patient satisfait</h3>
                     </div>
                     <div class="empty-space col-xs-b30"></div>
                 </div><!-- .col -->
@@ -1014,7 +1014,7 @@
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="container">
             <div class="tm-section-heading text-center">
-                <h2>Frequently Asked Questions</h2>
+                <h2>Foire Aux Questions</h2>
                 <div class="tm-section-seperator"><span></span></div>
                 <div class="empty-space col-md-b60 col-xs-b40"></div>
             </div>
@@ -1023,16 +1023,16 @@
                     <div class="accordian-wrapper tm-style1">
                         <div class="accordian">
                             <div class="single-accordian">
-                                <h3 class="accordian-head">What is dental care?</h3>
-                                <div class="accordian-body">Tooth valuable resources, dental care should take us regularly to stay healthy. Oral Health Overview. Good dental or oral care is important to maintaining healthy teeth, gums, and tongue. Oral problems, including bad breath, dry mouth, canker or cold sores, TMD, tooth decay, or thrush are all treatable with proper diagnosis and care.</div>
+                                <h3 class="accordian-head">Qu'est-ce que les soins dentaires ?</h3>
+                                <div class="accordian-body">Dent ressources précieuses, les soins dentaires doivent nous emmener régulièrement pour rester en bonne santé. Aperçu de la santé bucco-dentaire. De bons soins dentaires ou bucco-dentaires sont importants pour maintenir des dents, des gencives et une langue saines. Les problèmes bucco-dentaires, y compris la mauvaise haleine, la bouche sèche, les chancres ou les boutons de fièvre, le TTM, la carie dentaire ou le muguet peuvent tous être traités avec un diagnostic et des soins appropriés.</div>
                             </div><!-- .single-accordian -->
                             <div class="single-accordian">
-                                <h3 class="accordian-head">Does offer emergency care?</h3>
-                                <div class="accordian-body">Urgent care centers are a relatively new addition to the healthcare industry that have helped to benefit both community medical services and patients. As a fast, affordable alternative to emergency room care for patients with non-life-threatening conditions, urgent care medical clinics offer people a convenient treatment option.</div>
+                                <h3 class="accordian-head">Propose-t-il des soins d'urgence ?</h3>
+                                <div class="accordian-body">Les centres de soins d'urgence sont un ajout relativement nouveau au secteur de la santé qui a contribué à bénéficier à la fois aux services médicaux communautaires et aux patients. En tant qu'alternative rapide et abordable aux soins en salle d'urgence pour les patients atteints d'affections ne mettant pas leur vie en danger, les cliniques médicales de soins d'urgence offrent aux gens une option de traitement pratique.</div>
                             </div><!-- .single-accordian -->
                             <div class="single-accordian">
-                                <h3 class="accordian-head">Online live support</h3>
-                                <div class="accordian-body">Neurology is a branch of medical science that is concerned with disorders and diseases of the nervous system. The term neurology comes from a combination of two words - "neuron" meaning nerve and "logia" meaning "the study of".There are around a hundred billion neurons in the brain, capable of generating their own impulses and of receiving and transmitting impulses from neighboring cells.</div>
+                                <h3 class="accordian-head">Assistance en direct en ligne</h3>
+                                <div class="accordian-body">La neurologie est une branche de la science médicale qui s'intéresse aux troubles et aux maladies du système nerveux. Le terme neurologie vient d'une combinaison de deux mots - "neurone" signifiant nerf et "logia" signifiant "l'étude de". Il y a environ une centaine de milliards de neurones dans le cerveau, capables de générer leurs propres impulsions et de recevoir et transmettre des impulsions. des cellules voisines.</div>
                             </div><!-- .single-accordian -->
                         </div>
                     </div>
@@ -1042,16 +1042,16 @@
                     <div class="accordian-wrapper tm-style1">
                         <div class="accordian">
                             <div class="single-accordian">
-                                <h3 class="accordian-head">What is dental care?</h3>
-                                <div class="accordian-body">Tooth valuable resources, dental care should take us regularly to stay healthy. Oral Health Overview. Good dental or oral care is important to maintaining healthy teeth, gums, and tongue. Oral problems, including bad breath, dry mouth, canker or cold sores, TMD, tooth decay, or thrush are all treatable with proper diagnosis and care.</div>
+                                <h3 class="accordian-head">Qu'est-ce que les soins dentaires ?</h3>
+                                <div class="accordian-body">Dent ressources précieuses, les soins dentaires doivent nous emmener régulièrement pour rester en bonne santé. Aperçu de la santé bucco-dentaire. De bons soins dentaires ou bucco-dentaires sont importants pour maintenir des dents, des gencives et une langue saines. Les problèmes bucco-dentaires, y compris la mauvaise haleine, la bouche sèche, les chancres ou les boutons de fièvre, le TTM, la carie dentaire ou le muguet peuvent tous être traités avec un diagnostic et des soins appropriés.</div>
                             </div><!-- .single-accordian -->
                             <div class="single-accordian">
-                                <h3 class="accordian-head">Does offer emergency care?</h3>
-                                <div class="accordian-body">Urgent care centers are a relatively new addition to the healthcare industry that have helped to benefit both community medical services and patients. As a fast, affordable alternative to emergency room care for patients with non-life-threatening conditions, urgent care medical clinics offer people a convenient treatment option.</div>
+                                <h3 class="accordian-head">Propose-t-il des soins d'urgence ?</h3>
+                                <div class="accordian-body">Les centres de soins d'urgence sont un ajout relativement nouveau au secteur de la santé qui a contribué à bénéficier à la fois aux services médicaux communautaires et aux patients. En tant qu'alternative rapide et abordable aux soins en salle d'urgence pour les patients atteints d'affections ne mettant pas leur vie en danger, les cliniques médicales de soins d'urgence offrent aux gens une option de traitement pratique.</div>
                             </div><!-- .single-accordian -->
                             <div class="single-accordian">
-                                <h3 class="accordian-head">Online live support</h3>
-                                <div class="accordian-body">Neurology is a branch of medical science that is concerned with disorders and diseases of the nervous system. The term neurology comes from a combination of two words - "neuron" meaning nerve and "logia" meaning "the study of".There are around a hundred billion neurons in the brain, capable of generating their own impulses and of receiving and transmitting impulses from neighboring cells.</div>
+                                <h3 class="accordian-head">Assistance en direct en ligne</h3>
+                                <div class="accordian-body">La neurologie est une branche de la science médicale qui s'intéresse aux troubles et aux maladies du système nerveux. Le terme neurologie vient d'une combinaison de deux mots - "neurone" signifiant nerf et "logia" signifiant "l'étude de". Il y a environ une centaine de milliards de neurones dans le cerveau, capables de générer leurs propres impulsions et de recevoir et transmettre des impulsions. des cellules voisines.</div>
                             </div><!-- .single-accordian -->
                         </div>
                     </div>
@@ -1067,7 +1067,7 @@
     <section id="blog">
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="tm-section-heading text-center">
-            <h2>LATEST NEWS</h2>
+            <h2>DERNIÈRES NOUVELLES</h2>
             <div class="tm-section-seperator"><span></span></div>
             <div class="empty-space col-md-b60 col-xs-b40"></div>
         </div>
@@ -1087,19 +1087,19 @@
                         <div class="empty-space col-xs-b25"></div>
                         <div class="tm-blog-body">
                             <h2 class="tm-blog-heading">
-                                <a href="#" class="tm-link-block">Scary Thing That You Don’t Get</a>
+                                <a href="#" class="tm-link-block">Chose effrayante que vous ne comprenez pas</a>
                             </h2>
                             <div class="empty-space col-xs-b15"></div>
                             <div class="tm-blog-meta">
                                 <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
-                                <span><i class="fa fa-calendar"></i>Jan 10, 2018</span>
+                                <span><i class="fa fa-calendar"></i>10 janvier 2018</span>
                             </div>
                             <div class="empty-space col-xs-b20"></div>
                             <div class="tm-blog-separator"></div>
                             <div class="tm-entry-content">
-                                <p>If you're tossing and turning every night, there's some bad news. Your brain could be in big trouble! Turns out...</p>
+                                <p>Si vous vous tournez et vous retournez tous les soirs, il y a de mauvaises nouvelles. Votre cerveau pourrait avoir de gros problèmes ! Il s'avère que...</p>
                                 <div class="empty-space col-xs-b20"></div>
-                                <a href="#" class="tm-btn1">READ MORE</a>
+                                <a href="#" class="tm-btn1">EN SAVOIR PLUS</a>
                             </div>
                         </div>
                     </div><!-- .tm-post -->
@@ -1119,19 +1119,19 @@
                         <div class="empty-space col-xs-b25"></div>
                         <div class="tm-blog-body">
                             <h2 class="tm-blog-heading">
-                                <a href="#" class="tm-link-block">Scary Thing That You Don’t Get</a>
+                                <a href="#" class="tm-link-block">Chose effrayante que vous ne comprenez pas</a>
                             </h2>
                             <div class="empty-space col-xs-b15"></div>
                             <div class="tm-blog-meta">
                                 <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
-                                <span><i class="fa fa-calendar"></i>Jan 10, 2018</span>
+                                <span><i class="fa fa-calendar"></i>10 janvier 2018</span>
                             </div>
                             <div class="empty-space col-xs-b20"></div>
                             <div class="tm-blog-separator"></div>
                             <div class="tm-entry-content">
-                                <p>If you're tossing and turning every night, there's some bad news. Your brain could be in big trouble! Turns out...</p>
+                                <p>Si vous vous tournez et vous retournez tous les soirs, il y a de mauvaises nouvelles. Votre cerveau pourrait avoir de gros problèmes ! Il s'avère que...</p>
                                 <div class="empty-space col-xs-b20"></div>
-                                <a href="#" class="tm-btn1">READ MORE</a>
+                                <a href="#" class="tm-btn1">EN SAVOIR PLUS</a>
                             </div>
                         </div>
                     </div><!-- .tm-post -->
@@ -1151,19 +1151,19 @@
                         <div class="empty-space col-xs-b25"></div>
                         <div class="tm-blog-body">
                             <h2 class="tm-blog-heading">
-                                <a href="#" class="tm-link-block">Scary Thing That You Don’t Get</a>
+                                <a href="#" class="tm-link-block">Chose effrayante que vous ne comprenez pas</a>
                             </h2>
                             <div class="empty-space col-xs-b15"></div>
                             <div class="tm-blog-meta">
                                 <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
-                                <span><i class="fa fa-calendar"></i>Jan 10, 2018</span>
+                                <span><i class="fa fa-calendar"></i>10 janvier 2018</span>
                             </div>
                             <div class="empty-space col-xs-b20"></div>
                             <div class="tm-blog-separator"></div>
                             <div class="tm-entry-content">
-                                <p>If you're tossing and turning every night, there's some bad news. Your brain could be in big trouble! Turns out...</p>
+                                <p>Si vous vous tournez et vous retournez tous les soirs, il y a de mauvaises nouvelles. Votre cerveau pourrait avoir de gros problèmes ! Il s'avère que...</p>
                                 <div class="empty-space col-xs-b20"></div>
-                                <a href="#" class="tm-btn1">READ MORE</a>
+                                <a href="#" class="tm-btn1">EN SAVOIR PLUS</a>
                             </div>
                         </div>
                     </div><!-- .tm-post -->
@@ -1200,7 +1200,7 @@
     <section id="contact">
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="tm-section-heading text-center">
-            <h2>Get In Touch</h2>
+            <h2>Contactez-nous</h2>
             <div class="tm-section-seperator"><span></span></div>
             <div class="empty-space col-md-b60 col-xs-b40"></div>
         </div>
@@ -1211,7 +1211,7 @@
                     <div class="tm-contact-info">
                         <div class="tm-single-contact tm-style1">
                             <i class="fa fa-map-marker"></i>
-                            <h3>Address</h3>
+                            <h3>Adresse</h3>
                             <p>2855 Speer Blvd, Denver, CO 80211, USA</p>
                         </div>
                         <div class="empty-space col-md-b60 col-xs-b30"></div>
@@ -1220,7 +1220,7 @@
                 <div class="col-lg-4">
                     <div class="tm-single-contact tm-style1">
                         <i class="fa fa-phone"></i>
-                        <h3>Phone</h3>
+                        <h3>Téléphone</h3>
                         <p>1-800-915-6270 <br>
                            1-800-915-6272</p>
                     </div>
@@ -1229,7 +1229,7 @@
                 <div class="col-lg-4">
                     <div class="tm-single-contact tm-style1">
                         <i class="fa fa-envelope"></i>
-                        <h3>Email</h3>
+                        <h3>E-mail</h3>
                         <p>info@trustlife.com <br>
                         Skype: example</p>
                     </div>
@@ -1241,35 +1241,35 @@
                         <div class="col-lg-6">
                             <div class="tm-form-field">
                                 <input type="text" id="name" name="name" required>
-                                <label>Full Name</label>
+                                <label>Nom complet</label>
                             </div>
                         </div><!-- .col -->
                         <div class="col-lg-6">
                             <div class="tm-form-field">
                               <input type="text" id="email" name="email" required>
-                              <label>Email Address</label>
+                              <label>Adresse e-mail</label>
                           </div>
                         </div><!-- .col -->
                         <div class="col-lg-6">
                             <div class="tm-form-field">
                                 <input type="text" id="subject" name="subject" required>
-                                <label>Subject</label>
+                                <label>Sujet</label>
                             </div>
                         </div><!-- .col -->
                         <div class="col-lg-6">
                             <div class="tm-form-field">
                                 <input type="text" id="phone" name="phone" required>
-                                <label>Phone</label>
+                                <label>Téléphone</label>
                             </div>
                         </div><!-- .col -->
                         <div class="col-lg-12">
                             <div class="tm-form-field">
                                 <textarea cols="30" rows="10" id="msg" name="msg" required></textarea>
-                                <label>Your Message</label>
+                                <label>Votre message</label>
                             </div>
                         </div><!-- .col -->
                         <div class="col-lg-12">
-                            <button class="tm-btn1" type="submit" id="submit" name="submit"><span>SEND MESSAGE</span></button>
+                            <button class="tm-btn1" type="submit" id="submit" name="submit"><span>ENVOYER MESSAGE</span></button>
                             <div class="empty-space col-lg-b30"></div>
                         </div><!-- .col -->
                     </form>
