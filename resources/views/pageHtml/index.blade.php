@@ -1029,17 +1029,16 @@
                     <div class="accordian-wrapper tm-style1">
                         <div class="accordian">
                             <div class="single-accordian">
-                                <h3 class="accordian-head">Qu'est-ce que les soins dentaires ?</h3>
-                                <div class="accordian-body">Dent ressources précieuses, les soins dentaires doivent nous emmener régulièrement pour rester en bonne santé. Aperçu de la santé bucco-dentaire. De bons soins dentaires ou bucco-dentaires sont importants pour maintenir des dents, des gencives et une langue saines. Les problèmes bucco-dentaires, y compris la mauvaise haleine, la bouche sèche, les chancres ou les boutons de fièvre, le TTM, la carie dentaire ou le muguet peuvent tous être traités avec un diagnostic et des soins appropriés.</div>
+                                <h3 class="accordian-head">Où vous trouvez ?</h3>
+                                <div class="accordian-body">Nous sommes sur 3 sites : <br>
+                                    <li>Av/Kwango 3 Q/ Jolie parc C/Ngaliema</li>
+                                </div>
                             </div><!-- .single-accordian -->
                             <div class="single-accordian">
-                                <h3 class="accordian-head">Propose-t-il des soins d'urgence ?</h3>
-                                <div class="accordian-body">Les centres de soins d'urgence sont un ajout relativement nouveau au secteur de la santé qui a contribué à bénéficier à la fois aux services médicaux communautaires et aux patients. En tant qu'alternative rapide et abordable aux soins en salle d'urgence pour les patients atteints d'affections ne mettant pas leur vie en danger, les cliniques médicales de soins d'urgence offrent aux gens une option de traitement pratique.</div>
+                                <h3 class="accordian-head">Faites-vous des conventions pour les familles?</h3>
+                                <div class="accordian-body"> </div>
                             </div><!-- .single-accordian -->
-                            <div class="single-accordian">
-                                <h3 class="accordian-head">Assistance en direct en ligne</h3>
-                                <div class="accordian-body">La neurologie est une branche de la science médicale qui s'intéresse aux troubles et aux maladies du système nerveux. Le terme neurologie vient d'une combinaison de deux mots - "neurone" signifiant nerf et "logia" signifiant "l'étude de". Il y a environ une centaine de milliards de neurones dans le cerveau, capables de générer leurs propres impulsions et de recevoir et transmettre des impulsions. des cellules voisines.</div>
-                            </div><!-- .single-accordian -->
+
                         </div>
                     </div>
                     <div class="empty-space col-xs-b30"></div>
@@ -1048,17 +1047,13 @@
                     <div class="accordian-wrapper tm-style1">
                         <div class="accordian">
                             <div class="single-accordian">
-                                <h3 class="accordian-head">Qu'est-ce que les soins dentaires ?</h3>
-                                <div class="accordian-body">Dent ressources précieuses, les soins dentaires doivent nous emmener régulièrement pour rester en bonne santé. Aperçu de la santé bucco-dentaire. De bons soins dentaires ou bucco-dentaires sont importants pour maintenir des dents, des gencives et une langue saines. Les problèmes bucco-dentaires, y compris la mauvaise haleine, la bouche sèche, les chancres ou les boutons de fièvre, le TTM, la carie dentaire ou le muguet peuvent tous être traités avec un diagnostic et des soins appropriés.</div>
+                                <h3 class="accordian-head">Quel est le numéro d'appel en cas d'urgence?</h3>
+                                <div class="accordian-body">hftjhgfjhgf </div>
                             </div><!-- .single-accordian -->
                             <div class="single-accordian">
-                                <h3 class="accordian-head">Propose-t-il des soins d'urgence ?</h3>
-                                <div class="accordian-body">Les centres de soins d'urgence sont un ajout relativement nouveau au secteur de la santé qui a contribué à bénéficier à la fois aux services médicaux communautaires et aux patients. En tant qu'alternative rapide et abordable aux soins en salle d'urgence pour les patients atteints d'affections ne mettant pas leur vie en danger, les cliniques médicales de soins d'urgence offrent aux gens une option de traitement pratique.</div>
-                            </div><!-- .single-accordian -->
-                            <div class="single-accordian">
-                                <h3 class="accordian-head">Assistance en direct en ligne</h3>
-                                <div class="accordian-body">La neurologie est une branche de la science médicale qui s'intéresse aux troubles et aux maladies du système nerveux. Le terme neurologie vient d'une combinaison de deux mots - "neurone" signifiant nerf et "logia" signifiant "l'étude de". Il y a environ une centaine de milliards de neurones dans le cerveau, capables de générer leurs propres impulsions et de recevoir et transmettre des impulsions. des cellules voisines.</div>
-                            </div><!-- .single-accordian -->
+                                <h3 class="accordian-head">Avez-vous le service de medecin de famille ?</h3>
+                                <div class="accordian-body"> </div>
+
                         </div>
                     </div>
                     <div class="empty-space col-xs-b30"></div>

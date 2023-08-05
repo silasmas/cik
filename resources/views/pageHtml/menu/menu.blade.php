@@ -25,7 +25,7 @@
                             <li class="menu-item"><a href="#department" class="nav-link tm-smooth-move">@lang('info.menu.service')</a></li>
                             <li class="menu-item"><a href="#doctor" class="nav-link tm-smooth-move">@lang('info.menu.docteur')</a></li>
                             {{-- <li class="menu-item"><a href="#gallery" class="nav-link tm-smooth-move">GALERIES</a></li> --}}
-                            <li class="menu-item"><a href="#price" class="nav-link tm-smooth-move">@lang('info.menu.convention')</a></li>
+                            {{-- <li class="menu-item"><a href="#price" class="nav-link tm-smooth-move">@lang('info.menu.convention')</a></li> --}}
                             <li class="menu-item"><a href="#contact" class="nav-link tm-smooth-move">@lang('info.menu.contact')</a></li>
                             <li class="menu-item"><a href="#appointment" class="nav-link tm-smooth-move">@lang('info.menu.rdv')</a></li>
                             {{-- <li class="menu-item menu-item-has-children"><a class="nav-link tm-smooth-move">@lang('info.menu.langue')</a>
