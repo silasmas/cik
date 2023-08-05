@@ -112,9 +112,15 @@
                                 <ul class="tm-shedule-list">
                                     <li>
                                         <span>Lundi - Dimanche</span>
-                                        <span>06:00 - 07:30'</span>
-                                        <span>14:00 - 15:30'</span>
-                                        <span>17:00 - 19:30'</span>
+                                        <span>06:00' - 07:30'</span>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <span>14:00' - 15:30'</span>
+                                    </li>
+                                    <li>
+                                        <span></span>
+                                        <span>17:00' - 19:30'</span>
                                     </li>
                                 </ul>
                             </div><!-- .tm-shedule -->
@@ -1151,7 +1157,7 @@
                         <div class="tm-single-contact tm-style1">
                             <i class="fa fa-map-marker"></i>
                             <h3>Adresse</h3>
-                            <p>2855 Speer Blvd, Denver, CO 80211, USA</p>
+                            <p>Av/Kwango 3 Q/ Jolie parc C/Ngaliema</p>
                         </div>
                         <div class="empty-space col-md-b60 col-xs-b30"></div>
                     </div>
@@ -1160,8 +1166,7 @@
                     <div class="tm-single-contact tm-style1">
                         <i class="fa fa-phone"></i>
                         <h3>Téléphone</h3>
-                        <p>1-800-915-6270 <br>
-                           1-800-915-6272</p>
+                        <p>+243857000908 </p>
                     </div>
                     <div class="empty-space col-md-b60 col-xs-b30"></div>
                 </div><!-- .col -->
@@ -1169,8 +1174,8 @@
                     <div class="tm-single-contact tm-style1">
                         <i class="fa fa-envelope"></i>
                         <h3>E-mail</h3>
-                        <p>info@trustlife.com <br>
-                        Skype: example</p>
+                        <p>info@cik-rdc.com <br>
+                        </p>
                     </div>
                     <div class="empty-space col-md-b60 col-xs-b30"></div>
                 </div><!-- .col -->
@@ -1250,7 +1255,7 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="tm-footer-social">
-                            <h2>Suivez-nous :</h2>
+                            {{-- <h2>Suivez-nous :</h2>
                             <div class="tm-footer-social-list">
                                 <a href="#" class="tm-social-btn blue">
                                     <i class="fa fa-facebook-square"></i>
@@ -1272,7 +1277,7 @@
                                     <i class="fa fa-skype"></i>
                                     <i class="fa fa-skype"></i>
                                 </a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div><!-- .col -->
                 </div>
@@ -1289,7 +1294,7 @@
                             <div class="tm-footer-hotline-in">
                                 <div class="tm-phone-icon"><i class="fa fa-mobile"></i></div>
                                 <h3>Nous contacter</h3>
-                                <p>+243 827839232</p>
+                                <p>+243 857000908</p>
                             </div>
                         </div>
                     </div><!-- .col -->
