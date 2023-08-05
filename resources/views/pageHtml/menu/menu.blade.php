@@ -3,7 +3,7 @@
         <div class="tm-site-header">
             <div class="tm-header-info-wrap">
                 <div class="container tm-header-info">
-                    <a href="#"><i class="fa fa-phone"></i>1-800-915-6270</a>
+                    <a href="#"><i class="fa fa-phone"></i>+243857000908</a>
                     <a href="#"><i class="fa fa-envelope"></i>info@cik-rdc.com</a>
                 </div>
             </div>
