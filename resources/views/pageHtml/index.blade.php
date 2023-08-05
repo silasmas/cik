@@ -1073,71 +1073,10 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="tm-post tm-style1 tm-type1">
-                        <div class="tm-post-thumb">
-                            <a href="#" class="tm-link-block">
-                                <img src="{{ asset('assets/img/blog-10.jpg') }}" alt="blog-01">
-                                <div class="tm-blog-hover">
-                                    <span class="tm-blog-shap"></span>
-                                    <i class="fa fa-link"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="empty-space col-xs-b25"></div>
-                        <div class="tm-blog-body">
-                            <h2 class="tm-blog-heading">
-                                <a href="#" class="tm-link-block">Chose effrayante que vous ne comprenez pas</a>
-                            </h2>
-                            <div class="empty-space col-xs-b15"></div>
-                            <div class="tm-blog-meta">
-                                <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
-                                <span><i class="fa fa-calendar"></i>10 janvier 2018</span>
-                            </div>
-                            <div class="empty-space col-xs-b20"></div>
-                            <div class="tm-blog-separator"></div>
-                            <div class="tm-entry-content">
-                                <p>Si vous vous tournez et vous retournez tous les soirs, il y a de mauvaises nouvelles. Votre cerveau pourrait avoir de gros problèmes ! Il s'avère que...</p>
-                                <div class="empty-space col-xs-b20"></div>
-                                <a href="#" class="tm-btn1">EN SAVOIR PLUS</a>
-                            </div>
-                        </div>
-                    </div><!-- .tm-post -->
-                    <div class="empty-space col-xs-b30"></div>
-                </div><!-- .col -->
-                <div class="col-md-4">
-                    <div class="tm-post tm-style1 tm-type1">
-                        <div class="tm-post-thumb">
-                            <a href="#" class="tm-link-block">
-                                <img src="{{ asset('assets/img/blog-11.jpg') }}" alt="blog-01">
-                                <div class="tm-blog-hover">
-                                    <span class="tm-blog-shap"></span>
-                                    <i class="fa fa-link"></i>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="empty-space col-xs-b25"></div>
-                        <div class="tm-blog-body">
-                            <h2 class="tm-blog-heading">
-                                <a href="#" class="tm-link-block">Chose effrayante que vous ne comprenez pas</a>
-                            </h2>
-                            <div class="empty-space col-xs-b15"></div>
-                            <div class="tm-blog-meta">
-                                <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
-                                <span><i class="fa fa-calendar"></i>10 janvier 2018</span>
-                            </div>
-                            <div class="empty-space col-xs-b20"></div>
-                            <div class="tm-blog-separator"></div>
-                            <div class="tm-entry-content">
-                                <p>Si vous vous tournez et vous retournez tous les soirs, il y a de mauvaises nouvelles. Votre cerveau pourrait avoir de gros problèmes ! Il s'avère que...</p>
-                                <div class="empty-space col-xs-b20"></div>
-                                <a href="#" class="tm-btn1">EN SAVOIR PLUS</a>
-                            </div>
-                        </div>
-                    </div><!-- .tm-post -->
-                    <div class="empty-space col-xs-b30"></div>
-                </div><!-- .col -->
-                <div class="col-md-4">
+                <div class="col-12">
+                    <h2 class="text-center text-info">Il n'y a pas encore de nouvelle</h2>
+                </div>
+                {{-- <div class="col-md-4">
                     <div class="tm-post tm-style1 tm-type1">
                         <div class="tm-post-thumb">
                             <a href="#" class="tm-link-block">
@@ -1168,7 +1107,7 @@
                         </div>
                     </div><!-- .tm-post -->
                     <div class="empty-space col-xs-b30"></div>
-                </div><!-- .col -->
+                </div><!-- .col --> --}}
             </div>
         </div>
         <div class="empty-space col-md-b70 col-xs-b40"></div>
