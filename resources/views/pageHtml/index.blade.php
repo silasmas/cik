@@ -1287,7 +1287,7 @@
 	</div>
     <!-- End Map Section -->
 
-    <!-- Start Clients Section -->
+    {{-- <!-- Start Clients Section -->
     <div class="tm-clients-wrap">
         <div class="empty-space col-md-b100 col-xs-b70"></div>
         <div class="container">
@@ -1302,7 +1302,7 @@
         </div>
         <div class="empty-space col-md-b100 col-xs-b70"></div>
     </div>
-    <!-- End Clients Section -->
+    <!-- End Clients Section --> --}}
 
     <!-- Start Footer -->
     <footer class="tm-overflow-hidden">
