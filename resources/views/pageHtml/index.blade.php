@@ -7,12 +7,17 @@
     <section class="hero ripple-version" id="home" style="background: url({{ asset('assets/img/slide-01.jpg') }});">
         <div class="container">
             <div class="slider-text">
+                <h1 class="fw-bold py-0" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <span class="text-danger" style="font-size: 7rem;">C</span><span style="font-size: 7rem;">I</span><span class="text-danger" style="font-size: 7rem;">K</span>
+                    <div class="badge badge-warning">24h/24 disponible</div>
+                </h1>
+                <div class="empty-space col-sm-b20 col-xs-b10"></div>
                 <h2 class="tm-headline letters tm-rotate-text">
-
-                    @lang('info.home.slide')
+                    Service d’urgence, service de consultation en
+                    {{-- @lang('info.home.slide') --}}
                     <span class="tm-words-wrapper">
                         <b class="is-visible">médecine générale</b>
-                        <b>médecine interne</b>
+                        <b>médecine&nbsp;interne</b>
                         <b>chirurgie</b>
                         <b>pédiatrie</b>
                         <b>dentisterie</b>
@@ -20,12 +25,11 @@
                         <b>dermatologie</b>
                         <b>oto-rhino-laryngologie</b>
                         <b>kinésithérapie</b>
-                        <b>laboratoire complet</b>
+                        <b>laboratoire&nbsp;complet</b>
                         <b>radiologie</b>
                     </span>
                 </h2>
-                <div class="empty-space col-sm-b20 col-xs-b10"></div>
-                <p>@lang('info.home.slideDesciprion')</p>
+                <p class="fs-5">@lang('info.home.slideDesciprion')</p>
                 <div class="empty-space col-md-b55 col-sm-b35 col-xs-b25"></div>
                 <div class="tm-hero-btn tm-hero-video-btn">
                     <div class="tm-video-button tm-color1" data-video-id="63636954" data-channel="vimeo">
