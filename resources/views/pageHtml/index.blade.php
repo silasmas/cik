@@ -7,13 +7,13 @@
     <section class="hero ripple-version" id="home" style="background: url({{ asset('assets/img/slide-01.jpg') }});">
         <div class="container">
             <div class="slider-text">
-                <h1 class="fw-bold py-0" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                <h1 class="fw-bold mt-lg-0 mt-sm-3 mt-4 py-0" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
                     <span class="text-danger" style="font-size: 7rem;">C</span><span style="font-size: 7rem;">I</span><span class="text-danger" style="font-size: 7rem;">K</span>
                     <div class="badge badge-warning">24h/24 disponible</div>
                 </h1>
                 <div class="empty-space col-sm-b20 col-xs-b10"></div>
                 <h2 class="tm-headline letters tm-rotate-text">
-                    Service d’urgence, service de consultation en
+                    Service d'urgence, service de consultation en
                     {{-- @lang('info.home.slide') --}}
                     <span class="tm-words-wrapper">
                         <b class="is-visible">médecine générale</b>
