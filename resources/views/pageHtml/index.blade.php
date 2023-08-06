@@ -89,7 +89,7 @@
         </div>
         <div class="tm-relative">
             <div class="tm-half-section-bg left">
-                <img src="{{ asset('assets/img/about-hafl-bg.jpg') }}" alt="about hafl bg">
+                <img src="{{ asset('assets/img/doctors/about.jpg') }}" alt="about hafl bg">
             </div>
             <div class="empty-space col-xs-b60"></div>
             <div class="container">
@@ -302,7 +302,7 @@
     <!-- Start Appointment Section -->
     <section class="tm-relative" id="appointment">
         <div class="tm-half-section-bg right">
-            <img src="{{ asset('assets/img/appointment-bg.jpg') }}" alt="about hafl bg">
+            <img src="{{ asset('assets/img/doctors/cl.jpg') }}" alt="about hafl bg">
         </div>
         <div class="container">
             <div class="row">
