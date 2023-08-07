@@ -11,7 +11,7 @@
                 <div class="container tm-header-menu-container">
                     <div class="tm-site-branding">
                         <!-- For Image Logo -->
-                        <a href="#" class="tm-logo-link">
+                        <a href="#home" class="tm-logo-link">
                             <img src="{{ asset('assets/img/logocik.png') }}" alt="" class="tm-logo">
                         </a>
                     </div>

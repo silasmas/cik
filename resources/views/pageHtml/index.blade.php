@@ -777,67 +777,51 @@
         <div class="tm-portfolio-filter text-center">
             <ul>
                 <li class="active"><a href="#" data-filter="*">TOUT</a></li>
-                <li><a href="#" data-filter=".cardiology">CARDIOLOGIE</a></li>
-                <li><a href="#" data-filter=".neurology">NEUROLOGIE</a></li>
-                <li><a href="#" data-filter=".urology">UROLOGIE</a></li>
-                <li><a href="#" data-filter=".pulmonary">PULMONAIRE</a></li>
-                <li><a href="#" data-filter=".traumatology">TRAUMATOLOGIE</a></li>
+                <li><a href="#" data-filter=".staff">PERSONNEL</a></li>
+                <li><a href="#" data-filter=".locals">LOCAUX</a></li>
+                <li><a href="#" data-filter=".materials">MATERIELS</a></li>
             </ul>
         </div><!-- .tm-portfolio-filter-area -->
         <div class="tm-portfolio zoom-gallery tm-gutter-less">
             <div class="tm-grid-sizer"></div>
-            <div class="tm-portfolio-item neurology">
-                <a href="{{ asset('assets/img/portfolio-01-lg.jpg') }}"  class="item-inner">
-                    <img src="{{ asset('assets/img/portfolio-01.jpg') }}" alt="portfolio-01">
+            <div class="tm-portfolio-item staff pulmonary">
+                <a href="{{ asset('assets/img/galery/IMG_0060.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/galery/IMG_0060.jpg') }}" alt="portfolio-06">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
             </div><!-- .tm-portfolio-item -->
-            <div class="tm-portfolio-item urology traumatology">
-                <a href="{{ asset('assets/img/portfolio-02-lg.jpg') }}"  class="item-inner">
-                    <img src="{{ asset('assets/img/portfolio-02.jpg') }}" alt="portfolio-02">
+            <div class="tm-portfolio-item locals">
+                <a href="{{ asset('assets/img/galery/IMG_0090.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/galery/IMG_0090.jpg') }}" alt="portfolio-01">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
             </div><!-- .tm-portfolio-item -->
-            <div class="tm-portfolio-item cardiology pulmonary">
-                <a href="{{ asset('assets/img/portfolio-03-lg.jpg') }}"  class="item-inner">
-                    <img src="{{ asset('assets/img/portfolio-03.jpg') }}" alt="portfolio-03">
+            <div class="tm-portfolio-item materials traumatology">
+                <a href="{{ asset('assets/img/galery/salle_d.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/galery/salle_d.jpg') }}" alt="portfolio-02">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
             </div><!-- .tm-portfolio-item -->
-            <div class="tm-portfolio-item neurology traumatology">
-                <a href="{{ asset('assets/img/portfolio-04-lg.jpg') }}"  class="item-inner">
-                    <img src="{{ asset('assets/img/portfolio-04.jpg') }}" alt="portfolio-04">
+            <div class="tm-portfolio-item staff pulmonary">
+                <a href="{{ asset('assets/img/galery/HW7B9775.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/galery/HW7B9775.jpg') }}" alt="portfolio-03">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
             </div><!-- .tm-portfolio-item -->
-            <div class="tm-portfolio-item urology">
-                <a href="{{ asset('assets/img/portfolio-05-lg.jpg') }}"  class="item-inner">
-                    <img src="{{ asset('assets/img/portfolio-05.jpg') }}" alt="portfolio-05">
+            <div class="tm-portfolio-item locals traumatology">
+                <a href="{{ asset('assets/img/galery/IMG_0137.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/galery/IMG_0137.jpg') }}" alt="portfolio-04">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
             </div><!-- .tm-portfolio-item -->
-            <div class="tm-portfolio-item cardiology neurology pulmonary">
-                <a href="{{ asset('assets/img/portfolio-06-lg.jpg') }}"  class="item-inner">
-                    <img src="{{ asset('assets/img/portfolio-06.jpg') }}" alt="portfolio-06">
-                    <div class="tm-zoom-btn"></div>
-                    <i class="tm-zoom-icon icofont icofont-drag1"></i>
-                </a>
-            </div><!-- .tm-portfolio-item -->
-            <div class="tm-portfolio-item urology pulmonary">
-                <a href="{{ asset('assets/img/portfolio-07-lg.jpg') }}"  class="item-inner">
-                    <img src="{{ asset('assets/img/portfolio-07.jpg') }}" alt="portfolio-07">
-                    <div class="tm-zoom-btn"></div>
-                    <i class="tm-zoom-icon icofont icofont-drag1"></i>
-                </a>
-            </div><!-- .tm-portfolio-item -->
-            <div class="tm-portfolio-item cardiology traumatology">
-                <a href="{{ asset('assets/img/portfolio-08-lg.jpg') }}"  class="item-inner">
-                    <img src="{{ asset('assets/img/portfolio-08.jpg') }}" alt="portfolio-08">
+            <div class="tm-portfolio-item materials">
+                <a href="{{ asset('assets/img/galery/Salle_kine7.jpg') }}"  class="item-inner">
+                    <img src="{{ asset('assets/img/galery/Salle_kine7.jpg') }}" alt="portfolio-05">
                     <div class="tm-zoom-btn"></div>
                     <i class="tm-zoom-icon icofont icofont-drag1"></i>
                 </a>
