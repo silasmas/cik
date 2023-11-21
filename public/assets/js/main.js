@@ -20,7 +20,7 @@
 	| 5. Section Active and Scrolling Animation
 	| 6. Accordian
 	| 7. Tab
-	| 8. Custom Select 
+	| 8. Custom Select
 	| 9. Scroll Up
 	| 10. Owl Carousel
 	| 11. Portfolio
@@ -37,7 +37,7 @@
 	$.exists = function(selector) {
         return ($(selector).length > 0);
     }
-    
+
 	$(window).on('load', function() {
 		$(window).trigger("scroll");
 		$(window).trigger("resize");
@@ -92,7 +92,7 @@
 	/*--------------------------------------------------------------
 		3. Primary Menu
 	--------------------------------------------------------------*/
-	
+
 	function primaryMenuSetup() {
 
 		$( ".tm-primary-nav-list" ).before( "<div class='m-menu-btn'><span></span></div>" );
@@ -118,7 +118,7 @@
 
 	function mobileMenu() {
 
-		if ($(window).width() <= 991){  
+		if ($(window).width() <= 991){
 			$('.tm-primary-nav').addClass('m-menu').removeClass('tm-primary-nav');
 		} else {
 			$('.m-menu').addClass('tm-primary-nav').removeClass('m-menu');
@@ -254,27 +254,27 @@
     /*--------------------------------------------------------------
 		7. Tab
 	--------------------------------------------------------------*/
-	
+
 	function tabSetup() {
 		// Custom Tab
 		$('.tm-tab-wrap ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
-		$('.tm-tab-wrap ul.tabs li').on('click', function (g) { 
-			var tab = $(this).closest('.tm-tab-wrap'), 
+		$('.tm-tab-wrap ul.tabs li').on('click', function (g) {
+			var tab = $(this).closest('.tm-tab-wrap'),
 				index = $(this).closest('li').index();
-			
+
 			tab.find('ul.tabs > li').removeClass('current');
 			$(this).closest('li').addClass('current');
-			
+
 			tab.find('.tm-tab-content').find('div.tm-tabs-item').not('div.tm-tabs-item:eq(' + index + ')').slideUp(700);
 			tab.find('.tm-tab-content').find('div.tm-tabs-item:eq(' + index + ')').slideDown(700);
-			
+
 			g.preventDefault();
 		} );
 	}
 
 
 	/*--------------------------------------------------------------
-		8. Custom Select 
+		8. Custom Select
 	--------------------------------------------------------------*/
 
 	function customSelectSetup() {
@@ -290,7 +290,7 @@
 		    		template += '<span class="custom-option ' + $(this).attr("class") + '" data-value="' + $(this).attr("value") + '">' + $(this).html() + '</span>';
 		     	});
 		 	template += '</div></div>';
-		  
+
 		 	$(this).wrap('<div class="custom-select-wrapper"></div>');
 		 	$(this).hide();
 		 	$(this).after(template);
@@ -346,7 +346,7 @@
             loop: true,
             nav: false,
             dots: true,
-            autoplay: true      
+            autoplay: true
         });
         /* Owl Carousel For tm-hero-slider */
 	    $('#tm-hero-doctor').owlCarousel({
@@ -356,7 +356,7 @@
             loop: true,
             nav: false,
             dots: false,
-            autoplay: true      
+            autoplay: true
         });
 
         /* Owl Carousel For tm-hero-slider */
@@ -369,7 +369,7 @@
             dots: false,
             smartSpeed:900,
             autoplayTimeout:3000,
-            autoplay: false      
+            autoplay: false
         });
 
         /* Owl Carousel For Services */
@@ -480,7 +480,7 @@
             autoplayTimeout: 6000,
             smartSpeed: 1000,
             nav: false,
-            dots: true    
+            dots: true
         });
 
         /* Owl Carousel For Testimonial-2 */
@@ -492,7 +492,7 @@
             autoplay: true,
             autoplayTimeout: 6000,
             smartSpeed: 1000,
-            nav: false 
+            nav: false
         });
 
         /* Owl Carousel For Blog Post Carousel */
@@ -504,9 +504,9 @@
             autoplay: false,
             autoplayTimeout: 6000,
             smartSpeed: 1000,
-            dots: false     
+            dots: false
 		});
-		
+
 		/* Owl Carousel For Before & After */
 		$('.before-after-gallery-slider').owlCarousel({
 			items: 1,
@@ -518,7 +518,7 @@
 			smartSpeed: 1000,
 			dots: false,
 			mouseDrag: false,
-			touchDrag: false 
+			touchDrag: false
 		});
 
 	}
@@ -578,9 +578,9 @@
 	                return element.find('img');
 	            }
 	        }
-	        
+
 	    });
-	    
+
   	}
 
    	/*--------------------------------------------------------------
@@ -588,7 +588,7 @@
   	--------------------------------------------------------------*/
 
   	function rippleSetup() {
-		
+
         if ($.exists('.ripple-version')) {
 
             $('.ripple-version').ripples({
@@ -597,7 +597,7 @@
 			});
 
         }
-	
+
 	}
 
 	/*--------------------------------------------------------------
@@ -614,7 +614,7 @@
 	        var email = $('#email').val();
 	        var msg = $('#msg').val();
 			var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-			
+
 			if (!regex.test(email)) {
 				$('#tm-alert').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Please Enter Valid Email.</div>');
 				return false;
@@ -627,10 +627,10 @@
 	        msg = $.trim(msg);
 
 	        if (name != '' && email != '' && msg != '') {
-	            var values = 	"name=" + name + 
-	            				"&subject=" + subject + 
-	            				"&phone=" + phone + 
-	            				"&email=" + email + 
+	            var values = 	"name=" + name +
+	            				"&subject=" + subject +
+	            				"&phone=" + phone +
+	            				"&email=" + email +
 	            				"&msg=" + msg;
 	            $.ajax({
 	                type: "POST",
@@ -661,7 +661,7 @@
 	function appointmentForm() {
 
 		$('#tm-alert1').hide();
-	    $('#appointment-form #appointment-submit').on('click', function() {
+	    $('#appointment-form').on('click', function() {
 	        var uname = $('#uname').val();
 	        var uemail = $('#uemail').val();
 	        var unumber = $('#unumber').val();
@@ -670,9 +670,9 @@
 	        var udoctor = $('#udoctor').val();
 	        var umsg = $('#umsg').val();
 			var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-			
+
 			if (!regex.test(uemail)) {
-				$('#tm-alert1').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Please Enter Valid Email.</div>');
+				$('#tm-alert1').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Veuillez entrer une adresse e-mail valide.</div>');
 				return false;
 			}
 
@@ -684,17 +684,19 @@
 	        udoctor = $.trim(udoctor);
 	        umsg = $.trim(umsg);
 
-	        if (uname != '' && uemail != '' && umsg != '') {
-	            var values = 	"uname=" + uname + 
-	            				"&uemail=" + uemail + 
-	            				"&unumber=" + unumber + 
-	            				"&udate=" + udate + 
-	            				"&udepartment=" + udepartment + 
-	            				"&udoctor=" + udoctor + 
+	        if (uname != '' && uemail != '' && umsg != ''&& unumber != ''&& udoctor != '') {
+	            var values = 	"fullname=" + uname +
+	            				"&email=" + uemail +
+	            				"&phone=" + unumber +
+	            				"&udate=" + udate +
+	            				"&udepartment=" + udepartment +
+	            				"&udoctor=" + udoctor +
+                                "_token :{{ csrf_token() }}"+
 	            				"&umsg=" + umsg;
 	            $.ajax({
+                    // headers: 'X-CSRF-TOKEN':" $('meta[name="csrf-token"]').attr('content')",
 	                type: "POST",
-	                url: "assets/php/appointment.php",
+	                url: "reservation",
 	                data: values,
 	                success: function() {
 	                    $('#uname').val('');
@@ -704,14 +706,14 @@
 	                    $('#udoctor').val('');
 	                    $('#umsg').val('');
 
-	                    $('#tm-alert1').fadeIn().html('<div class="alert alert-success"><strong>Success!</strong> Appointment has been sent successfully.</div>');
+	                    $('#tm-alert1').fadeIn().html('<div class="alert alert-success"><strong>Success!</strong> Le Rendez-vous est pris avec succès.</div>');
 	                    setTimeout(function() {
 	                        $('#tm-alert1').fadeOut('slow');
 	                    }, 4000);
 	                }
 	            });
 	        } else {
-				$('#tm-alert1').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> All fields are required.</div>');
+				$('#tm-alert1').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Tous les champs sont requis.</div>');
 	        }
 	        return false;
 	    });
@@ -758,7 +760,7 @@
 		var parallax = new Parallax(scene);
 
 	}
-	
+
 
 	/*--------------------------------------------------------------
 	    18. Tweenty Tweenty

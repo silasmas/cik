@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\page;
+use App\Http\Controllers\RendezvousController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
@@ -28,6 +29,7 @@ Route::group([
     //     return view('welcome');
     // })->name('h1');
     Route::get('/', [page::class,'index'])->name('h1');
+    Route::post('/reservation', [RendezvousController::class,'store'])->name('reservation');
     // Route::get('h8', function () {
     //     return view('pageHtml.home-version-8');
     // })->name('h8');

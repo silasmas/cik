@@ -28,7 +28,7 @@
                             {{-- <li class="menu-item"><a href="#price" class="nav-link tm-smooth-move">@lang('info.menu.convention')</a></li> --}}
                             <li class="menu-item"><a href="#appointment" class="nav-link tm-smooth-move">@lang('info.menu.rdv')</a></li>
                             <li class="menu-item"><a href="#contact" class="nav-link tm-smooth-move">@lang('info.menu.contact')</a></li>
-                            {{-- <li class="menu-item menu-item-has-children"><a class="nav-link tm-smooth-move">@lang('info.menu.langue')</a>
+                            <li class="menu-item menu-item-has-children"><a class="nav-link tm-smooth-move">@lang('info.menu.langue')</a>
                                 <ul>
                                     @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                                     <li class="nav-item">
@@ -42,7 +42,7 @@
                                 @endforeach
 
                                 </ul>
-                            </li> --}}
+                            </li>
                         </ul>
                     </nav>
                 </div><!-- .tm-header-menu-container -->
