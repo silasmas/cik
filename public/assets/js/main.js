@@ -662,6 +662,7 @@
 
 		$('#tm-alert1').hide();
 	    $('#appointment-form').on('click', function() {
+	        var csrf = $('[name="csrf-token"]').attr('content');
 	        var uname = $('#uname').val();
 	        var uemail = $('#uemail').val();
 	        var unumber = $('#unumber').val();
@@ -694,7 +695,7 @@
                                 "_token :{{ csrf_token() }}"+
 	            				"&umsg=" + umsg;
 	            $.ajax({
-                    // headers: 'X-CSRF-TOKEN':" $('meta[name="csrf-token"]').attr('content')",
+                    headers: { 'X-CSRF-TOKEN': csrf },
 	                type: "POST",
 	                url: "reservation",
 	                data: values,

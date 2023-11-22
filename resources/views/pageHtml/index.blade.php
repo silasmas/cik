@@ -33,7 +33,7 @@
             <p class="fs-5">@lang('info.slide1.t3')</p>
             <div class="empty-space col-md-b55 col-sm-b35 col-xs-b25"></div>
             <div class="tm-hero-btn tm-hero-video-btn">
-                <div class="tm-video-button tm-color1" data-video-id="63636954" data-channel="vimeo">
+                <div class="tm-video-button tm-color1" data-video-id="hgstalns_wo" data-channel="youtube">
                     <i class="icofont icofont-play-alt-3"></i>
                     <span class="tm-video-animaiton"><span></span></span>
                 </div>
