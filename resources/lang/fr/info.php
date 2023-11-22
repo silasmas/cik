@@ -1,28 +1,7 @@
 <?php
 
 return [
-    'home' => [
-        'slide' => 'CIK Disponibilité 24h/24 afin d’assurer les soins le meilleur pour votre recouvrement de santé : Service d’urgence, service de consultation en ',
-        'slideDesciprion' => 'La qualité de notre service et le professionnalisme de notre personnel sont la raison du succès de Trustlife Center',
-        'slideBtVideo' => 'Voir la vidéo',
-        't1' => 'Médecins qualifiés',
-        'desc1' => 'Nos médecins ont un large éventail d\'expériences cliniques allant des médecins débutants nouvellement qualifiés aux consultants seniors.',
-        't2' => 'Soin d\'urgence',
-        'desc2' =>"Nos sites offrent des soins pratiques et de qualité pour une variété de maladies et de traumatismes divers.",
-        't3' => 'Service 24 heures sur 24',
-        'desc3' => "Notre personnel se tient à votre disposition 24h/24 et 365jours/ 365 pour trouver solution à votre souffrance, que le tout puissant bénisse.",
-    ],
-    'about' => [
-        'titre' => 'Qui sommes nous',
-        't1' => 'Pourquoi les gens choisissent',
-        'desc1' => 'Horaires d\'ouvertures',
-        'bt' => 'Lire plus',
-        'heureOuv' => 'Horaires d\'ouvertures',
-        'HeureVisite' => 'Heure devisite',
-        'desc2' => 'Our centers provide convenient and high-quality care for a variety of common illnesses and injuries.',
-        't3' => '24 Hours Service',
-        'desc3' => 'Our technical team is available for 24/7, We always prepared any emergency situation with 10 ambulances.',
-    ],
+
     'menu' => [
         'home' => 'ACCUEIL',
         'about' => 'A PROPOS',
@@ -44,6 +23,19 @@ return [
         't6' => 'SERVICE 24H',
         't7' => 'TEXT7',
     ],
+    'offres' => [
+        'c1' => 'MÉDECINE&nbsp;GÉNÉRALE',
+        'c2' => 'MÉDECINE&nbsp;INTERNE',
+        'c3' => 'CHIRURGIE',
+        'c4' => 'PÉDIATRIE',
+        'c5' => 'DENTISTERIE',
+        'c6' => 'OPHTALMOLOGIE',
+        'c7' => 'DERMATOLOGIE',
+        'c8' => 'OTO-RHINO-LARYNGOLOGIE',
+        'c9' => 'KINESITHERAPIE',
+        'c10' => 'LABORATOIRE',
+        'c11' => 'RADIOLOGIE'
+    ],
     'slide3' => [
         't8' => 'QUI SOMMES-NOUS',
         't9' => 'POURQOUI',
@@ -56,7 +48,7 @@ return [
     ],
     'slide3,1' => [
         't16' => 'HORAIRES',
-        't17' => 'SEMAINE',
+        't17' => 'JOURS',
         't18' => 'HEURE DE TRAVAILS SEMAINE',
         't19' => 'WEEKEND',
         't20' => 'HEURE DE TRAVAILS WEEKEND',
@@ -66,29 +58,36 @@ return [
         't24' => 'HEURES DES VISITES 2',
         't25' => 'HEURES DES VISITES 3',
     ],
-    'slide4' => [
-        't26' => 'NOS SERVICES',
-        't27' => 'MÉDECINE GÉNÉRALE',
-        't28' => 'MÉDECINE INTERNE',
-        't29' => 'CHIRURGIE',
-        't30' => 'PÉDIATRIE',
-        't31' => 'RADIOLOGIE',
-        't32' => 'LABORATOIRE',
+
+    'departement' => [
+        'services' => 'NOS SERVICES',
+        'd1' => 'MÉDECINE GÉNÉRALE',
+        't31' => 'GÉNÉRALE TEXT',
+        'd2' => 'MÉDECINE INTERNE',
+        't32' => 'INTERNE TEXT',
+        'd3' => 'CHIRURGIE',
+        't33' => 'CHIRURGIE TEXT',
+        'd4' => 'PÉDIATRIE',
+        't34' => 'PÉDIATRIE TEXT',
+        'd5' => 'RADIOLOGIE',
+        't35' => 'RADIOLOGIE TEXT',
+        'd6' => 'LABORATOIRE',
+        't36' => 'LABORATOIRE TEXT'
     ],
-    'slide4.1' => [
-        't33' => 'MÉDECINE GÉNÉRALE',
-        't34' => 'GÉNÉRALE TEXT',
-        't35' => 'MÉDECINE INTERNE',
-        't36' => 'INTERNE TEXT',
-        't37' => 'CHIRURGIE',
-        't38' => 'CHIRURGIE TEXT',
-        't39' => 'PÉDIATRIE',
-        't40' => 'PÉDIATRIE TEXT',
-        't41' => 'RADIOLOGIE',
-        't42' => 'RADIOLOGIE TEXT',
-        't43' => 'LABORATOIRE',
-        't44' => 'LABORATOIRE TEXT'
+        
+    'equipe' => [
+        'docteurs' => 'Nos Medicine',
+        'speciality1' => 'Gynécologue',
+        'speciality2' => 'Neurologue',
+        'speciality3' => 'Diagnostic',
+        'speciality4' => 'Cardiologue',
+        'speciality5' => 'Gynécologue',
+        'speciality6' => 'Neurologue',
+        'speciality7' => 'Diagnostic',
+        'speciality8' => 'Diagnostic',
+        'speciality9' => 'Diagnostic',
     ],
+
     'slide5' => [
         'rdv' => 'PRENDRE RENDEZ-VOUS',
         'rdv-text' => 'RENDEZ-VOUS TEXT',
@@ -97,10 +96,17 @@ return [
         'telephone' => 'NUMERO DU TELEPHONE',
         'date reserve' => 'DATE RESERVE',
         'departement' => 'DEPARTEMENT',
+        'd1' => 'SOIN DENTAIRE',
+        'd2' => 'Neurologie',
+        'd3' => 'Béquilles',
+        'd4' => 'Cardiologie',
+        'd5' => 'Pulmonaire',
+        'd6' => 'Radiographie',
         'docteur' => 'DOCTOR',
         'message' => 'MESSAGE',
+        'rdv-btn' => 'RDV'
     ],
-    'tableau_chiffres' => [
+    'tableau chiffres' => [
         'nombre experience' => 'NOMBRE',
         'annees' => 'Années expérience',
         'nombre de patient' => 'NOMBRE DE PATIENTS SATISFAIT',
@@ -110,7 +116,7 @@ return [
         'nombre de staff' => 'NOMBRE DE STAFF',
         'staff' => 'NOMBRE DE STAFF',
     ],
-    'tableau_questions' => [
+    'tableau questions' => [
         'faq' => 'FOIRE AUX QUESTIONS',
         'q1' => 'QUESTION',
         'reponse1' => 'ADRESSE',
@@ -121,7 +127,18 @@ return [
         'q4' => 'QUESTION',
         'reponse4' => 'SERVICE',
     ],
-    'tableau_contact' => [
+    'blog' => [
+        'mise' => 'Mise a jour',
+        'nothing' => 'Pas de mise a jour',
+        'text' => 'effrayante',
+        'date' => '10 janvier 2018',
+        'text2' => 'tournez',
+        'btn' => 'plus',
+        'btn2' => 'savoir plus',
+        'email' => 'adresse mail '
+    ],
+    'tableau contact' => [
+        'contactez' => 'NOUS',
         'adresse' => 'ADRESSE',
         'location' => 'LOCATION',
         'telephone-contact' => 'TELEPHONE',
@@ -134,5 +151,22 @@ return [
         'telephone' => 'NUMERO DU TELEPHONE',
         'message' => 'MESSAGE',
     ],
+    'gallerie' => [
+        'voir' => 'Voir notre galerie',
+        'tout' => 'TOUT',
+        'personnel' => 'PERSONNEL',
+        'locaux' => 'LOCAUX',
+        'materiels' => 'MATERIELS',
+    ],
+    'patients' => [
+        'disent' => 'disent qoui',
+        'test1' => 'reponse',
+        'proffession1' => 'Etudiant',
+        'test2' => 'reponse',
+        'proffession2' => 'Enseignant',
+        'test3' => 'reponse',
+        'proffession3' => 'Professeur',
+    ],
+
 
 ];

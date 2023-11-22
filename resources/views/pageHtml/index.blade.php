@@ -18,16 +18,16 @@
                 @lang('info.slide1.t2')
                 <span class="tm-words-wrapper">
                     <b class="is-visible"> @lang('info.offres.c1') </b>
-                    <b>médecine&nbsp;interne</b>
+                    <b>@lang("info.offres.c2")</b>
                     <b> @lang("info.offres.c3") </b>
-                    <b> @lang("info.categories.c4") </b>
-                    <b> @lang("info.categories.c5") </b>
-                    <b> @lang("info.categories.c6") </b>
-                    <b> @lang("info.categories.c7") </b>
-                    <b> @lang("info.categories.c8") </b>
-                    <b> @lang("info.categories.c9") </b>
-                    <b> laboratoire&nbsp;complet </b>
-                    <b> @lang("info.categories.c11") </b>
+                    <b> @lang("info.offres.c4") </b>
+                    <b> @lang("info.offres.c5") </b>
+                    <b> @lang("info.offres.c6") </b>
+                    <b> @lang("info.offres.c7") </b>
+                    <b> @lang("info.offres.c8") </b>
+                    <b> @lang("info.offres.c9") </b>
+                    <b>  @lang("info.offres.c10")</b>
+                    <b>  @lang("info.offres.c11")</b>
                 </span>
             </h2>
             <p class="fs-5">@lang('info.slide1.t3')</p>
@@ -164,7 +164,7 @@
 <section class="tm-gray-bg" id="department">
     <div class="empty-space col-md-b100 col-xs-b70"></div>
     <div class="tm-section-heading text-center">
-        <h2>@lang("info.categories.t26")</h2>
+        <h2>@lang("info.departement.services")</h2>
         <div class="tm-section-seperator"><span></span></div>
         <div class="empty-space col-md-b60 col-xs-b40"></div>
     </div>
@@ -190,7 +190,7 @@
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
                                 <div class="tm-about tm-gray-bg">
-                                    <h3 class="tm-about-title">Médecine <span>générale</span></h3>
+                                    <h3 class="tm-about-title">@lang("info.departement.d1")</span></h3>
                                     <div class="tm-about-text">
                                         <p>
                                         @lang("info.departement.t31")
@@ -210,7 +210,7 @@
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
                                 <div class="tm-about tm-gray-bg">
-                                    <h3 class="tm-about-title">Meédécine <span>interne</span></h3>
+                                    <h3 class="tm-about-title">@lang("info.departement.d2")</span></h3>
                                     <div class="tm-about-text">
                                         <p>@lang("info.departement.t32")</p>
                                     </div>
@@ -228,7 +228,7 @@
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
                                 <div class="tm-about tm-gray-bg">
-                                    <h3 class="tm-about-title"><span>Chirurgie </span></h3>
+                                    <h3 class="tm-about-title"><span>@lang("info.departement.d3")</span></h3>
                                     <div class="tm-about-text">
                                         <p>@lang("info.departement.t33")</p>
                                     </div>
@@ -246,7 +246,7 @@
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
                                 <div class="tm-about tm-gray-bg">
-                                    <h3 class="tm-about-title"><span>Pédiatrie</span></h3>
+                                    <h3 class="tm-about-title"><span>@lang("info.departement.d4")</span></h3>
                                     <div class="tm-about-text">
                                         <p>@lang("info.departement.t34")</p>
                                     </div>
@@ -263,7 +263,7 @@
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
                                 <div class="tm-about tm-gray-bg">
-                                    <h3 class="tm-about-title"><span>Radiologie</span></h3>
+                                    <h3 class="tm-about-title"><span>@lang("info.departement.d5")</span></h3>
                                     <div class="tm-about-text">
                                         <p>@lang("info.departement.t35")</p>
                                     </div>
@@ -281,7 +281,7 @@
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
                                 <div class="tm-about tm-gray-bg">
-                                    <h3 class="tm-about-title"><span>LABORATOIRE </span></h3>
+                                    <h3 class="tm-about-title"><span>@lang("info.departement.d6")</span></h3>
                                     <div class="tm-about-text">
                                         <p>@lang("info.departement.t36")</p>
                                     </div>
@@ -322,32 +322,32 @@
                     @csrf
                     <div id="tm-alert1"></div>
                     <div class="tm-form-field">
-                        <input type="text" id="uname" name="uname" placeholder="Nom complet" required>
+                        <input type="text" id="uname" name="uname" placeholder='@lang("info.slide5.nom complet")' required>
                         <span class="bar"></span>
                     </div>
                     <div class="tm-form-field">
-                        <input type="text" id="uemail" name="uemail" placeholder="Adresse e-mail" required>
+                        <input type="text" id="uemail" name="uemail" placeholder='@lang("info.slide5.adresse mail")' required>
                         <span class="bar"></span>
                     </div>
                     <div class="tm-form-field">
-                        <input type="text" id="unumber" name="unumber" placeholder="N° de téléphone" required>
+                        <input type="text" id="unumber" name="unumber" placeholder='@lang("info.slide5.telephone")' required>
                         <span class="bar"></span>
                     </div>
                     <div class="tm-form-field">
-                        <input name="udate" type="text" id="udate" placeholder="Date réservée">
+                        <input name="udate" type="text" id="udate" placeholder='@lang("info.slide5.date reserve")'>
                         <span class="bar"></span>
                         <div class="date-icon"><i class="fa fa-calendar"></i></div>
                     </div>
                     <div class="tm-form-field">
                         <div class="tm-custom-select-wrap">
                             <select name="udepartment" class="tm-custom-select" id="udepartment">
-                                <option value="department">Département</option>
-                                <option value="dental-care">Soins dentaires</option>
-                                <option value="neurology">Neurologie</option>
-                                <option value="crutches">Béquilles</option>
-                                <option value="cardiology">Cardiologie</option>
-                                <option value="pulmonary">Pulmonaire</option>
-                                <option value="x-ray">Radiographie</option>
+                                <option value="department"> @lang("info.slide5.departement")</option>
+                                <option value="dental-care">@lang("info.slide5.d1")</option>
+                                <option value="neurology">@lang("info.slide5.d2")</option>
+                                <option value="crutches">@lang("info.slide5.d3")</option>
+                                <option value="cardiology">@lang("info.slide5.d4")</option>
+                                <option value="pulmonary">@lang("info.slide5.d5")</option>
+                                <option value="x-ray">@lang("info.slide5.d6")</option>
                             </select>
                         </div>
                     </div>
@@ -370,7 +370,7 @@
                     </div>
                     <div class="empty-space col-xs-b10"></div>
                     <div class="tm-form-field">
-                        <button class="tm-btn1 tm-reverse" type="submit" id="appointment-submit" name="submit">@lang("info.slide5.btn")
+                        <button class="tm-btn1 tm-reverse" type="submit" id="appointment-submit" name="submit">@lang("info.slide5.rdv-btn")
                             </button>
                     </div>
                 </form>
@@ -859,7 +859,7 @@
                         <div class="tm-testimonial-thumb"><img src="{{ asset('assets/img/test-02.jpg') }}" alt=""></div>
                         <div class="tm-testimonial-text">
                             <i class="fa fa-quote-right"></i>
-                            <blockquote>@lang("info.patients.test2")<
+                            <blockquote>@lang("info.patients.test2")
                             </blockquote>
                             <div class="tm-testimonial-meta">
                                 <h3>Sheri Coburn</h3>
@@ -874,7 +874,7 @@
                             <blockquote>@lang("info.patients.test3")<</blockquote>
                             <div class="tm-testimonial-meta">
                                 <h3>Martha m.</h3>
-                                <span>@lang("info.patients.proffession3")<</span>
+                                <span>@lang("info.patients.proffession3")</span>
                             </div>
                         </div>
                     </div><!-- testimonail slide -->
@@ -1114,7 +1114,7 @@
         <form class="mailchimp" action="">
             <div class="tm-form-field">
                 {{-- <input type="text" name="subscribe" id="subscriber-email" placeholder="Nom"> --}}
-                <input type="email" name="subscribe" id="subscriber-email" placeholder="Entrez votre adresse email">
+                <input type="email" name="subscribe" id="subscriber-email" placeholder= '@lang("info.blog.email")'>
                 <span class="bar"></span>
             </div>
             <button type="submit" id="subscribe-button" class="tm-btn1 tm-reverse"><span><i
