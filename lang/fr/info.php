@@ -23,6 +23,19 @@ return [
         't6' => 'SERVICE 24H',
         't7' => 'TEXT7',
     ],
+    'offres' => [
+        'c1' => 'MÉDECINE GÉNÉRALE',
+        'c2' => 'MÉDECINE INTERNE',
+        'c3' => 'CHIRURGIE',
+        'c4' => 'PÉDIATRIE',
+        'c5' => 'DENTISTERIE',
+        'c6' => 'OPHTALMOLOGIE',
+        'c7' => 'DERMATOLOGIE',
+        'c8' => 'OTO-RHINO-LARYNGOLOGIE',
+        'c9' => 'KINESITHERAPIE',
+        'c10' => 'LABORATOIRE',
+        'c11' => 'RADIOLOGIE'
+    ],
     'slide3' => [
         't8' => 'QUI SOMMES-NOUS',
         't9' => 'POURQOUI',
@@ -35,7 +48,7 @@ return [
     ],
     'slide3,1' => [
         't16' => 'HORAIRES',
-        't17' => 'SEMAINE',
+        't17' => 'JOURS',
         't18' => 'HEURE DE TRAVAILS SEMAINE',
         't19' => 'WEEKEND',
         't20' => 'HEURE DE TRAVAILS WEEKEND',
@@ -45,29 +58,35 @@ return [
         't24' => 'HEURES DES VISITES 2',
         't25' => 'HEURES DES VISITES 3',
     ],
-    'slide4' => [
-        't26' => 'NOS SERVICES',
-        't27' => 'MÉDECINE GÉNÉRALE',
-        't28' => 'MÉDECINE INTERNE',
-        't29' => 'CHIRURGIE',
-        't30' => 'PÉDIATRIE',
-        't31' => 'RADIOLOGIE',
-        't32' => 'LABORATOIRE',
+
+    'departement' => [
+        'd1' => 'MÉDECINE GÉNÉRALE',
+        't31' => 'GÉNÉRALE TEXT',
+        'd2' => 'MÉDECINE INTERNE',
+        't32' => 'INTERNE TEXT',
+        'd3' => 'CHIRURGIE',
+        't33' => 'CHIRURGIE TEXT',
+        'd4' => 'PÉDIATRIE',
+        't34' => 'PÉDIATRIE TEXT',
+        'd5' => 'RADIOLOGIE',
+        't35' => 'RADIOLOGIE TEXT',
+        'd6' => 'LABORATOIRE',
+        't36' => 'LABORATOIRE TEXT'
     ],
-    'slide4.1' => [
-        't33' => 'MÉDECINE GÉNÉRALE',
-        't34' => 'GÉNÉRALE TEXT',
-        't35' => 'MÉDECINE INTERNE',
-        't36' => 'INTERNE TEXT',
-        't37' => 'CHIRURGIE',
-        't38' => 'CHIRURGIE TEXT',
-        't39' => 'PÉDIATRIE',
-        't40' => 'PÉDIATRIE TEXT',
-        't41' => 'RADIOLOGIE',
-        't42' => 'RADIOLOGIE TEXT',
-        't43' => 'LABORATOIRE',
-        't44' => 'LABORATOIRE TEXT'
+        
+    'equipe' => [
+        'docteurs' => 'Nos Medicine',
+        'speciality1' => 'Gynécologue',
+        'speciality2' => 'Neurologue',
+        'speciality3' => 'Diagnostic',
+        'speciality4' => 'Cardiologue',
+        'speciality5' => 'Gynécologue',
+        'speciality6' => 'Neurologue',
+        'speciality7' => 'Diagnostic',
+        'speciality8' => 'Diagnostic',
+        'speciality9' => 'Diagnostic',
     ],
+
     'slide5' => [
         'rdv' => 'PRENDRE RENDEZ-VOUS',
         'rdv-text' => 'RENDEZ-VOUS TEXT',
@@ -78,6 +97,7 @@ return [
         'departement' => 'DEPARTEMENT',
         'docteur' => 'DOCTOR',
         'message' => 'MESSAGE',
+        'rdv-btn' => 'RDV'
     ],
     'tableau chiffres' => [
         'nombre experience' => 'NOMBRE',
@@ -100,7 +120,17 @@ return [
         'q4' => 'QUESTION',
         'reponse4' => 'SERVICE',
     ],
+    'blog' => [
+        'mise' => 'Mise a jour',
+        'nothing' => 'Pas de mise a jour',
+        'text' => 'effrayante',
+        'date' => '10 janvier 2018',
+        'text2' => 'tournez',
+        'btn' => 'plus',
+        'btn2' => 'savoir plus',
+    ],
     'tableau contact' => [
+        'contactez' => 'NOUS',
         'adresse' => 'ADRESSE',
         'location' => 'LOCATION',
         'telephone-contact' => 'TELEPHONE',
@@ -113,5 +143,22 @@ return [
         'telephone' => 'NUMERO DU TELEPHONE',
         'message' => 'MESSAGE',
     ],
+    'gallerie' => [
+        'voir' => 'Voir notre galerie',
+        'tout' => 'TOUT',
+        'personnel' => 'PERSONNEL',
+        'locaux' => 'LOCAUX',
+        'materiels' => 'MATERIELS',
+    ],
+    'patients' => [
+        'disent' => 'disent qoui',
+        'test1' => 'reponse',
+        'proffession1' => 'Etudiant',
+        'test2' => 'reponse',
+        'proffession2' => 'Enseignant',
+        'test3' => 'reponse',
+        'proffession3' => 'Professeur',
+    ],
+
 
 ];

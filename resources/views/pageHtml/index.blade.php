@@ -10,27 +10,27 @@
                 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
                 <span class="text-danger" style="font-size: 7rem;">C</span><span style="font-size: 7rem;">I</span><span
                     class="text-danger" style="font-size: 7rem;">K</span>
-                <div class="badge badge-warning">24h/24 @lang("info.slide1.t1")</div>
+                <div class="badge badge-warning"> @lang("info.slide1.t1") 24h/24 </div>
             </h1>
             <div class="empty-space col-sm-b20 col-xs-b10"></div>
             <h2 class="tm-headline letters tm-rotate-text">
-                Service d'urgence, service de consultation en
-                {{-- @lang('info.home.slide') --}}
+        
+                @lang('info.slide1.t2')
                 <span class="tm-words-wrapper">
-                    <b class="is-visible">médecine générale</b>
+                    <b class="is-visible"> @lang('info.offres.c1') </b>
                     <b>médecine&nbsp;interne</b>
-                    <b>chirurgie</b>
-                    <b>pédiatrie</b>
-                    <b>dentisterie</b>
-                    <b>ophtalmologie</b>
-                    <b>dermatologie</b>
-                    <b>oto-rhino-laryngologie</b>
-                    <b>kinésithérapie</b>
-                    <b>laboratoire&nbsp;complet</b>
-                    <b>radiologie</b>
+                    <b> @lang("info.offres.c3") </b>
+                    <b> @lang("info.categories.c4") </b>
+                    <b> @lang("info.categories.c5") </b>
+                    <b> @lang("info.categories.c6") </b>
+                    <b> @lang("info.categories.c7") </b>
+                    <b> @lang("info.categories.c8") </b>
+                    <b> @lang("info.categories.c9") </b>
+                    <b> laboratoire&nbsp;complet </b>
+                    <b> @lang("info.categories.c11") </b>
                 </span>
             </h2>
-            <p class="fs-5">@lang('info.home.slideDesciprion')</p>
+            <p class="fs-5">@lang('info.slide1.t3')</p>
             <div class="empty-space col-md-b55 col-sm-b35 col-xs-b25"></div>
             <div class="tm-hero-btn tm-hero-video-btn">
                 <div class="tm-video-button tm-color1" data-video-id="63636954" data-channel="vimeo">
@@ -54,8 +54,8 @@
                 <div class="empty-space col-md-b0 col-xs-b30"></div>
                 <div class="tm-icon-box">
                     <div class="tm-icon"><i class="fa fa-user-md"></i></div>
-                    <h2 class="tm-icon-box-title">@lang('info.home.t1')</h2>
-                    <p class="tm-icon-box-text">@lang('info.home.desc1')</p>
+                    <h2 class="tm-icon-box-title"> @lang('info.slide2.t4') </h2>
+                    <p class="tm-icon-box-text">@lang('info.slide2.t5')</p>
                 </div>
             </div> --}}
             <!-- .col -->
@@ -63,16 +63,16 @@
                 <div class="empty-space col-md-b0 col-xs-b30"></div>
                 <div class="tm-icon-box">
                     <div class="tm-icon"><i class="fa fa-ambulance"></i></div>
-                    <h2 class="tm-icon-box-title">@lang('info.home.t2')</h2>
-                    <p class="tm-icon-box-text">@lang('info.home.desc2')</p>
+                    <h2 class="tm-icon-box-title">@lang('info.slide2.t4')</h2>
+                    <p class="tm-icon-box-text">@lang('info.slide2.t5')</p>
                 </div>
             </div><!-- .col -->
             <div class="col-lg-6">
                 <div class="empty-space col-md-b0 col-xs-b30"></div>
                 <div class="tm-icon-box">
                     <div class="tm-icon"><i class="fa fa-hospital-o"></i></div>
-                    <h2 class="tm-icon-box-title">@lang('info.home.t3')</h2>
-                    <p class="tm-icon-box-text">@lang('info.home.desc3')</p>
+                    <h2 class="tm-icon-box-title">@lang('info.slide2.t6')</h2>
+                    <p class="tm-icon-box-text">@lang('info.slide2.t7')</p>
                 </div>
             </div><!-- .col -->
         </div><!-- .row -->
@@ -84,7 +84,7 @@
 <section id="about">
     <div class="empty-space col-md-b100 col-xs-b70"></div>
     <div class="tm-section-heading text-center">
-        <h2>Qui sommes-nous</h2>
+        <h2>@lang("info.slide3.t8")</h2>
         <div class="tm-section-seperator"><span></span></div>
         <div class="empty-space col-md-b60 col-xs-b40"></div>
     </div>
@@ -98,34 +98,34 @@
                 <div class="col-lg-5">
                     <div class="tm-shedule-wrap">
                         <div class="tm-shedule">
-                            <h3 class="tm-shedule-title">Horaires d'ouvertures à l’unité du jour </h3>
+                            <h3 class="tm-shedule-title">@lang("info.slide3,1.t16") </h3>
                             <ul class="tm-shedule-list">
                                 <li>
-                                    <span>Lundi - Vendredi</span>
-                                    <span>7:30' - 16:30'</span>
+                                    <span>@lang("info.slide3,1.t17")</span>
+                                    <span>@lang("info.slide3,1.t18")</span>
                                 </li>
                                 <li>
-                                    <span>Samedi et dimanche</span>
-                                    <span>7:30' - 14.30'</span>
+                                    <span>@lang("info.slide3,1.t19")</span>
+                                    <span>@lang("info.slide3,1.t20")</span>
                                 </li>
 
                             </ul>
                         </div><!-- .tm-shedule -->
                         <div class="empty-space col-md-b40 col-xs-b30"></div>
                         <div class="tm-shedule">
-                            <h3 class="tm-shedule-title">Heures des visites en hospitalisation</h3>
+                            <h3 class="tm-shedule-title">@lang("info.slide3,1.t21")</h3>
                             <ul class="tm-shedule-list">
                                 <li>
-                                    <span>Lundi - Dimanche</span>
-                                    <span>06:00' - 07:30'</span>
+                                    <span>@lang("info.slide3,1.t22")</span>
+                                    <span>@lang("info.slide3,1.t23")'</span>
                                 </li>
                                 <li>
                                     <span></span>
-                                    <span>14:00' - 15:30'</span>
+                                    <span>@lang("info.slide3,1.t24")</span>
                                 </li>
                                 <li>
                                     <span></span>
-                                    <span>17:00' - 19:30'</span>
+                                    <span>@lang("info.slide3,1.25")</span>
                                 </li>
                             </ul>
                         </div><!-- .tm-shedule -->
@@ -135,14 +135,13 @@
                     <div class="empty-space col-md-b30 col-xs-b0"></div>
                     <div class="tm-about-wrap tm-hf-hide">
                         <div class="tm-about tm-gray-bg wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <h3 class="tm-about-title">Pourquoi les gens choisissent <span>CIK</span>?</h3>
+                            <h3 class="tm-about-title">@lang("info.slide3.t9") <span>CIK</span>?</h3>
                             <div class="tm-about-text">
-                                <p>Nous fournissons une couverture médicale large généraliste, au meilleurs rapport
-                                    qualité/ prix ; <br>
-                                    Fourniture des intrants de soins de qualités (pharmacie…) ;<br>
-                                    Fiabilité des résultats et diagnostiques ;<br>
-                                    Sécurité et confidentialité des actes médicaux, des honoraires … ;<br>
-                                    Accessibilité aisé 24h/ 24 sur les 3 sites.
+                                <p>@lang("info.slide3.t10") ; <br>
+                                @lang("info.slide3.t12") ;<br>
+                                @lang("info.slide3.t13") ;<br>
+                                @lang("info.slide3.t14") ;<br>
+                                @lang("info.slide3.t15")
                                 </p>
 
                             </div>
@@ -165,7 +164,7 @@
 <section class="tm-gray-bg" id="department">
     <div class="empty-space col-md-b100 col-xs-b70"></div>
     <div class="tm-section-heading text-center">
-        <h2>Nos services</h2>
+        <h2>@lang("info.categories.t26")</h2>
         <div class="tm-section-seperator"><span></span></div>
         <div class="empty-space col-md-b60 col-xs-b40"></div>
     </div>
@@ -173,12 +172,12 @@
         <div class="tm-tab-wrap">
             <div class="tm-tabs-wrap">
                 <ul class="tabs">
-                    <li><i class="icofont icofont-prescription"></i>Médecine générale</li>
-                    <li><i class="icofont icofont-heartbeat"></i>Médecine interne </li>
-                    <li><i class="icofont icofont-surgeon"></i>Chirurgie</li>
-                    <li><i class="icofont icofont-icu"></i>Pédiatrie</li>
-                    <li><i class="icofont icofont-xray"></i>Radiologie</li>
-                    <li><i class="icofont icofont-laboratory"></i>Laboratoire</li>
+                    <li><i class="icofont icofont-prescription"></i>@lang("info.departement.d1")</li>
+                    <li><i class="icofont icofont-heartbeat"></i>@lang("info.departement.d2") </li>
+                    <li><i class="icofont icofont-surgeon"></i>@lang("info.departement.d3")</li>
+                    <li><i class="icofont icofont-icu"></i>@lang("info.departement.d4")</li>
+                    <li><i class="icofont icofont-xray"></i>@lang("info.departement.d5")</li>
+                    <li><i class="icofont icofont-laboratory"></i>@lang("info.departement.d6")</li>
                 </ul> <!-- .tabs -->
             </div>
             <div class="empty-space col-md-b60 col-xs-b40"></div>
@@ -194,11 +193,7 @@
                                     <h3 class="tm-about-title">Médecine <span>générale</span></h3>
                                     <div class="tm-about-text">
                                         <p>
-                                            Assuré par des généralistes disponible et efficient dans la prise en charge
-                                            des infections courantes rencontrée dans notre milieu. <br>
-                                            Les spécialistes chacun dans son domaine sont joignable 24h/24 pour venir à
-                                            la rescousse de nos patients en souffrance en cas de besoin exprimé par les
-                                            généralistes.
+                                        @lang("info.departement.t31")
                                         </p>
                                     </div>
 
@@ -217,9 +212,7 @@
                                 <div class="tm-about tm-gray-bg">
                                     <h3 class="tm-about-title">Meédécine <span>interne</span></h3>
                                     <div class="tm-about-text">
-                                        <p>Supervisé par un médecin spécialise en médecine interne avec plus de 30ans
-                                            d’expériences dans la prise en charge des infections divers accompagné par
-                                            d’autres spécialistes en cas de besoin.</p>
+                                        <p>@lang("info.departement.t32")</p>
                                     </div>
 
                                 </div>
@@ -237,8 +230,7 @@
                                 <div class="tm-about tm-gray-bg">
                                     <h3 class="tm-about-title"><span>Chirurgie </span></h3>
                                     <div class="tm-about-text">
-                                        <p>Prise en charge par un chirurgien général des affections chirurgicale divers,
-                                            prise en charge avec ou sans chirurgie en salle d’opération. </p>
+                                        <p>@lang("info.departement.t33")</p>
                                     </div>
 
                                 </div>
@@ -256,9 +248,7 @@
                                 <div class="tm-about tm-gray-bg">
                                     <h3 class="tm-about-title"><span>Pédiatrie</span></h3>
                                     <div class="tm-about-text">
-                                        <p>Prise en charge de nos jeunes malades par une équipe pédiatrique de qualité
-                                            en tachant de rendre le séjour hospitalier de ces derniers le moins
-                                            traumatisant possible.</p>
+                                        <p>@lang("info.departement.t34")</p>
                                     </div>
                                 </div>
                             </div>
@@ -275,8 +265,7 @@
                                 <div class="tm-about tm-gray-bg">
                                     <h3 class="tm-about-title"><span>Radiologie</span></h3>
                                     <div class="tm-about-text">
-                                        <p>La radio standard et l’échographie sont disponible dans notre centre mère
-                                            qu’aux heures de service et sur appel en dehors.</p>
+                                        <p>@lang("info.departement.t35")</p>
                                     </div>
 
                                 </div>
@@ -294,8 +283,7 @@
                                 <div class="tm-about tm-gray-bg">
                                     <h3 class="tm-about-title"><span>LABORATOIRE </span></h3>
                                     <div class="tm-about-text">
-                                        <p>Hématologie, biochimie, infectio-parasitologie disponible 24h/ 24 dans nos
-                                            sites. </p>
+                                        <p>@lang("info.departement.t36")</p>
                                     </div>
 
                                 </div>
@@ -325,9 +313,7 @@
                     <div class="tm-section-heading text-center">
                         <h2>@lang("info.slide5.rdv")</h2>
                         <div class="tm-section-seperator"><span></span></div>
-                        <p>Si vous souhaitez prendre rendez-vous avec un spécialiste, remplissez simplement le
-                            formulaire avec des données valides et nous vous contacterons pour confirmation.</p>
-                    </div>
+                        <p>@lang("info.slide5.rdv-text")</div>
                 </div>
             </div><!-- .col -->
             <div class="col-lg-5">
@@ -384,8 +370,8 @@
                     </div>
                     <div class="empty-space col-xs-b10"></div>
                     <div class="tm-form-field">
-                        <button class="tm-btn1 tm-reverse" type="submit" id="appointment-submit" name="submit">PRENDRE
-                            RENDEZ-VOUS</button>
+                        <button class="tm-btn1 tm-reverse" type="submit" id="appointment-submit" name="submit">@lang("info.slide5.btn")
+                            </button>
                     </div>
                 </form>
                 <div class="empty-space col-md-b60 col-xs-b70"></div>
@@ -399,7 +385,7 @@
 <section id="doctor">
     <div class="empty-space col-md-b100 col-xs-b70"></div>
     <div class="tm-section-heading text-center">
-        <h2>Nos médecins</h2>
+        <h2>@lang("info.equipe.docteurs")</h2>
         <div class="tm-section-seperator"><span></span></div>
         <div class="empty-space col-md-b60 col-xs-b40"></div>
     </div>
@@ -441,7 +427,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Illunga Kabuyi</a></h3>
-                            <span class="tm-member-speciality">Cardiologue</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality1")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -478,7 +464,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Jay Swanson</a></h3>
-                            <span class="tm-member-speciality">Gynécologue</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality2")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -515,7 +501,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Alex Abbott</a></h3>
-                            <span class="tm-member-speciality">Neurologue</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality3")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -552,7 +538,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Kay Conley</a></h3>
-                            <span class="tm-member-speciality">Diagnostic</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality4")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -589,7 +575,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Willie Crowley</a></h3>
-                            <span class="tm-member-speciality">Cardiologue</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality5")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -626,7 +612,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Jay Swanson</a></h3>
-                            <span class="tm-member-speciality">Gynécologue</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality6")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -663,7 +649,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Alex Abbott</a></h3>
-                            <span class="tm-member-speciality">Neurologue</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality7")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -700,7 +686,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Kay Conley</a></h3>
-                            <span class="tm-member-speciality">Diagnostic</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality8")</span>
                         </div>
                     </div>
                     <div class="tm-team-member">
@@ -737,7 +723,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Kay Conley</a></h3>
-                            <span class="tm-member-speciality">Diagnostic</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality9")</span>
                         </div>
                     </div>
 
@@ -786,16 +772,16 @@
 <section id="gallery">
     <div class="empty-space col-md-b100 col-xs-b70"></div>
     <div class="tm-section-heading text-center">
-        <h2>Voir notre galerie</h2>
+        <h2>@lang("info.gallerie.voir")</h2>
         <div class="tm-section-seperator"><span></span></div>
         <div class="empty-space col-md-b60 col-xs-b40"></div>
     </div>
     <div class="tm-portfolio-filter text-center">
         <ul>
-            <li class="active"><a href="#" data-filter="*">TOUT</a></li>
-            <li><a href="#" data-filter=".staff">PERSONNEL</a></li>
-            <li><a href="#" data-filter=".locals">LOCAUX</a></li>
-            <li><a href="#" data-filter=".materials">MATERIELS</a></li>
+            <li class="active"><a href="#" data-filter="*">@lang("info.gallerie.tout")</a></li>
+            <li><a href="#" data-filter=".staff">@lang("info.gallerie.personnel")</a></li>
+            <li><a href="#" data-filter=".locals">@lang("info.gallerie.locaux")</a></li>
+            <li><a href="#" data-filter=".materials">@lang("info.gallerie.materiels")</a></li>
         </ul>
     </div><!-- .tm-portfolio-filter-area -->
     <div class="tm-portfolio zoom-gallery tm-gutter-less">
@@ -850,7 +836,7 @@
 <section>
     <div class="empty-space col-md-b100 col-xs-b70"></div>
     <div class="tm-section-heading text-center">
-        <h2>Les patients disent de nous</h2>
+        <h2>@lang("info.patients.disent")</h2>
         <div class="tm-section-seperator"><span></span></div>
         <div class="empty-space col-md-b60 col-xs-b40"></div>
     </div>
@@ -862,12 +848,10 @@
                         <div class="tm-testimonial-thumb"><img src="{{ asset('assets/img/test-01.jpg') }}" alt=""></div>
                         <div class="tm-testimonial-text">
                             <i class="fa fa-quote-right"></i>
-                            <blockquote>Ils m'ont sauvé la vie. Ils n'ont pas abandonné, et ils ont poussé pour un
-                                traitement qui me mettrait en rémission. Ils continuent d'avoir certains des meilleurs
-                                effectifs que j'aie jamais eus.</blockquote>
+                            <blockquote>@lang("info.patients.test1")</blockquote>
                             <div class="tm-testimonial-meta">
                                 <h3>Alex Bieniek</h3>
-                                <span>Etudiant</span>
+                                <span>@lang("info.patients.proffession1")</span>
                             </div>
                         </div>
                     </div><!-- testimonail slide -->
@@ -875,12 +859,11 @@
                         <div class="tm-testimonial-thumb"><img src="{{ asset('assets/img/test-02.jpg') }}" alt=""></div>
                         <div class="tm-testimonial-text">
                             <i class="fa fa-quote-right"></i>
-                            <blockquote>Rien que le meilleur. Médecine d'équipe avec les meilleurs spécialistes. Ça vaut
-                                le coup de venir ici, surtout si cela implique votre santé ou celle d'un être cher.
+                            <blockquote>@lang("info.patients.test2")<
                             </blockquote>
                             <div class="tm-testimonial-meta">
                                 <h3>Sheri Coburn</h3>
-                                <span>Enseignant</span>
+                                <span>@lang("info.patients.proffession2")<</span>
                             </div>
                         </div>
                     </div><!-- testimonail slide -->
@@ -888,12 +871,10 @@
                         <div class="tm-testimonial-thumb"><img src="{{ asset('assets/img/test-03.jpg') }}" alt=""></div>
                         <div class="tm-testimonial-text">
                             <i class="fa fa-quote-right"></i>
-                            <blockquote>J'adore cet hôpital, je pense vraiment que c'est le meilleur au Congo, j'y ai eu
-                                mes deux enfants, leur personnel est vraiment sympa et ils ont vraiment pris soin de
-                                moi.</blockquote>
+                            <blockquote>@lang("info.patients.test3")<</blockquote>
                             <div class="tm-testimonial-meta">
                                 <h3>Martha m.</h3>
-                                <span>Professeur</span>
+                                <span>@lang("info.patients.proffession3")<</span>
                             </div>
                         </div>
                     </div><!-- testimonail slide -->
@@ -914,7 +895,7 @@
                 <div class="tm-fun-fact text-center">
                     <i class="icofont icofont-briefcase-alt-2"></i>
                     <h2 class="tm-counter">24</h2>
-                    <h3>Années d'expérience</h3>
+                    <h3>@lang("info.tableau chiffres.annees")</h3>
                 </div>
                 <div class="empty-space col-xs-b30"></div>
             </div><!-- .col -->
@@ -922,7 +903,7 @@
                 <div class="tm-fun-fact text-center">
                     <i class="icofont icofont-emo-simple-smile"></i>
                     <h2 class="tm-counter">+3000</h2>
-                    <h3>Patient satisfait</h3>
+                    <h3>@lang("info.tableau chiffres.patients")</h3>
                 </div>
                 <div class="empty-space col-xs-b30"></div>
             </div><!-- .col -->
@@ -930,7 +911,7 @@
                 <div class="tm-fun-fact text-center">
                     <i class="icofont icofont-doctor"></i>
                     <h2 class="tm-counter">+15</h2>
-                    <h3>Nombre des docteurs</h3>
+                    <h3>@lang("info.tableau chiffres.docteurs")</h3>
                 </div>
                 <div class="empty-space col-xs-b30"></div>
             </div><!-- .col -->
@@ -938,7 +919,7 @@
                 <div class="tm-fun-fact text-center">
                     <i class="icofont icofont-users-social"></i>
                     <h2 class="tm-counter">80</h2>
-                    <h3>Nombre de staff</h3>
+                    <h3>@lang("info.tableau chiffres.staff")</h3>
                 </div>
                 <div class="empty-space col-xs-b30"></div>
             </div><!-- .col -->
@@ -1030,7 +1011,7 @@
     <div class="empty-space col-md-b100 col-xs-b70"></div>
     <div class="container">
         <div class="tm-section-heading text-center">
-            <h2>Foire Aux Questions</h2>
+            <h2>@lang("info.tableau questions.faq")</h2>
             <div class="tm-section-seperator"><span></span></div>
             <div class="empty-space col-md-b60 col-xs-b40"></div>
         </div>
@@ -1039,13 +1020,13 @@
                 <div class="accordian-wrapper tm-style1">
                     <div class="accordian">
                         <div class="single-accordian">
-                            <h3 class="accordian-head">Où vous trouvez ?</h3>
-                            <div class="accordian-body">Nous sommes sur 3 sites : <br>
+                            <h3 class="accordian-head">@lang("info.tableau questions.q1")</h3>
+                            <div class="accordian-body">@lang("info.tableau questions.reponse1")<br>
                                 <li>Av/Kwango 3 Q/ Jolie parc C/Ngaliema</li>
                             </div>
                         </div><!-- .single-accordian -->
                         <div class="single-accordian">
-                            <h3 class="accordian-head">Faites-vous des conventions pour les familles?</h3>
+                            <h3 class="accordian-head">@lang("info.tableau questions.q2")</h3>
                             <div class="accordian-body"> </div>
                         </div><!-- .single-accordian -->
 
@@ -1057,11 +1038,11 @@
                 <div class="accordian-wrapper tm-style1">
                     <div class="accordian">
                         <div class="single-accordian">
-                            <h3 class="accordian-head">Quel est le numéro d'appel en cas d'urgence?</h3>
+                            <h3 class="accordian-head">@lang("info.tableau questions.q3")</h3>
                             <div class="accordian-body">hftjhgfjhgf </div>
                         </div><!-- .single-accordian -->
                         <div class="single-accordian">
-                            <h3 class="accordian-head">Avez-vous le service de medecin de famille ?</h3>
+                            <h3 class="accordian-head">@lang("info.tableau questions.q4")</h3>
                             <div class="accordian-body"> </div>
 
                         </div>
@@ -1078,14 +1059,14 @@
 <section id="blog">
     <div class="empty-space col-md-b100 col-xs-b70"></div>
     <div class="tm-section-heading text-center">
-        <h2>DERNIÈRES NOUVELLES</h2>
+        <h2>@lang("info.blog.mise")</h2>
         <div class="tm-section-seperator"><span></span></div>
         <div class="empty-space col-md-b60 col-xs-b40"></div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="text-center text-info">Il n'y a pas encore de nouvelle</h2>
+                <h2 class="text-center text-info">@lang("info.blog.nothing")</h2>
             </div>
             {{-- <div class="col-md-4">
                 <div class="tm-post tm-style1 tm-type1">
@@ -1101,20 +1082,19 @@
                     <div class="empty-space col-xs-b25"></div>
                     <div class="tm-blog-body">
                         <h2 class="tm-blog-heading">
-                            <a href="#" class="tm-link-block">Chose effrayante que vous ne comprenez pas</a>
+                            <a href="#" class="tm-link-block">@lang("info.blog.text")</a>
                         </h2>
                         <div class="empty-space col-xs-b15"></div>
                         <div class="tm-blog-meta">
                             <span><a href="#" class="bar-link"><i class="fa fa-user"></i>Admin</a></span>
-                            <span><i class="fa fa-calendar"></i>10 janvier 2018</span>
+                            <span><i class="fa fa-calendar"></i>@lang("info.blog.date")</span>
                         </div>
                         <div class="empty-space col-xs-b20"></div>
                         <div class="tm-blog-separator"></div>
                         <div class="tm-entry-content">
-                            <p>Si vous vous tournez et vous retournez tous les soirs, il y a de mauvaises nouvelles.
-                                Votre cerveau pourrait avoir de gros problèmes ! Il s'avère que...</p>
+                            <p>@lang("info.blog.text2")</p>
                             <div class="empty-space col-xs-b20"></div>
-                            <a href="#" class="tm-btn1">EN SAVOIR PLUS</a>
+                            <a href="#" class="tm-btn1">@lang("info.blog.btn")</a>
                         </div>
                     </div>
                 </div><!-- .tm-post -->
@@ -1138,7 +1118,7 @@
                 <span class="bar"></span>
             </div>
             <button type="submit" id="subscribe-button" class="tm-btn1 tm-reverse"><span><i
-                        class="icofont icofont-location-arrow"></i>ABONNEZ-VOUS MAINTENANT</span></button>
+                        class="icofont icofont-location-arrow"></i>@lang("info.blog.btn2")</span></button>
             <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
             <h5 class="subscription-success"> .</h5>
             <h5 class="subscription-error"> .</h5>
@@ -1153,7 +1133,7 @@
 <section id="contact">
     <div class="empty-space col-md-b100 col-xs-b70"></div>
     <div class="tm-section-heading text-center">
-        <h2>Contactez-nous</h2>
+        <h2>@lang("info.tableau contact.contactez")</h2>
         <div class="tm-section-seperator"><span></span></div>
         <div class="empty-space col-md-b60 col-xs-b40"></div>
     </div>
@@ -1164,7 +1144,7 @@
                 <div class="tm-contact-info">
                     <div class="tm-single-contact tm-style1">
                         <i class="fa fa-map-marker"></i>
-                        <h3>Adresse</h3>
+                        <h3>@lang("info.tableau contact.adresse")</h3>
                         <p>Av/Kwango 3 Q/ Jolie parc C/Ngaliema</p>
                     </div>
                     <div class="empty-space col-md-b60 col-xs-b30"></div>
@@ -1173,7 +1153,7 @@
             <div class="col-lg-4">
                 <div class="tm-single-contact tm-style1">
                     <i class="fa fa-phone"></i>
-                    <h3>Téléphone</h3>
+                    <h3>@lang("info.tableau contact.telephone-contact")</h3>
                     <p>+243857000908 </p>
                 </div>
                 <div class="empty-space col-md-b60 col-xs-b30"></div>
@@ -1193,13 +1173,13 @@
                     <div class="col-lg-6">
                         <div class="tm-form-field">
                             <input type="text" id="name" name="name" required>
-                            <label>Nom complet</label>
+                            <label>@lang("info.slide5.nom complet")</label>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg-6">
                         <div class="tm-form-field">
                             <input type="text" id="email" name="email" required>
-                            <label>Adresse e-mail</label>
+                            <label>@lang("info.slide5.adresse mail")</label>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg-6">
@@ -1211,7 +1191,7 @@
                     <div class="col-lg-6">
                         <div class="tm-form-field">
                             <input type="text" id="phone" name="phone" required>
-                            <label>Téléphone</label>
+                            <label>@lang("info.slide5.telephone")</label>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg-12">
