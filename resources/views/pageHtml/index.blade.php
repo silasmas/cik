@@ -117,7 +117,7 @@
                             <ul class="tm-shedule-list">
                                 <li>
                                     <span>@lang("info.slide3,1.t22")</span>
-                                    <span>@lang("info.slide3,1.t23")'</span>
+                                    <span>@lang("info.slide3,1.t23")</span>
                                 </li>
                                 <li>
                                     <span></span>
@@ -125,7 +125,7 @@
                                 </li>
                                 <li>
                                     <span></span>
-                                    <span>@lang("info.slide3,1.25")</span>
+                                    <span>@lang("info.slide3,1.t25")</span>
                                 </li>
                             </ul>
                         </div><!-- .tm-shedule -->
@@ -138,10 +138,10 @@
                             <h3 class="tm-about-title">@lang("info.slide3.t9") <span>CIK</span>?</h3>
                             <div class="tm-about-text">
                                 <p>@lang("info.slide3.t10") ; <br>
+                                @lang("info.slide3.t11") ;<br>
                                 @lang("info.slide3.t12") ;<br>
                                 @lang("info.slide3.t13") ;<br>
-                                @lang("info.slide3.t14") ;<br>
-                                @lang("info.slide3.t15")
+                                @lang("info.slide3.t14")
                                 </p>
 
                             </div>
@@ -354,7 +354,7 @@
                     <div class="tm-form-field">
                         <div class="tm-custom-select-wrap">
                             <select name="udoctor" class="tm-custom-select" id="udoctor">
-                                <option value="doctor">Doctor</option>
+                                <option value="doctor">@lang("info.slide5.docteur")</option>
                                 <option value="1">Dr. Silas</option>
                                 <option value="mak-rushi">Dr. Mak Roshi</option>
                                 <option value="mohoshin-kabir">Dr. Mohoshin Kabir</option>
@@ -365,7 +365,7 @@
                         </div>
                     </div>
                     <div class="tm-form-field">
-                        <textarea cols="30" rows="10" id="umsg" name="umsg" placeholder="Your Message"></textarea>
+                        <textarea cols="30" rows="10" id="umsg" name="umsg" placeholder="@lang("info.slide5.message")"></textarea>
                         <span class="bar"></span>
                     </div>
                     <div class="empty-space col-xs-b10"></div>
@@ -863,7 +863,7 @@
                             </blockquote>
                             <div class="tm-testimonial-meta">
                                 <h3>Sheri Coburn</h3>
-                                <span>@lang("info.patients.proffession2")<</span>
+                                <span>@lang("info.patients.proffession2")</span>
                             </div>
                         </div>
                     </div><!-- testimonail slide -->
@@ -871,10 +871,10 @@
                         <div class="tm-testimonial-thumb"><img src="{{ asset('assets/img/test-03.jpg') }}" alt=""></div>
                         <div class="tm-testimonial-text">
                             <i class="fa fa-quote-right"></i>
-                            <blockquote>@lang("info.patients.test3")<</blockquote>
+                            <blockquote>@lang("info.patients.test3")</blockquote>
                             <div class="tm-testimonial-meta">
                                 <h3>Martha m.</h3>
-                                <span>@lang("info.patients.proffession3")</span>
+                                <span>@lang("info.patients.proffession3") </span>
                             </div>
                         </div>
                     </div><!-- testimonail slide -->
@@ -1145,7 +1145,7 @@
                     <div class="tm-single-contact tm-style1">
                         <i class="fa fa-map-marker"></i>
                         <h3>@lang("info.tableau contact.adresse")</h3>
-                        <p>Av/Kwango 3 Q/ Jolie parc C/Ngaliema</p>
+                        <p>@lang("info.tableau contact.location")</p>
                     </div>
                     <div class="empty-space col-md-b60 col-xs-b30"></div>
                 </div>
@@ -1154,15 +1154,15 @@
                 <div class="tm-single-contact tm-style1">
                     <i class="fa fa-phone"></i>
                     <h3>@lang("info.tableau contact.telephone-contact")</h3>
-                    <p>+243857000908 </p>
+                    <p>@lang("info.tableau contact.numero")</p>
                 </div>
                 <div class="empty-space col-md-b60 col-xs-b30"></div>
             </div><!-- .col -->
             <div class="col-lg-4">
                 <div class="tm-single-contact tm-style1">
                     <i class="fa fa-envelope"></i>
-                    <h3>E-mail</h3>
-                    <p>info@cik-rdc.com <br>
+                    <h3>@lang("info.tableau contact.mail")</h3>
+                    <p>@lang("info.tableau contact.adresse mail")<br>
                     </p>
                 </div>
                 <div class="empty-space col-md-b60 col-xs-b30"></div>
@@ -1185,7 +1185,7 @@
                     <div class="col-lg-6">
                         <div class="tm-form-field">
                             <input type="text" id="subject" name="subject" required>
-                            <label>Sujet</label>
+                            <label>@lang("info.tableau contact.sujet")</label>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg-6">
@@ -1197,12 +1197,12 @@
                     <div class="col-lg-12">
                         <div class="tm-form-field">
                             <textarea cols="30" rows="10" id="msg" name="msg" required></textarea>
-                            <label>Votre message</label>
+                            <label>@lang("info.tableau contact.message")</label>
                         </div>
                     </div><!-- .col -->
                     <div class="col-lg-12">
-                        <button class="tm-btn1" type="submit" id="submit" name="submit"><span>ENVOYER
-                                MESSAGE</span></button>
+                        <button class="tm-btn1" type="submit" id="submit" name="submit"><span> @lang("info.tableau contact.btn")
+                            </span></button>
                         <div class="empty-space col-lg-b30"></div>
                     </div><!-- .col -->
                 </form>
