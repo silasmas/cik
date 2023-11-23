@@ -1112,6 +1112,7 @@
     <div class="empty-space col-md-b100 col-xs-b70"></div>
     <div class="container">
         <form class="mailchimp" action="">
+
             <div class="tm-form-field">
                 {{-- <input type="text" name="subscribe" id="subscriber-email" placeholder="Nom"> --}}
                 <input type="email" name="subscribe" id="subscriber-email" placeholder= '@lang("info.blog.email")'>
@@ -1170,6 +1171,7 @@
             <div class="col-lg-12">
                 <div id="tm-alert"></div>
                 <form action="assets/php/mail.php" class="row tm-contact-form" method="post" id="contact-form">
+                   @csrf
                     <div class="col-lg-6">
                         <div class="tm-form-field">
                             <input type="text" id="name" name="name" required>
