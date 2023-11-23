@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\UpdaterendezvousRequest;
 use App\Models\rendezvous;
 use Illuminate\Http\Request;
-use App\Http\Requests\UpdaterendezvousRequest;
 
 class RendezvousController extends Controller
 {
@@ -50,33 +50,36 @@ class RendezvousController extends Controller
         // );
 
         // if ($re->passes()) {
-            $rep = rendezvous::create(
+        $dt = explode("/", $request->udate);
+        //dd($dt[2]."-".$dt[1]."-".$dt[0]);
+        // dd($request->udoctor);
+        $rep = rendezvous::create(
+            [
+                "fullname" => $request->fullname,
+                "email" => $request->email,
+                "phone" => $request->phone,
+                "daterdv" => $dt[2] . "-" . $dt[1] . "-" . $dt[0],
+                "departement" => $request->udepartment,
+                "message" => $request->umsg,
+                "docteur_id" => $request->udoctor,
+            ]
+        );
+
+        if ($rep) {
+            return response()->json(
                 [
-                    "fullname" => $request->fullname,
-                    "email" => $request->email,
-                    "phone" => $request->phone,
-                    "daterdv" => $request->udate,
-                    "departement" => $request->udepartment,
-                    "message" => $request->umsg,
-                    "docteur_id" => $request->udoctor,
+                    'reponse' => true,
+                    'msg' => 'Evenement enregistrer avec succés!',
                 ]
             );
-
-            if ($rep) {
-                return response()->json(
-                    [
-                        'reponse' => true,
-                        'msg' => 'Evenement enregistrer avec succés!',
-                    ]
-                );
-            } else {
-                return response()->json(
-                    [
-                        'reponse' => false,
-                        'msg' => 'Erreur',
-                    ]
-                );
-            }
+        } else {
+            return response()->json(
+                [
+                    'reponse' => false,
+                    'msg' => 'Erreur',
+                ]
+            );
+        }
         // } else {
         //     // dd( $re->errors()->first());
         //     return response()->json(

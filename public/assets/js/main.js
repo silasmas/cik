@@ -608,6 +608,7 @@
 
 		$('#tm-alert').hide();
 	    $('#contact-form #submit').on('click', function() {
+            var csrf = $('[name="csrf-token"]').attr('content');
 	        var name = $('#name').val();
 	        var subject = $('#subject').val();
 	        var phone = $('#phone').val();
@@ -631,10 +632,12 @@
 	            				"&subject=" + subject +
 	            				"&phone=" + phone +
 	            				"&email=" + email +
+                                "&_token :{{ csrf_token() }}"+
 	            				"&msg=" + msg;
 	            $.ajax({
+                    headers: { 'X-CSRF-TOKEN': csrf },
 	                type: "POST",
-	                url: "assets/php/mail.php",
+	                url: "sendMsg",
 	                data: values,
 	                success: function() {
 	                    $('#name').val('');
@@ -643,14 +646,14 @@
 	                    $('#email').val('');
 	                    $('#msg').val('');
 
-	                    $('#tm-alert').fadeIn().html('<div class="alert alert-success"><strong>Success!</strong> Email has been sent successfully.</div>');
+	                    $('#tm-alert').fadeIn().html('<div class="alert alert-success"><strong>Success!</strong> Message envoyé</div>');
 	                    setTimeout(function() {
 	                        $('#tm-alert').fadeOut('slow');
 	                    }, 4000);
 	                }
 	            });
 	        } else {
-				$('#tm-alert').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> All fields are required.</div>');
+				$('#tm-alert').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Champs obligatoire</div>');
 	        }
 	        return false;
 	    });
@@ -692,7 +695,7 @@
 	            				"&udate=" + udate +
 	            				"&udepartment=" + udepartment +
 	            				"&udoctor=" + udoctor +
-                                "_token :{{ csrf_token() }}"+
+                                "&_token :{{ csrf_token() }}"+
 	            				"&umsg=" + umsg;
 	            $.ajax({
                     headers: { 'X-CSRF-TOKEN': csrf },

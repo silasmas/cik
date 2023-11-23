@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\message;
-use App\Http\Requests\StoremessageRequest;
+use Illuminate\Http\Request;
 use App\Http\Requests\UpdatemessageRequest;
 
 class MessageController extends Controller
@@ -34,9 +34,35 @@ class MessageController extends Controller
      * @param  \App\Http\Requests\StoremessageRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoremessageRequest $request)
+    public function store(Request $request)
     {
-        //
+
+        $rep = message::create(
+            [
+                "fullname" => $request->name,
+                "email" => $request->email,
+                "phone" => $request->phone,
+                "addresse" => "",
+                "sujet" => $request->subject,
+                "message" => $request->msg,
+            ]
+        );
+
+        if ($rep) {
+            return response()->json(
+                [
+                    'reponse' => true,
+                    'msg' => 'Enregistrement fait avec succés!',
+                ]
+            );
+        } else {
+            return response()->json(
+                [
+                    'reponse' => false,
+                    'msg' => 'Erreur',
+                ]
+            );
+        }
     }
 
     /**
