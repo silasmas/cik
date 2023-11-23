@@ -77,7 +77,7 @@ return [
     ],
         
     'equipe' => [
-        'docteurs' => 'Nos Medicine',
+        'docteurs' => 'Nos Médecins',
         'speciality1' => 'Gynécologue',
         'speciality2' => 'Neurologue',
         'speciality3' => 'Diagnostic',
