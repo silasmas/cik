@@ -58,7 +58,7 @@ class RendezvousController extends Controller
                 "fullname" => $request->fullname,
                 "email" => $request->email,
                 "phone" => $request->phone,
-                "daterdv" => $dt[2] . "-" . $dt[1] . "-" . $dt[0],
+                "daterdv" => $dt[2] . "-" . $dt[0] . "-" . $dt[1],
                 "departement" => $request->udepartment,
                 "message" => $request->umsg,
                 "docteur_id" => $request->udoctor,

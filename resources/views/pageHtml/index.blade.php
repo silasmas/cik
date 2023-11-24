@@ -14,7 +14,7 @@
             </h1>
             <div class="empty-space col-sm-b20 col-xs-b10"></div>
             <h2 class="tm-headline letters tm-rotate-text">
-        
+
                 @lang('info.slide1.t2')
                 <span class="tm-words-wrapper">
                     <b class="is-visible"> @lang('info.offres.c1') </b>
@@ -33,10 +33,10 @@
             <p class="fs-5">@lang('info.slide1.t3')</p>
             <div class="empty-space col-md-b55 col-sm-b35 col-xs-b25"></div>
             <div class="tm-hero-btn tm-hero-video-btn">
-                <div class="tm-video-button tm-color1" data-video-id="hgstalns_wo" data-channel="youtube">
+                {{-- <div class="tm-video-button tm-color1" data-video-id="hgstalns_wo" data-channel="youtube">
                     <i class="icofont icofont-play-alt-3"></i>
                     <span class="tm-video-animaiton"><span></span></span>
-                </div>
+                </div> --}}
                 {{-- <span class="tm-video-text">@lang('info.home.slideBtVideo')</span> --}}
             </div>
         </div>
@@ -185,7 +185,7 @@
                 <div class="tm-tabs-item">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="tm-dept-img"><img src="{{ asset('assets/img/1.dental.jpg') }}" alt=""></div>
+                            <div class="tm-dept-img"><img src="{{ asset('assets/img/services/8.jpg') }}" alt=""></div>
                         </div><!-- .col -->
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
@@ -205,7 +205,7 @@
                 <div class="tm-tabs-item">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="tm-dept-img"><img src="{{ asset('assets/img/2.neurology.jpg') }}" alt=""></div>
+                            <div class="tm-dept-img"><img src="{{ asset('assets/img/services/5.jpg') }}" alt=""></div>
                         </div><!-- .col -->
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
@@ -223,7 +223,7 @@
                 <div class="tm-tabs-item">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="tm-dept-img"><img src="{{ asset('assets/img/3.crutches.jpg') }}" alt=""></div>
+                            <div class="tm-dept-img"><img src="{{ asset('assets/img/services/9.jpg')}}" alt=""></div>
                         </div><!-- .col -->
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
@@ -241,7 +241,7 @@
                 <div class="tm-tabs-item">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="tm-dept-img"><img src="{{ asset('assets/img/4.cardiology.jpg') }}" alt=""></div>
+                            <div class="tm-dept-img"><img src="{{asset('assets/img/services/3.jpg')}}" alt=""></div>
                         </div><!-- .col -->
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
@@ -258,7 +258,7 @@
                 <div class="tm-tabs-item">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="tm-dept-img"><img src="{{ asset('assets/img/5.pulmones.jpg') }}" alt=""></div>
+                            <div class="tm-dept-img"><img src="{{asset('assets/img/services/4.jpg')}}" alt=""></div>
                         </div><!-- .col -->
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
@@ -276,7 +276,7 @@
                 <div class="tm-tabs-item">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="tm-dept-img"><img src="{{ asset('assets/img/6.xray.jpg') }}" alt=""></div>
+                            <div class="tm-dept-img"><img src="{{asset('assets/img/services/10.jpg')}}" alt=""></div>
                         </div><!-- .col -->
                         <div class="col-lg-6">
                             <div class="tm-dept-details-wrap">
@@ -929,82 +929,7 @@
 </section>
 <!-- End Fun Fact Section -->
 
-<!-- Start Pricing Seciton -->
-{{-- <section id="price">
-    <div class="empty-space col-md-b100 col-xs-b70"></div>
-    <div class="tm-section-heading text-center">
-        <h2>PRICING PLANS</h2>
-        <div class="tm-section-seperator"><span></span></div>
-        <div class="empty-space col-md-b60 col-xs-b40"></div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="tm-pricing-carousel owl-carousel tm-nam-tm-style1 tm-dots1">
-                    <div class="tm-price-list tm-gray-bg">
-                        <div class="tm-price">
-                            <h3>$25</h3>
-                        </div>
-                        <h2 class="tm-pricing-heading">Blood Test</h2>
-                        <ul class="tm-test-list">
-                            <li>First Description</li>
-                            <li>Second Description</li>
-                            <li>Third Description</li>
-                            <li>Fourth Description</li>
-                            <li>Fifth Description</li>
-                        </ul>
-                        <a href="#" class="tm-btn1">CONTACT NOW</a>
-                    </div><!-- .tm-price-list -->
-                    <div class="tm-price-list tm-gray-bg">
-                        <div class="tm-price">
-                            <h3>$30</h3>
-                        </div>
-                        <h2 class="tm-pricing-heading">Hemoglobin Test</h2>
-                        <ul class="tm-test-list">
-                            <li>First Description</li>
-                            <li>Second Description</li>
-                            <li>Third Description</li>
-                            <li>Fourth Description</li>
-                            <li>Fifth Description</li>
-                        </ul>
-                        <a href="#" class="tm-btn1">CONTACT NOW</a>
-                    </div><!-- .tm-price-list -->
-                    <div class="tm-price-list tm-gray-bg">
-                        <div class="tm-price">
-                            <h3>$70</h3>
-                        </div>
-                        <h2 class="tm-pricing-heading">Homocysteine</h2>
-                        <ul class="tm-test-list">
-                            <li>First Description</li>
-                            <li>Second Description</li>
-                            <li>Third Description</li>
-                            <li>Fourth Description</li>
-                            <li>Fifth Description</li>
-                        </ul>
-                        <a href="#" class="tm-btn1">CONTACT NOW</a>
-                    </div><!-- .tm-price-list -->
-                    <div class="tm-price-list tm-gray-bg">
-                        <div class="tm-price">
-                            <h3>$24</h3>
-                        </div>
-                        <div class="pricing-shap"></div>
-                        <h2 class="tm-pricing-heading">X-Ray</h2>
-                        <ul class="tm-test-list">
-                            <li>First Description</li>
-                            <li>Second Description</li>
-                            <li>Third Description</li>
-                            <li>Fourth Description</li>
-                            <li>Fifth Description</li>
-                        </ul>
-                        <a href="#" class="tm-btn1">CONTACT NOW</a>
-                    </div><!-- .tm-price-list -->
-                </div>
-            </div><!-- .col -->
-        </div><!-- .row -->
-    </div>
-    <div class="empty-space col-md-b100 col-xs-b70"></div>
-</section> --}}
-<!-- End Pricing Seciton -->
+
 
 <!-- Start FAQ Section -->
 <section class="tm-gray-bg tm-overflow-hide">
