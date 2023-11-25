@@ -136,7 +136,7 @@ return [
         'date' => '10 janvier 2018',
         'text2' => 'tournez',
         'btn' => 'plus',
-        'btn2' => 'savoir plus',
+        'btn2' => 's\'abonner',
         'email' => 'Entrez votre adresse courriel ici '
     ],
     'tableau contact' => [

@@ -426,8 +426,8 @@
                             </div><!-- .tm-member-social-btn-wrap -->
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
-                            <h3 class="tm-member-name"><a href="#">Dr. Illunga Kabuyi</a></h3>
-                            <span class="tm-member-speciality">@lang("info.equipe.speciality1")</span>
+                            <h3 class="tm-member-name"><a href="#">Dr. Ilunga Kabuyi</a></h3>
+                            <span class="tm-member-speciality">Interniste</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -463,8 +463,8 @@
                             </div><!-- .tm-member-social-btn-wrap -->
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
-                            <h3 class="tm-member-name"><a href="#">Dr. Jay Swanson</a></h3>
-                            <span class="tm-member-speciality">@lang("info.equipe.speciality2")</span>
+                            <h3 class="tm-member-name"><a href="#">Dr. Situ Guylain</a></h3>
+                            <span class="tm-member-speciality">Généraliste</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -500,8 +500,8 @@
                             </div><!-- .tm-member-social-btn-wrap -->
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
-                            <h3 class="tm-member-name"><a href="#">Dr. Alex Abbott</a></h3>
-                            <span class="tm-member-speciality">@lang("info.equipe.speciality3")</span>
+                            <h3 class="tm-member-name"><a href="#">Dr. Lufungula Tresor</a></h3>
+                            <span class="tm-member-speciality">Généraliste</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -537,8 +537,8 @@
                             </div><!-- .tm-member-social-btn-wrap -->
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
-                            <h3 class="tm-member-name"><a href="#">Dr. Kay Conley</a></h3>
-                            <span class="tm-member-speciality">@lang("info.equipe.speciality4")</span>
+                            <h3 class="tm-member-name"><a href="#">Dr. Kankwashi Tincklaut </a></h3>
+                            <span class="tm-member-speciality">Généraliste</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -574,8 +574,8 @@
                             </div><!-- .tm-member-social-btn-wrap -->
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
-                            <h3 class="tm-member-name"><a href="#">Dr. Willie Crowley</a></h3>
-                            <span class="tm-member-speciality">@lang("info.equipe.speciality5")</span>
+                            <h3 class="tm-member-name"><a href="#">Dr. Nsiamunu Baku</a></h3>
+                            <span class="tm-member-speciality">Généraliste</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -611,8 +611,8 @@
                             </div><!-- .tm-member-social-btn-wrap -->
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
-                            <h3 class="tm-member-name"><a href="#">Dr. Jay Swanson</a></h3>
-                            <span class="tm-member-speciality">@lang("info.equipe.speciality6")</span>
+                            <h3 class="tm-member-name"><a href="#">Dr. Laurence Disu</a></h3>
+                            <span class="tm-member-speciality">Pédiatre</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -648,8 +648,8 @@
                             </div><!-- .tm-member-social-btn-wrap -->
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
-                            <h3 class="tm-member-name"><a href="#">Dr. Alex Abbott</a></h3>
-                            <span class="tm-member-speciality">@lang("info.equipe.speciality7")</span>
+                            <h3 class="tm-member-name"><a href="#">Dr.Gloria Puati</a></h3>
+                            <span class="tm-member-speciality">Généraliste</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -685,8 +685,8 @@
                             </div><!-- .tm-member-social-btn-wrap -->
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
-                            <h3 class="tm-member-name"><a href="#">Dr. Kay Conley</a></h3>
-                            <span class="tm-member-speciality">@lang("info.equipe.speciality8")</span>
+                            <h3 class="tm-member-name"><a href="#">Dr. Léonie Bowa</a></h3>
+                            <span class="tm-member-speciality">Gynocologue</span>
                         </div>
                     </div>
                     <div class="tm-team-member">
@@ -722,8 +722,8 @@
                             </div><!-- .tm-member-social-btn-wrap -->
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
-                            <h3 class="tm-member-name"><a href="#">Dr. Kay Conley</a></h3>
-                            <span class="tm-member-speciality">@lang("info.equipe.speciality9")</span>
+                            <h3 class="tm-member-name"><a href="#">Dr.Lutula Joelle</a></h3>
+                            <span class="tm-member-speciality">Généraliste</span>
                         </div>
                     </div>
 
@@ -1035,16 +1035,17 @@
 <div class="tm-newsletter tm-bg">
     <div class="tm-nl-overlay"></div>
     <div class="empty-space col-md-b100 col-xs-b70"></div>
+    <div id="tm-alertN"></div>
     <div class="container">
-        <form class="mailchimp" action="">
-
+        <form class="mailchimp" action="" id="newsletter-form">
+@csrf
             <div class="tm-form-field">
                 {{-- <input type="text" name="subscribe" id="subscriber-email" placeholder="Nom"> --}}
-                <input type="email" name="subscribe" id="subscriber-email" placeholder= '@lang("info.blog.email")'>
+                <input type="email" name="email" id="subscriber-email" placeholder= '@lang("info.blog.email")'>
                 <span class="bar"></span>
             </div>
             <button type="submit" id="subscribe-button" class="tm-btn1 tm-reverse"><span><i
-                        class="icofont icofont-location-arrow"></i>@lang("info.blog.btn2")</span></button>
+                    class="icofont icofont-location-arrow"></i>@lang("info.blog.btn2")</span></button>
             <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES -->
             <h5 class="subscription-success"> .</h5>
             <h5 class="subscription-error"> .</h5>

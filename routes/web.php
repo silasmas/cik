@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\MessageController;
+use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\page;
 use App\Http\Controllers\RendezvousController;
 use Illuminate\Support\Facades\Route;
@@ -32,6 +33,7 @@ Route::group([
     Route::get('/', [page::class,'index'])->name('h1');
     Route::post('/reservation', [RendezvousController::class,'store'])->name('reservation');
     Route::post('/sendMsg', [MessageController::class,'store'])->name('sendMsg');
+    Route::post('/sendNewsletter', [NewsletterController::class,'store'])->name('sendNewsletter');
     // Route::get('h8', function () {
     //     return view('pageHtml.home-version-8');
     // })->name('h8');

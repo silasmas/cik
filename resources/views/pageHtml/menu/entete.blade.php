@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/plugins.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/js/sweetalert/sweetalert.css') }}" >
 </head>
 
 <body>
@@ -41,9 +42,9 @@
     </div>
 
     <!-- Start Preloader -->
-    <div id="tm-preloader">
+    {{-- <div id="tm-preloader">
         <div id="tm-preloader-in">
             <div></div><div></div><div></div><div></div><div></div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Preloader -->

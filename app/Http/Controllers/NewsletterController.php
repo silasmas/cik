@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\newsletter;
-use App\Http\Requests\StorenewsletterRequest;
 use App\Http\Requests\UpdatenewsletterRequest;
+use App\Models\newsletter;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class NewsletterController extends Controller
 {
@@ -34,9 +35,45 @@ class NewsletterController extends Controller
      * @param  \App\Http\Requests\StorenewsletterRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StorenewsletterRequest $request)
+    public function store(Request $request)
     {
-        //
+        $re = Validator::make(
+            $request->all(),
+            [
+                'email' => ['required', 'string', 'email', 'max:255', 'unique:newsletters'],
+            ]
+        );
+        if ($re->passes()) {
+        $rep = newsletter::create(
+            [
+                "fullname" => "",
+                "email" => $request->email,
+            ]
+        );
+
+        if ($rep) {
+            return response()->json(
+                [
+                    'reponse' => true,
+                    'msg' => 'Enregistrement fait avec succés!',
+                ]
+            );
+        } else {
+            return response()->json(
+                [
+                    'reponse' => false,
+                    'msg' => 'Erreur',
+                ]
+            );
+        }
+        }else {
+            return response()->json(
+                [
+                    'reponse' => false,
+                    'msg' => $re->errors()->first(),
+                ]
+            );
+        }
     }
 
     /**
