@@ -86,7 +86,7 @@
 
     function preloaderSetup() {
         $("#tm-preloader-in").fadeOut();
-        $("#tm-preloader").delay(100).fadeOut("slow");
+        $("#tm-preloader").delay(10).fadeOut("slow");
     }
 
 

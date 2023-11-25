@@ -42,9 +42,9 @@
     </div>
 
     <!-- Start Preloader -->
-    {{-- <div id="tm-preloader">
+    <div id="tm-preloader">
         <div id="tm-preloader-in">
             <div></div><div></div><div></div><div></div><div></div>
         </div>
-    </div> --}}
+    </div>
     <!-- End Preloader -->
