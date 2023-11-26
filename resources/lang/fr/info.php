@@ -78,15 +78,15 @@ return [
         
     'equipe' => [
         'docteurs' => 'Nos Médecins',
-        'speciality1' => 'Gynécologue',
-        'speciality2' => 'Neurologue',
-        'speciality3' => 'Diagnostic',
-        'speciality4' => 'Cardiologue',
-        'speciality5' => 'Gynécologue',
-        'speciality6' => 'Neurologue',
-        'speciality7' => 'Diagnostic',
-        'speciality8' => 'Diagnostic',
-        'speciality9' => 'Diagnostic',
+        'speciality1' => 'Interniste',
+        'speciality2' => 'Généraliste',
+        'speciality3' => 'Généraliste',
+        'speciality4' => 'Généraliste',
+        'speciality5' => 'Généraliste',
+        'speciality6' => 'Pédiatre',
+        'speciality7' => 'Généraliste',
+        'speciality8' => 'Gynocologue',
+        'speciality9' => 'Généraliste',
     ],
 
     'slide5' => [

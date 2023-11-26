@@ -427,7 +427,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Ilunga Kabuyi</a></h3>
-                            <span class="tm-member-speciality">Interniste</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality1")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -464,7 +464,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Situ Guylain</a></h3>
-                            <span class="tm-member-speciality">Généraliste</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality2")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -501,7 +501,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Lufungula Tresor</a></h3>
-                            <span class="tm-member-speciality">Généraliste</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality3")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -538,7 +538,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Kankwashi Tincklaut </a></h3>
-                            <span class="tm-member-speciality">Généraliste</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality4")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -575,7 +575,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Nsiamunu Baku</a></h3>
-                            <span class="tm-member-speciality">Généraliste</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality5")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -612,7 +612,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Laurence Disu</a></h3>
-                            <span class="tm-member-speciality">Pédiatre</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality6")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -649,7 +649,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr.Gloria Puati</a></h3>
-                            <span class="tm-member-speciality">Généraliste</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality7")</span>
                         </div>
                     </div><!-- .tm-team-member -->
                     <div class="tm-team-member">
@@ -686,7 +686,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr. Léonie Bowa</a></h3>
-                            <span class="tm-member-speciality">Gynocologue</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality8")</span>
                         </div>
                     </div>
                     <div class="tm-team-member">
@@ -723,7 +723,7 @@
                         </div>
                         <div class="tm-member-meta tm-gray-bg text-center">
                             <h3 class="tm-member-name"><a href="#">Dr.Lutula Joelle</a></h3>
-                            <span class="tm-member-speciality">Généraliste</span>
+                            <span class="tm-member-speciality">@lang("info.equipe.speciality9")</span>
                         </div>
                     </div>
 
