@@ -615,14 +615,14 @@
             var email = $('#subscriber-email').val();
             var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
             btn.setAttribute('disabled', 'true');
-           
+
             // if (!regex.test(email)) {
             //     $('#tm-alertN').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Please Enter Valid Email.</div>');
             //     return false;
             // }
             email = $.trim(email);
 
-        
+
                 var values = "email=" + email +
                     "&_token :{{ csrf_token() }}";
                 $.ajax({
@@ -648,7 +648,7 @@
                         }
                     }
                 });
-            
+
             return false;
         });
 
@@ -668,7 +668,7 @@
 
             if (!regex.test(email)) {
                  $('#tm-alert').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Please Enter Valid Email.</div>');
-                
+
                 return false;
             }
 
@@ -733,10 +733,7 @@
 
             if (!regex.test(uemail)) {
                 $('#tm-alert1').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Veuillez entrer une adresse e-mail valide.</div>');
-                swal({
-                    title: 'Veuillez entrer une adresse e-mail valide.',
-                    icon: 'error'
-                });
+
                 return false;
             }
 
