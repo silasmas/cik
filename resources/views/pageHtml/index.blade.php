@@ -952,7 +952,7 @@
                         </div><!-- .single-accordian -->
                         <div class="single-accordian">
                             <h3 class="accordian-head">@lang("info.tableau questions.q2")</h3>
-                            <div class="accordian-body"> </div>
+                            <div class="accordian-body">@lang("info.tableau questions.reponse2") </div>
                         </div><!-- .single-accordian -->
 
                     </div>
@@ -964,11 +964,11 @@
                     <div class="accordian">
                         <div class="single-accordian">
                             <h3 class="accordian-head">@lang("info.tableau questions.q3")</h3>
-                            <div class="accordian-body">hftjhgfjhgf </div>
+                            <div class="accordian-body">@lang("info.tableau questions.reponse3") </div>
                         </div><!-- .single-accordian -->
                         <div class="single-accordian">
                             <h3 class="accordian-head">@lang("info.tableau questions.q4")</h3>
-                            <div class="accordian-body"> </div>
+                            <div class="accordian-body"> @lang("info.tableau questions.reponse4")</div>
 
                         </div>
                     </div>
