@@ -355,12 +355,16 @@
                         <div class="tm-custom-select-wrap">
                             <select name="udoctor" class="tm-custom-select" id="udoctor">
                                 <option value="doctor">@lang("info.slide5.docteur")</option>
-                                <option value="1">Dr. Silas</option>
-                                <option value="mak-rushi">Dr. Mak Roshi</option>
-                                <option value="mohoshin-kabir">Dr. Mohoshin Kabir</option>
-                                <option value="nayon-borua">Dr. Nayon Borua</option>
-                                <option value="rasel-islam">Dr. Rasel Islam</option>
-                                <option value="mahid-islam">Dr. Mahid Islam</option>
+                                <option value="1">Dr. ILUNG KABUYI (@lang("info.equipe.speciality1"))</option>
+                                <option value="2">Dr. SiTU GUYILAIN (@lang("info.equipe.speciality2"))</option>
+                                <option value="3">Dr. Mohoshin Kabir (@lang("info.equipe.speciality2"))</option>
+                                <option value="4">Dr. LUFUNGULA TRESOR (@lang("info.equipe.speciality2"))</option>
+                                <option value="5">Dr. KANKWASHI TINCKLAUT(@lang("info.equipe.speciality2"))</option>
+                                <option value="6">Dr. NSIAMUNU BAKU (@lang("info.equipe.speciality2"))</option>
+                                <option value="7">Dr. LAURENCE DISU (@lang("info.equipe.speciality7"))</option>
+                                <option value="8">Dr. GLORIA PUATI (@lang("info.equipe.speciality2"))</option>
+                                <option value="9">Dr. LEONIE BOWA (@lang("info.equipe.speciality8"))</option>
+                                <option value="10">Dr. LUTULA JOELLE (@lang("info.equipe.speciality2"))</option>
                             </select>
                         </div>
                     </div>
