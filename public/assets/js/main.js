@@ -732,7 +732,7 @@
             var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
             if (!regex.test(uemail)) {
-                $('#tm-alert1').fadeIn().html('<div class="alert alert-danger"><strong>Warning!</strong> Veuillez entrer une adresse e-mail valide.</div>');
+                $('#tm-alert1').fadeIn().html('<div class="alert alert-warning"><strong>Attention!</strong> Veuillez entrer une adresse e-mail valide.</div>');
 
                 return false;
             }
