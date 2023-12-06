@@ -828,6 +828,37 @@
                 <i class="tm-zoom-icon icofont icofont-drag1"></i>
             </a>
         </div><!-- .tm-portfolio-item -->
+        <div class="tm-portfolio-item staff pulmonary">
+            <a href="{{ asset('assets/img/HW7B9715-min.jpg') }}" class="item-inner">
+                <img src="{{ asset('assets/img/HW7B9715-min.jpg') }}" alt="portfolio-05">
+                <div class="tm-zoom-btn"></div>
+                <i class="tm-zoom-icon icofont icofont-drag1"></i>
+            </a>
+        </div><!-- .tm-portfolio-item -->
+        <div class="tm-portfolio-item staff pulmonary">
+            <a href="{{ asset('assets/img/HW7B9765-min.jpg') }}" class="item-inner">
+                <img src="{{ asset('assets/img/HW7B9765-min.jpg') }}" alt="portfolio-05">
+                <div class="tm-zoom-btn"></div>
+                <i class="tm-zoom-icon icofont icofont-drag1"></i>
+            </a>
+        </div><!-- .tm-portfolio-item -->
+        <div class="tm-portfolio-item locals">
+            <a href="{{ asset('assets/img/IMG_0107-min.jpg') }}" class="item-inner">
+                <img src="{{ asset('assets/img/IMG_0107-min.jpg') }}" alt="portfolio-05">
+                <div class="tm-zoom-btn"></div>
+                <i class="tm-zoom-icon icofont icofont-drag1"></i>
+            </a>
+        </div><!-- .tm-portfolio-item -->
+        <div class="tm-portfolio-item locals">
+            <a href="{{ asset('assets/img/IMG_0139-min.jpg') }}" class="item-inner">
+                <img src="{{ asset('assets/img/IMG_0139-min.jpg') }}" alt="portfolio-05">
+                <div class="tm-zoom-btn"></div>
+                <i class="tm-zoom-icon icofont icofont-drag1"></i>
+            </a>
+        </div><!-- .tm-portfolio-item -->
+
+
+        
     </div><!-- .portfolio -->
 </section>
 <!-- End Gallery Section -->
