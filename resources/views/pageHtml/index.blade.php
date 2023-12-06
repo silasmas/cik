@@ -355,12 +355,16 @@
                         <div class="tm-custom-select-wrap">
                             <select name="udoctor" class="tm-custom-select" id="udoctor">
                                 <option value="doctor">@lang("info.slide5.docteur")</option>
-                                <option value="1">Dr. Silas</option>
-                                <option value="mak-rushi">Dr. Mak Roshi</option>
-                                <option value="mohoshin-kabir">Dr. Mohoshin Kabir</option>
-                                <option value="nayon-borua">Dr. Nayon Borua</option>
-                                <option value="rasel-islam">Dr. Rasel Islam</option>
-                                <option value="mahid-islam">Dr. Mahid Islam</option>
+                                <option value="1">Dr. ILUNG KABUYI (@lang("info.equipe.speciality1"))</option>
+                                <option value="2">Dr. SiTU GUYILAIN (@lang("info.equipe.speciality2"))</option>
+                                <option value="3">Dr. Mohoshin Kabir (@lang("info.equipe.speciality2"))</option>
+                                <option value="4">Dr. LUFUNGULA TRESOR (@lang("info.equipe.speciality2"))</option>
+                                <option value="5">Dr. KANKWASHI TINCKLAUT(@lang("info.equipe.speciality2"))</option>
+                                <option value="6">Dr. NSIAMUNU BAKU (@lang("info.equipe.speciality2"))</option>
+                                <option value="7">Dr. LAURENCE DISU (@lang("info.equipe.speciality7"))</option>
+                                <option value="8">Dr. GLORIA PUATI (@lang("info.equipe.speciality2"))</option>
+                                <option value="9">Dr. LEONIE BOWA (@lang("info.equipe.speciality8"))</option>
+                                <option value="10">Dr. LUTULA JOELLE (@lang("info.equipe.speciality2"))</option>
                             </select>
                         </div>
                     </div>
@@ -1174,9 +1178,8 @@
 
 <!-- Start Map Section -->
 <div id="tm-map">
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-74.33557928194516!3d40.79756494697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a82f1352d0dd%3A0x81d4f72c4435aab5!2sTroy+Meadows+Wetlands!5e0!3m2!1sen!2sbd!4v1563075599994!5m2!1sen!2sbd"
-        allowfullscreen></iframe>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7956.8035238812045!2d15.249551832675932!3d-4.335431055500141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a31a328634543%3A0x315d85fe85866769!2sClinique%20IK%20(CIK)!5e0!3m2!1sfr!2scd!4v1701702548740!5m2!1sfr!2scd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <!-- End Map Section -->
 
