@@ -770,7 +770,7 @@
                         $('#umsg').val('');
                         swal({
                             title: 'Le Rendez-vous est pris avec succès..',
-                            icon: 'error'
+                            icon: 'success'
                         });
                         $('#tm-alert1').fadeIn().html('<div class="alert alert-success"><strong>Success!</strong> Le Rendez-vous est pris avec succès.</div>');
                         setTimeout(function () {
