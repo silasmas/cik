@@ -123,10 +123,9 @@ return [
         'reponse1' => 'Nous sommes dans 3 endroits : Av/Kwango 3 Q/ Jolie parc C/Ngaliema',
         'q2' => 'Des soins médicaux sont-ils offerts aux familles?',
         'reponse2' => 'Les soins médicaux familiaux dépendront de votre fournisseur d’assurance et si vous et votre famille serez couverts pour les coûts qui pourraient survenir',
-        'q3' => 'Quel numéro pouvons-nous vous appeler en cas d’urgence',
+        'q3' => 'Quel numéro pouvons-nous appeler en cas d’urgence',
         'reponse3' => '+243857000908',
-        'q4' => 'Votre hôpital offre-t-il des médicaments ou devrait-il en acheter ailleurs?
-        ere?',
+        'q4' => 'Votre hôpital offre-t-il des médicaments ou devrait-il en acheter ailleurs?',
         'reponse4' => 'Si vous êtes venu pour un traitement, nous vous conseillerons sur les médicaments prescrits à acheter dans n’importe quelle pharmacie autour. Nous ne fournissons pas de médicaments sur place',
     ],
     'blog' => [
